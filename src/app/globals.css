@@ -1,26 +1,249 @@
 @import "tailwindcss";
+@import "../styles/tokens.css";
+@import "../styles/fonts.css";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
+/* ─── Tailwind v4 theme — Carlo's Bakery + shadcn ─── */
 @theme inline {
+  /* shadcn semantic colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Brand tokens */
+  --color-carlo-red: var(--carlo-red);
+  --color-carlo-red-dark: var(--carlo-red-dark);
+  --color-carlo-red-light: var(--carlo-red-light);
+  --color-carlo-gold: var(--carlo-gold);
+  --color-carlo-gold-light: var(--carlo-gold-light);
+  --color-carlo-gold-dark: var(--carlo-gold-dark);
+  --color-champagne-50: var(--champagne-50);
+  --color-champagne-100: var(--champagne-100);
+  --color-champagne-200: var(--champagne-200);
+  --color-champagne-300: var(--champagne-300);
+  --color-champagne-400: var(--champagne-400);
+  --color-champagne-500: var(--champagne-500);
+  --color-champagne-600: var(--champagne-600);
+  --color-champagne-700: var(--champagne-700);
+  --color-champagne-on-dark: var(--champagne-on-dark);
+  --color-champagne-on-dark-soft: var(--champagne-on-dark-soft);
+  --color-champagne-on-dark-muted: var(--champagne-on-dark-muted);
+  --color-brand-red-500: var(--brand-red-500);
+  --color-espresso-950: var(--espresso-950);
+  --color-cream-50: var(--cream-50);
+  --color-cream-100: var(--cream-100);
+  --color-cream-200: var(--cream-200);
+  --color-cream-300: var(--cream-300);
+  --color-espresso-900: var(--espresso-900);
+  --color-espresso-800: var(--espresso-800);
+  --color-espresso-700: var(--espresso-700);
+  --color-espresso-600: var(--espresso-600);
+  --color-rose-pastel: var(--rose-pastel);
+  --color-rose-pastel-dark: var(--rose-pastel-dark);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+
+  /* Typography — references next/font CSS variables on <html> */
+  --font-sans: var(--font-body), system-ui, sans-serif;
+  --font-display: var(--font-display), "Playfair Display", serif;
+  --font-script: var(--font-script), "Caveat", cursive;
+  --font-italic: var(--font-italic), "Cormorant Garamond", serif;
+
+  /* Radius */
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── shadcn theme — mapped to Carlo's brand ─── */
+:root {
+  --background: var(--cream-50);
+  --foreground: var(--espresso-900);
+  --card: var(--cream-100);
+  --card-foreground: var(--espresso-900);
+  --popover: var(--cream-50);
+  --popover-foreground: var(--espresso-900);
+  --primary: var(--carlo-red);
+  --primary-foreground: var(--cream-50);
+  --secondary: var(--cream-200);
+  --secondary-foreground: var(--espresso-800);
+  --muted: var(--cream-200);
+  --muted-foreground: var(--espresso-600);
+  --accent: var(--carlo-gold);
+  --accent-foreground: var(--espresso-900);
+  --destructive: var(--error);
+  --border: var(--cream-300);
+  --input: var(--cream-300);
+  --ring: var(--carlo-red);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: var(--espresso-900);
+  --foreground: var(--cream-50);
+  --card: var(--espresso-800);
+  --card-foreground: var(--cream-50);
+  --popover: var(--espresso-800);
+  --popover-foreground: var(--cream-50);
+  --primary: var(--carlo-red-light);
+  --primary-foreground: var(--cream-50);
+  --secondary: var(--espresso-700);
+  --secondary-foreground: var(--cream-100);
+  --muted: var(--espresso-700);
+  --muted-foreground: var(--cream-300);
+  --accent: var(--carlo-gold);
+  --accent-foreground: var(--espresso-900);
+  --destructive: var(--carlo-red-light);
+  --border: var(--espresso-600);
+  --input: var(--espresso-600);
+  --ring: var(--carlo-gold);
+}
+
+/* ─── Modern reset ─── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100dvh;
+  background-color: var(--cream-50);
+  color: var(--espresso-900);
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: var(--text-body);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ─── Selection — brand red ─── */
+::selection {
+  background-color: var(--carlo-red);
+  color: var(--cream-50);
+}
+
+/* ─── Custom scrollbar ─── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--cream-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--carlo-red);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: var(--espresso-800);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--espresso-600);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: var(--carlo-gold);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+}
+
+@utility text-hero {
+  font-size: var(--text-hero);
+  line-height: 1.05;
+}
+
+/* Champagne em superfícies escuras — use dentro de bg-espresso-900/950 */
+@utility text-gold-on-dark {
+  color: var(--champagne-on-dark);
+}
+
+@utility text-gold-on-dark-soft {
+  color: var(--champagne-on-dark-soft);
+}
+
+@utility text-gold-on-dark-muted {
+  color: var(--champagne-on-dark-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -1,0 +1,148 @@
+@import "leaflet/dist/leaflet.css";
+
+.leaflet-container {
+  background: #f5efe6 !important;
+  font-family: var(--font-sans);
+  z-index: 0;
+}
+
+.leaflet-popup-content-wrapper {
+  border: 1px solid #ebe2d3;
+  border-radius: 4px;
+  background: #fbf8f3;
+  box-shadow: 0 8px 24px rgba(15, 11, 8, 0.12);
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+}
+
+.leaflet-popup-tip {
+  background: #fbf8f3;
+}
+
+.leaflet-control-zoom {
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(15, 11, 8, 0.1);
+}
+
+.leaflet-control-zoom a {
+  border: 0 !important;
+  background: #fbf8f3 !important;
+  color: #211611 !important;
+}
+
+.carlos-marker {
+  background: transparent;
+  border: 0;
+}
+
+.carlos-marker-inner {
+  position: relative;
+  width: 40px;
+  height: 52px;
+  transform-origin: 50% 100%;
+  animation: carlos-marker-drop 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  transition: transform 180ms ease;
+}
+
+.carlos-marker:hover .carlos-marker-inner {
+  transform: scale(1.15);
+}
+
+.carlos-marker.is-active .carlos-marker-inner {
+  transform: scale(1.3);
+}
+
+.carlos-marker-pin {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-50%) rotate(45deg);
+  border-radius: 50% 50% 50% 8px;
+  background: #c8102e;
+  color: #fff;
+  box-shadow: 0 10px 22px rgba(15, 11, 8, 0.22);
+}
+
+.carlos-marker-pin span {
+  display: block;
+  transform: rotate(-45deg);
+  font-family: var(--font-display);
+  font-size: 18px;
+  line-height: 1;
+}
+
+.carlos-marker-pin strong {
+  position: absolute;
+  right: -7px;
+  top: -7px;
+  display: flex;
+  width: 17px;
+  height: 17px;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-45deg);
+  border-radius: 999px;
+  background: #b8935a;
+  color: #211611;
+  font-size: 10px;
+}
+
+.carlos-marker-shadow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 24px;
+  height: 8px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: rgba(15, 11, 8, 0.2);
+  filter: blur(3px);
+}
+
+.carlos-marker-pulse {
+  display: none;
+}
+
+.carlos-marker.is-active .carlos-marker-pulse {
+  position: absolute;
+  left: 50%;
+  top: 18px;
+  display: block;
+  width: 44px;
+  height: 44px;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  background: rgba(200, 16, 46, 0.22);
+  animation: carlos-marker-pulse 1.6s ease-out infinite;
+}
+
+@keyframes carlos-marker-drop {
+  from {
+    opacity: 0;
+    transform: translateY(-16px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes carlos-marker-pulse {
+  from {
+    opacity: 0.7;
+    transform: translate(-50%, -50%) scale(0.75);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.45);
+  }
+}

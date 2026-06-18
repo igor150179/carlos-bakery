@@ -1,0 +1,21 @@
+/**
+ * Typography utilities — font families are loaded via next/font in src/lib/fonts.ts
+ * and applied as CSS variables on the document root.
+ */
+
+.font-display {
+  font-family: var(--font-display), "Playfair Display", serif;
+}
+
+.font-body {
+  font-family: var(--font-body), "Inter", system-ui, sans-serif;
+}
+
+.font-script {
+  font-family: var(--font-script), "Caveat", cursive;
+}
+
+.font-italic {
+  font-family: var(--font-italic), "Cormorant Garamond", serif;
+  font-style: italic;
+}

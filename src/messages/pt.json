@@ -1,0 +1,1369 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow": "Hoboken · Since 1910",
+      "headline": "A arte italiana do bolo, agora em São Paulo.",
+      "subheadline": "Buddy Valastro traz ao Brasil a tradição de quatro gerações da família Valastro.",
+      "ctaMenu": "Ver o cardápio",
+      "ctaStory": "Nossa história",
+      "scroll": "scroll",
+      "buddyAlt": "Buddy Valastro, confeiteiro da Carlo's Bakery, com avental branco"
+    },
+    "statement": "Cada bolo carrega a alma de\nHoboken e o calor de São Paulo.",
+    "products": {
+      "learnMore": "Saiba mais",
+      "cookiePistache": {
+        "name": "Cookie Pistache",
+        "description": "Massa com gotas de chocolate, creme de pistache siciliano e pistaches torrados."
+      },
+      "lobsterTail": {
+        "name": "Lobster Tail",
+        "description": "Massa folhada crocante, recheio de creme de baunilha siciliano."
+      },
+      "cannoli": {
+        "name": "Cannoli",
+        "description": "Recheio de ricota fresca, casca dourada, joia da Sicília."
+      },
+      "fondantCake": {
+        "name": "Fondant Cake",
+        "description": "Esculturas comestíveis que viraram cultura pop."
+      }
+    },
+    "family": {
+      "eyebrow": "A Família",
+      "heading": "Quatro gerações. Uma só receita: amor.",
+      "body": "Desde 1910, a família Valastro transforma farinha, açúcar e manteiga em memórias compartilhadas. Em Hoboken, Buddy Valastro cresceu entre fornos e receitas de família — e levou essa herança italiana para o mundo. No Brasil, a família Kherlakian, escolhida por Buddy, cuida de cada loja com o mesmo compromisso.",
+      "cta": "Conheça a história",
+      "ctaKherlakian": "Família Kherlakian",
+      "imageAlt": "Buddy Valastro, confeiteiro da Carlo's Bakery, com avental branco"
+    },
+    "club": {
+      "eyebrow": "Membership Exclusivo",
+      "heading": "Entre para o Buddy's Club.",
+      "subhead": "Acesso antecipado a lançamentos, eventos privados com o Buddy, e benefícios pensados para quem ama a Carlo's de verdade.",
+      "cta": "Quero entrar"
+    },
+    "visit": {
+      "eyebrow": "Visite-nos",
+      "heading": "Jardins, São Paulo.",
+      "addressLine1": "Rua Oscar Freire, 0000",
+      "addressLine2": "Jardins — São Paulo",
+      "hours": "Seg–Dom · 10h–22h",
+      "directions": "Como chegar",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "nav": {
+    "menu": "Cardápio",
+    "customCakes": "Bolos Personalizados",
+    "story": "A História",
+    "stores": "Lojas",
+    "club": "Buddy's Club",
+    "contact": "Contato",
+    "orderNow": "Pedir Agora",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "mobileMenu": "Menu de navegação"
+  },
+  "footer": {
+    "tagline": "A bakery do Buddy Valastro em São Paulo. Tradição italiana desde 1910, agora no Brasil.",
+    "explore": "Explore",
+    "visit": "Visite",
+    "hours": "Seg a Dom · 10h às 22h",
+    "newsletter": "Famiglia Carlo's",
+    "newsletterDesc": "Receba primeiro os lançamentos do Buddy.",
+    "newsletterPlaceholder": "Seu melhor e-mail",
+    "newsletterCta": "Entrar",
+    "viewAllStores": "Ver todas as lojas",
+    "rights": "Todos os direitos reservados.",
+    "madeInPrefix": "Feito com",
+    "madeInSuffix": "em São Paulo",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "developerPrefix": "Desenvolvido por",
+    "developerAriaLabel": "CLAPE by IO produções — igoroliveira.com.br"
+  },
+  "menu": {
+    "meta": {
+      "title": "Cardápio",
+      "description": "Cookies, bolos, cannoli e clássicos da Carlo's Bakery Brasil. Receitas centenárias da família Valastro em São Paulo."
+    },
+    "hero": {
+      "eyebrow": "Nosso Cardápio",
+      "headline": "Da Itália para sua mesa.",
+      "subhead": "Receitas centenárias da família Valastro, agora em São Paulo.",
+      "scroll": "scroll"
+    },
+    "categories": {
+      "navLabel": "Categorias do cardápio",
+      "signatures": "Signatures",
+      "cookies": "Cookies & Biscoitos",
+      "croissants": "Croissants",
+      "salgados": "Salgados",
+      "cakes": "Bolos & Tortas",
+      "cake-slices": "Fatias de Bolo",
+      "cannoli": "Cannoli & Folhados",
+      "cupcakes": "Cupcakes",
+      "donuts": "Donuts",
+      "beverages": "Bebidas Quentes",
+      "cold-beverages": "Bebidas Frias",
+      "specials": "Doces Especiais",
+      "souvenirs": "Souvenirs"
+    },
+    "salgadosSubgroups": {
+      "assados": {
+        "heading": "Assados",
+        "description": "Folhados e massas laminadas ao forno — crocantes por fora, recheio cremoso."
+      },
+      "fritos": {
+        "heading": "Fritos",
+        "description": "Coxinhas e salgados na hora — casquinha dourada e recheio generoso."
+      },
+      "porcoes": {
+        "heading": "Porções",
+        "description": "Para compartilhar ou levar — porções generosas da vitrine."
+      }
+    },
+    "cakesSubgroups": {
+      "bolos-inteiros": {
+        "heading": "Bolos Grandes",
+        "description": "Bolo inteiro de 13 cm — cerca de 10 fatias. Sabores da vitrine Carlo's para celebrar em casa."
+      },
+      "mini-bolos": {
+        "heading": "Baby Bolos",
+        "description": "Mini bolinho de 11 cm — ideal para até 4 pessoas. Sabores da vitrine Carlo's, prontos para presentear ou saborear na hora."
+      }
+    },
+    "souvenirsSubgroups": {
+      "canecas": {
+        "heading": "Canecas",
+        "description": "Canecas oficiais Carlo's e Buddy — para levar um pedaço de Hoboken para casa."
+      },
+      "garrafas": {
+        "heading": "Garrafas",
+        "description": "Garrafas térmicas e squeeze reutilizáveis com a marca da casa."
+      }
+    },
+    "categorySections": {
+      "signatures": {
+        "eyebrow": "Assinatura",
+        "heading": "Os clássicos da casa",
+        "description": "Ícones de Hoboken que definem a Carlo's há mais de um século."
+      },
+      "cookies": {
+        "eyebrow": "Cookies",
+        "heading": "Cookies & Biscoitos",
+        "description": "Crocantes por fora, generosos por dentro — feitos em lotes frescos todos os dias."
+      },
+      "croissants": {
+        "eyebrow": "Viennoiserie",
+        "heading": "Croissants",
+        "description": "Viennoiserie doce — massa folhada amanteigada assada fresca todas as manhãs."
+      },
+      "salgados": {
+        "eyebrow": "Salgados",
+        "heading": "Salgados",
+        "description": "Clássicos brasileiros e folhados salgados da casa — ideais para o café da manhã ou o lanche."
+      },
+      "cakes": {
+        "eyebrow": "Bolos",
+        "heading": "Bolos & Tortas",
+        "description": "Bolos inteiros e baby bolos — camadas generosas, sabores da vitrine e decoração artesanal Carlo's."
+      },
+      "cake-slices": {
+        "eyebrow": "Fatias",
+        "heading": "Fatias de Bolo",
+        "description": "Porção individual cortada na hora — o mesmo sabor dos bolos da vitrine, pronta para saborear."
+      },
+      "cannoli": {
+        "eyebrow": "Folhados",
+        "heading": "Cannoli & Folhados",
+        "description": "Cannoli sicilianos e sfogliatelle — massa folhada em camadas (sfogliatella riccia e cauda de lagosta), recheios cremosos e finalizações artesanais."
+      },
+      "cupcakes": {
+        "eyebrow": "Cupcakes",
+        "heading": "Cupcakes",
+        "description": "Porções individuais perfeitas para celebrar — ou para um momento só seu."
+      },
+      "donuts": {
+        "eyebrow": "Donuts",
+        "heading": "Donuts",
+        "description": "Rosquinhas fritas na hora, coberturas brilhantes e confeitos coloridos."
+      },
+      "beverages": {
+        "eyebrow": "Bebidas",
+        "heading": "Bebidas Quentes",
+        "description": "Café espresso, cappuccino, chocolate quente belga e clássicos Carlo's na xícara oficial da casa."
+      },
+      "cold-beverages": {
+        "eyebrow": "Bebidas",
+        "heading": "Bebidas Frias",
+        "description": "Café gelado, iced latte e chás refrescantes no copo Carlo's — perfeitos para o calor de São Paulo."
+      },
+      "specials": {
+        "eyebrow": "Doces Especiais",
+        "heading": "Doces Especiais",
+        "description": "Éclairs artesanais, brigadeiros, brownies e criações da confeitaria — edições limitadas da casa."
+      },
+      "souvenirs": {
+        "eyebrow": "Loja",
+        "heading": "Souvenirs",
+        "description": "Canecas e garrafas oficiais Carlo's Bake Shop — leve a marca de Hoboken para casa."
+      }
+    },
+    "badges": {
+      "novo": "Novo",
+      "bestseller": "Bestseller",
+      "sazonal": "Sazonal"
+    },
+    "order": "Pedir",
+    "priceFrom": "A partir de",
+    "ctaBanner": {
+      "quote": "Bolos personalizados sob encomenda.",
+      "subtext": "Aniversários, casamentos, eventos corporativos.",
+      "cta": "Solicitar orçamento"
+    },
+    "ingredients": {
+      "eyebrow": "Ingredientes",
+      "heading": "Só o melhor entra na nossa cozinha.",
+      "imageAlt": "Farinha, ovos, manteiga e açúcar — ingredientes da confeitaria Carlo's",
+      "body": "Selecionamos ingredientes com o mesmo rigor da família Valastro em Hoboken: ovos frescos, manteiga de qualidade europeia e farinhas italianas quando a receita pede. Ricota e cremes são preparados diariamente na casa.",
+      "highlights": [
+        "Ovos caipiras",
+        "Manteiga francesa",
+        "Farinhas italianas selecionadas",
+        "Ricota fresca produzida na casa"
+      ]
+    },
+    "finalCta": {
+      "heading": "Pronto para experimentar?",
+      "primaryCta": "Pedir pelo iFood",
+      "secondaryCta": "Visitar nossa loja"
+    },
+    "items": {
+      "rainbow-cookies": {
+        "name": "Rainbow Cookies",
+        "description": "Sete camadas de amêndoa, framboesa e chocolate — o ícone italiano-americano."
+      },
+      "lobster-tail": {
+        "name": "Lobster Tail Tradicional",
+        "description": "Massa folhada crocante e leve, recheada com creme de baunilha em french cream — clássico da casa."
+      },
+      "cannoli-siciliano": {
+        "name": "Cannoli Tradicional",
+        "description": "Massa crocante com recheio de creme de ricota adocicado, gotinhas de chocolate meio amargo e toque de canela."
+      },
+      "chocolate-chip-cookie": {
+        "name": "Cookie Tradicional com Gotas de Chocolate",
+        "description": "Cookie americano com massa de baunilha e gotas de chocolate meio amargo. Dica: aqueça por 15s no microondas!"
+      },
+      "cookie-pistache": {
+        "name": "Cookie Pistache",
+        "description": "Massa com gotas de chocolate, creme de pistache siciliano e pistaches torrados."
+      },
+      "croissant-classico": {
+        "name": "Croissant Simples",
+        "description": "Croissant folhado amanteigado, assado fresco todas as manhãs."
+      },
+      "croissant-gergelim": {
+        "name": "Croissant Peito de Peru",
+        "description": "Croissant folhado com recheio de peito de peru e finalização com gergelim torrado."
+      },
+      "coxinha": {
+        "name": "Coxinha",
+        "description": "Massa cremosa à base de batata com generoso recheio — escolha o seu sabor."
+      },
+      "coxinha-catupiry": {
+        "name": "Coxinha com Catupiry",
+        "description": "Massa cremosa à base de batata com recheio generoso e catupiry cremoso."
+      },
+      "pao-de-queijo-copo": {
+        "name": "Mini Pão de Queijo do Buddy — 5un",
+        "description": "Feito com queijo parmesão mineiro — crocante por fora, macio por dentro. Serve 1 pessoa."
+      },
+      "red-velvet-cake": {
+        "name": "Bolo Red Velvet",
+        "description": "Bolo inteiro (13 cm — cerca de 10 fatias). Massa Red Velvet com cobertura de cream cheese."
+      },
+      "black-white-cake": {
+        "name": "Bolo Black and White",
+        "description": "Bolo inteiro (13 cm — cerca de 10 fatias). Massas de chocolate e baunilha intercaladas com recheio de brigadeiro."
+      },
+      "bolo-chocolate-brigadeiro": {
+        "name": "Bolo Brigadeiro",
+        "description": "Bolo inteiro (13 cm — cerca de 10 fatias). Massa de chocolate com recheio de brigadeiro."
+      },
+      "bolo-cannoli": {
+        "name": "Bolo de Cannoli",
+        "description": "Bolo inteiro (13 cm — cerca de 10 fatias). Massa de baunilha com recheio de creme de ricota adocicado."
+      },
+      "fatia-bolo-rainbow": {
+        "name": "Fatia Bolo Arco-Íris Ganache",
+        "description": "Massa de baunilha com seis cores, recheio de ganache de chocolate entre as camadas."
+      },
+      "fatia-bolo-coco": {
+        "name": "Fatia Bolo Abacaxi com Coco",
+        "description": "Massa de baunilha com creme de coco, abacaxi em calda e finalização com chantilly e coco ralado."
+      },
+      "fatia-bolo-chocolate": {
+        "name": "Fatia Bolo Brigadeiro",
+        "description": "Camadas de massa de chocolate intercaladas com brigadeiro cremoso e granulado na lateral."
+      },
+      "fatia-bolo-red-velvet": {
+        "name": "Fatia Bolo Red Velvet",
+        "description": "Camadas de massa Red Velvet com sabor de baunilha e toque de cacau, recheio de cream cheese."
+      },
+      "fatia-bolo-cenoura": {
+        "name": "Fatia Bolo Carrot Cake",
+        "description": "Receita americana exclusiva Carlo's — cenoura, abacaxi, nozes, coco e cream cheese."
+      },
+      "cannoli-classico": {
+        "name": "Cannoli Classico",
+        "description": "Ricota fresca, chocolate e casca folhada na hora."
+      },
+      "cannoli-tradizionale": {
+        "name": "Cannoli Tradicional",
+        "description": "Massa crocante com recheio de creme de ricota adocicado, gotinhas de chocolate meio amargo e toque de canela."
+      },
+      "cannoli-pistachio-fondente": {
+        "name": "Cannoli Pistache Dubai",
+        "description": "Massa crocante ou banhada em chocolate meio amargo, recheada com creme de pistache e crocante de Dubai."
+      },
+      "cannoli-chocolate-chip": {
+        "name": "Cannoli Chocolate Chip",
+        "description": "Ricota cremosa com gotas de chocolate belga nas pontas."
+      },
+      "cannoli-cioccolato": {
+        "name": "Cannoli Chocolate",
+        "description": "Massa crocante banhada em chocolate meio amargo belga com recheio de creme de ricota adocicado."
+      },
+      "cannoli-cioccolato-chip": {
+        "name": "Cannoli Cioccolato Chip",
+        "description": "Casca de chocolate com chips e creme de chocolate na hora."
+      },
+      "cannoli-cioccolato-premium": {
+        "name": "Cannoli Cioccolato Premium",
+        "description": "Chocolate intenso, chips generosos e acabamento artesanal."
+      },
+      "cannoli-fondente": {
+        "name": "Cannoli Brigadeiro",
+        "description": "Massa crocante ou banhada em chocolate meio amargo, recheada com creme de brigadeiro e finalização artesanal."
+      },
+      "cannoli-fondente-crema": {
+        "name": "Cannoli Fondente & Crema",
+        "description": "Equilíbrio entre chocolate escuro e creme de ricota suave."
+      },
+      "sfogliatella-ricota": {
+        "name": "Sfogliatella Ricota",
+        "description": "Sfogliatella riccia — folhas finas e crocantes com creme de ricota e açúcar de confeiteiro."
+      },
+      "sfogliatella-chocolate": {
+        "name": "Lobster Tail Nutella",
+        "description": "Massa folhada crocante e leve com french cream saborizado com creme de avelã — edição Nutella."
+      },
+      "sfogliatella-pistache": {
+        "name": "Lobster Tail Pistache Dubai",
+        "description": "Massa folhada recheada com duplo creme de chocolate, ganache crocante de pistache e cobertura artesanal."
+      },
+      "cauda-lagosta-doce-leite": {
+        "name": "Lobster Tail Mama Valastro",
+        "description": "Massa folhada extremamente crocante, recheada com creme de limão siciliano e finalizada com riscos de leite condensado."
+      },
+      "cauda-lagosta-cacau": {
+        "name": "Lobster Tail Chocolate Zero Açúcar",
+        "description": "Massa folhada crocante recheada com creme assinatura Carlo's à base de creme de confeiteiro e chocolate, sem açúcar adicionado."
+      },
+      "sfogliatella-fondente": {
+        "name": "Lobster Tail Caramelo com Flor de Sal",
+        "description": "Massa folhada crocante com french cream saborizado com caramelo e flor de sal — equilíbrio doce e salgado."
+      },
+      "red-velvet-cupcake": {
+        "name": "Cupcake Red Velvet",
+        "description": "Veludo vermelho com cream cheese e crumble da receita original."
+      },
+      "cupcake-brigadeiro-menu": {
+        "name": "Cupcake Brigadeiro",
+        "description": "Bolo de chocolate com frosting e brigadeiro com granulado belga no topo."
+      },
+      "donut-confete": {
+        "name": "Donut Confete",
+        "description": "Receita clássica americana com massa macia e aerada, cobertura rosa brilhante e confeitos coloridos."
+      },
+      "donut-sonho-morango": {
+        "name": "Donut Morango",
+        "description": "Massa macia e aerada recheada com creme, chantilly e morangos frescos — consumo imediato."
+      },
+      "italian-espresso": {
+        "name": "Espresso Italiano",
+        "description": "Extração curta com crema dourada na xícara Carlo's — intenso e aromático."
+      },
+      "cafe-americano": {
+        "name": "Café Americano",
+        "description": "Espresso alongado com crema na superfície — equilíbrio entre corpo e suavidade."
+      },
+      "signature-hot-chocolate": {
+        "name": "Chocolate Quente Signature",
+        "description": "Chocolate belga denso e cremoso na caneca Carlo's — clássico de inverno."
+      },
+      "cappuccino": {
+        "name": "Cappuccino",
+        "description": "Espuma de leite aerada sobre espresso — textura aveludada e equilíbrio perfeito."
+      },
+      "house-latte": {
+        "name": "Latte da Casa",
+        "description": "Espresso com leite vaporizado e microespuma cremosa na xícara oficial."
+      },
+      "macchiato": {
+        "name": "Macchiato",
+        "description": "Espresso marcado com camada de espuma de leite — forte com toque suave."
+      },
+      "flat-white": {
+        "name": "Flat White",
+        "description": "Microespuma sedosa sobre espresso duplo — intenso e aveludado."
+      },
+      "cafe-com-leite": {
+        "name": "Café com Leite",
+        "description": "Leite cremoso vaporizado — suave e reconfortante, ideal para acompanhar doces."
+      },
+      "cortado": {
+        "name": "Cortado",
+        "description": "Espresso cortado com leite vaporizado e espuma fina — meio termo entre forte e cremoso."
+      },
+      "latte-macchiato": {
+        "name": "Latte Macchiato",
+        "description": "Leite vaporizado manchado com espresso — visual em camadas, sabor delicado."
+      },
+      "iced-latte-caramelo": {
+        "name": "Iced Latte Caramelo",
+        "description": "Leite gelado, calda de caramelo e espresso em camadas com gelo no copo Carlo's."
+      },
+      "iced-latte": {
+        "name": "Iced Latte",
+        "description": "Espresso sobre leite gelado em camadas — refrescante e cremoso."
+      },
+      "cha-frutas-vermelhas": {
+        "name": "Chá de Frutas Vermelhas",
+        "description": "Bebida gelada vibrante com frutas vermelhas e gelo — leve e refrescante."
+      },
+      "eclair-morango-creme": {
+        "name": "Eclair Morango",
+        "description": "Massa choux fresca, recheada com leite condensado, morangos picados e chantilly. Consumo imediato."
+      },
+      "eclair-chocolate": {
+        "name": "Eclair Chocolate",
+        "description": "Fina massa choux recheada com creme de confeiteiro de chocolate e coberta por fondant de chocolate."
+      },
+      "eclair-pistache": {
+        "name": "Eclair Pistache Dubai",
+        "description": "Massa choux fina recheada com creme de confeiteiro de pistache com ganache, coberta com pistache crocante."
+      },
+      "eclair-chocolate-morango": {
+        "name": "Éclair Chocolate & Morango",
+        "description": "Ganache de chocolate com morangos frescos e drizzle de chocolate."
+      },
+      "entremet-limao": {
+        "name": "Entremet Limão",
+        "description": "Domo com glaze espelhado cítrico, camadas cremosas e base crocante de amêndoas."
+      },
+      "mini-bolo-chocolate": {
+        "name": "Baby Bolo Brigadeiro",
+        "description": "Mini bolinho de 11 cm, ideal para até 4 pessoas. Massa de chocolate com recheio de brigadeiro cremoso."
+      },
+      "mini-bolo-black-white": {
+        "name": "Baby Bolo Black and White",
+        "description": "Mini bolinho de 11 cm, ideal para até 4 pessoas. Massa de chocolate intercalada com baunilha e recheio cremoso."
+      },
+      "mini-bolo-cenoura": {
+        "name": "Baby Bolo Carrot Cake",
+        "description": "Mini bolinho de 11 cm, ideal para até 4 pessoas. Carrot Cake americano exclusivo Carlo's com cream cheese."
+      },
+      "mini-bolo-red-velvet": {
+        "name": "Baby Bolo Red Velvet",
+        "description": "Mini bolinho de 11 cm, ideal para até 4 pessoas. Massa Red Velvet com sabor de baunilha e toque de cacau."
+      },
+      "brigadeiro-gourmet": {
+        "name": "Brigadeiro Belga",
+        "description": "O tradicional brigadeiro com granulado de chocolate belga. Serve 1 pessoa."
+      },
+      "cheesecake-frutas-vermelhas": {
+        "name": "Cheesecake de Frutas Vermelhas",
+        "description": "Cheesecake americana cremosa à base de cream cheese com calda artesanal de morango e frutas vermelhas."
+      },
+      "brownie-chocolate": {
+        "name": "Brownie de Chocolate",
+        "description": "Brownie de chocolate meio amargo com consistência ultra cremosa. Dica: aqueça por 15s no microondas! Consumo imediato."
+      },
+      "brownie-pistache": {
+        "name": "Brownie Pistache",
+        "description": "Base de brownie de chocolate com camada de creme de pistache e fios de chocolate."
+      },
+      "tiramisu-potinho": {
+        "name": "Tiramisu com Mascarpone",
+        "description": "Massa de bolo de baunilha intercalada com creme à base de mascarpone, calda de café e cacau. Consumo imediato."
+      },
+      "caneca-ilustrada-cake-boss": {
+        "name": "Caneca Ilustrada Cake Boss",
+        "description": "Caneca com arte exclusiva Cake Boss — helicóptero, torres de bolo e skyline em cores."
+      },
+      "caneca-carlos-faixa": {
+        "name": "Caneca Carlo's — Faixa Vermelha",
+        "description": "Porcelana branca com logo Carlo's, borda e faixa vermelha na base."
+      },
+      "caneca-carlos-classica": {
+        "name": "Caneca Carlo's Clássica",
+        "description": "Caneca branca com logo Since 1910 Hoboken e filete vermelho no topo."
+      },
+      "caneca-buddy": {
+        "name": "Caneca Buddy",
+        "description": "Silhueta do Buddy Valastro em vermelho com lettering BUDDY — edição Cake Boss."
+      },
+      "garrafa-carlos-vermelha": {
+        "name": "Garrafa Térmica Carlo's — Vermelha",
+        "description": "Squeeze metálica vermelha com logo Carlo's Bake Shop em branco."
+      },
+      "garrafa-buddy-vermelha": {
+        "name": "Garrafa Térmica Buddy — Vermelha",
+        "description": "Garrafa metálica vermelha com silhueta Buddy e lettering oficial."
+      },
+      "garrafa-carlos-transparente": {
+        "name": "Garrafa Carlo's — Transparente",
+        "description": "Squeeze transparente com tampa e base em aço e logo Carlo's em vermelho."
+      }
+    }
+  },
+  "customCakes": {
+    "meta": {
+      "title": "Bolos Personalizados",
+      "description": "Bolos escultóricos sob encomenda da Carlo's Bakery Brasil. Casamentos, aniversários e eventos com a tradição Valastro."
+    },
+    "hero": {
+      "eyebrow": "Bolos Personalizados",
+      "headline": "Seu momento, esculpido em açúcar.",
+      "subhead": "Da família Valastro para o seu casamento, aniversário ou evento corporativo. Cada bolo é uma obra única, feita à mão por nossos mestres confeiteiros.",
+      "cta1": "Solicitar orçamento",
+      "cta2": "Ver galeria",
+      "scroll": "scroll"
+    },
+    "statsSection": {
+      "eyebrow": "Nossa assinatura",
+      "heading": "Cada número conta uma história.",
+      "subhead": "Da família Valastro às mesas de São Paulo — tradição, volume e artesanato em escala real.",
+      "items": {
+        "years": "anos de tradição Valastro",
+        "cakes": "bolos criados no Brasil",
+        "generations": "gerações de mestres confeiteiros",
+        "handmade": "feito à mão, sempre"
+      }
+    },
+    "occasions": {
+      "eyebrow": "Para cada ocasião",
+      "heading": "Um bolo à altura do seu momento.",
+      "subhead": "Trabalhamos com cinco categorias principais, sempre personalizadas para você.",
+      "items": {
+        "wedding": {
+          "title": "Casamentos",
+          "description": "Bolos de andares, design clássico ou contemporâneo."
+        },
+        "birthday": {
+          "title": "Aniversários",
+          "description": "Do infantil ao adulto, cada idade merece seu bolo."
+        },
+        "corporate": {
+          "title": "Corporativo",
+          "description": "Eventos empresariais, lançamentos, datas especiais."
+        },
+        "baptism": {
+          "title": "Batizados & Bodas",
+          "description": "Marcos familiares celebrados com elegância."
+        },
+        "special": {
+          "title": "Edições Especiais",
+          "description": "Bolos temáticos, escultóricos e personagens."
+        }
+      }
+    },
+    "gallery": {
+      "eyebrow": "Nossa galeria",
+      "heading": "Obras de arte comestíveis.",
+      "subhead": "Selecionamos algumas das criações mais marcantes assinadas pela Carlo's Brasil.",
+      "items": {
+        "g1": {
+          "title": "Torre de Presentes Disney",
+          "occasion": "Aniversário infantil"
+        },
+        "g2": {
+          "title": "Bolo Chanel",
+          "occasion": "Corporativo / fashion"
+        },
+        "g3": {
+          "title": "Hello Kitty",
+          "occasion": "Aniversário"
+        },
+        "g4": {
+          "title": "Harry Potter",
+          "occasion": "Tema especial"
+        },
+        "g5": {
+          "title": "Halloween",
+          "occasion": "Festa temática"
+        },
+        "g6": {
+          "title": "Os Simpsons",
+          "occasion": "Aniversário"
+        },
+        "g7": {
+          "title": "Mandalas em Aquarela",
+          "occasion": "Casamento / bodas"
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Como funciona",
+      "heading": "Do sonho ao bolo, em 4 etapas.",
+      "subhead": "Um processo cuidadoso para garantir que cada detalhe seja perfeito.",
+      "steps": {
+        "01": {
+          "title": "Conversa",
+          "description": "Você nos conta sobre o evento, tema e número de convidados pelo formulário ou WhatsApp."
+        },
+        "02": {
+          "title": "Briefing",
+          "description": "Nossa equipe entra em contato em até 24h para entender detalhes, paleta e referências."
+        },
+        "03": {
+          "title": "Criação",
+          "description": "Você recebe um sketch personalizado e aprovamos juntos cada detalhe antes da produção."
+        },
+        "04": {
+          "title": "Entrega",
+          "description": "Produzimos com 7 a 30 dias de antecedência (dependendo do porte) e entregamos no local do evento."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "O que dizem",
+      "heading": "Histórias que viraram memórias.",
+      "items": {
+        "marina": {
+          "quote": "O bolo do casamento foi o assunto da festa. Buddy mantém um padrão que nenhuma outra confeitaria do Brasil consegue alcançar.",
+          "name": "Marina e Rafael",
+          "occasion": "Casamento 2024"
+        },
+        "pedro": {
+          "quote": "Encomendamos um bolo corporativo para o lançamento da empresa. Resultado impecável, todos os clientes ficaram impressionados.",
+          "name": "Pedro Almeida",
+          "occasion": "CEO LumenTech"
+        },
+        "silva": {
+          "quote": "O bolo de 1 ano do João foi exatamente como sonhamos. Atendimento atencioso do início ao fim.",
+          "name": "Família Silva",
+          "occasion": "Aniversário Infantil"
+        }
+      }
+    },
+    "form": {
+      "eyebrow": "Vamos criar juntos",
+      "heading": "Solicite seu orçamento.",
+      "subhead": "Preencha o formulário ao lado e nossa equipe entra em contato em até 24h úteis.",
+      "guarantees": {
+        "response": "Resposta em até 24h",
+        "briefing": "Briefing personalizado",
+        "sketch": "Sketch antes da produção",
+        "delivery": "Entrega no local do evento"
+      },
+      "whatsappTitle": "Prefere falar direto?",
+      "whatsappCta": "Falar no WhatsApp",
+      "fields": {
+        "fullName": "Nome completo",
+        "email": "E-mail",
+        "phone": "WhatsApp",
+        "eventType": "Tipo de evento",
+        "eventDate": "Data do evento",
+        "guests": "Número de convidados",
+        "message": "Conte sobre seu bolo",
+        "messagePlaceholder": "Tema, paleta de cores, referências, restrições alimentares...",
+        "references": "Upload de referências",
+        "referencesHint": "Opcional — até 5 imagens (JPG ou PNG).",
+        "lgpd": "Aceito receber contato sobre meu orçamento."
+      },
+      "eventTypes": {
+        "wedding": "Casamento",
+        "birthday": "Aniversário",
+        "corporate": "Corporativo",
+        "baptism": "Batizado/Boda",
+        "other": "Outro"
+      },
+      "guestRanges": {
+        "upTo30": "Até 30",
+        "30to80": "30–80",
+        "80to150": "80–150",
+        "150to300": "150–300",
+        "over300": "Mais de 300"
+      },
+      "submit": "Enviar solicitação",
+      "submitting": "Enviando...",
+      "success": {
+        "title": "Recebemos sua solicitação",
+        "body": "Em breve entraremos em contato. Obrigado por confiar na Carlo's Bakery."
+      },
+      "errors": {
+        "fullName": "Informe seu nome completo.",
+        "email": "Informe um e-mail válido.",
+        "phone": "Informe um WhatsApp válido.",
+        "eventType": "Selecione o tipo de evento.",
+        "eventDate": "Informe a data do evento.",
+        "eventDateMin": "A data deve ser pelo menos 14 dias a partir de hoje.",
+        "guests": "Selecione o número de convidados.",
+        "message": "Máximo de 500 caracteres.",
+        "lgpd": "É necessário aceitar para enviar."
+      }
+    },
+    "faq": {
+      "eyebrow": "Dúvidas",
+      "heading": "Perguntas frequentes.",
+      "items": {
+        "leadTime": {
+          "question": "Com quanto tempo de antecedência devo solicitar?",
+          "answer": "Recomendamos no mínimo 14 dias para bolos simples e 30+ dias para bolos escultóricos ou de casamento."
+        },
+        "pricing": {
+          "question": "Qual o investimento médio?",
+          "answer": "Bolos personalizados começam em R$ 800. O valor varia conforme complexidade, tamanho e tema."
+        },
+        "delivery": {
+          "question": "Vocês entregam no local do evento?",
+          "answer": "Sim, entregamos em São Paulo e região metropolitana. Para outras cidades, consulte."
+        },
+        "tasting": {
+          "question": "Posso provar antes de encomendar?",
+          "answer": "Sim, oferecemos sessão de degustação com agendamento prévio em nossa loja."
+        },
+        "dietary": {
+          "question": "Trabalham com restrições alimentares?",
+          "answer": "Sim, temos opções sem glúten, sem lactose e veganas. Informe no formulário."
+        },
+        "payment": {
+          "question": "Como funciona o pagamento?",
+          "answer": "50% para iniciar produção e 50% até 7 dias antes do evento."
+        }
+      }
+    },
+    "finalCta": {
+      "heading": "Pronto para criar seu bolo?",
+      "subhead": "Conte com 115 anos de tradição italiana para o momento mais importante.",
+      "cta": "Solicitar orçamento agora",
+      "phone": "ou ligue: (11) 9 1567-9619"
+    }
+  },
+  "story": {
+    "meta": {
+      "title": "A História | Carlo's Bakery São Paulo",
+      "description": "De Hoboken a São Paulo: quatro gerações da família Valastro, de Carlo Guastaffero a Buddy Valastro, o Cake Boss."
+    },
+    "chapter1": {
+      "eyebrow": "Capítulo Um",
+      "headline": "Tudo começou com um sonho italiano.",
+      "subhead": "Hoboken, Nova Jersey, 1910. Um padeiro chamado Carlo Guastaffero abre as portas de uma pequena padaria no número 95 da Washington Street. Cento e quinze anos depois, sua receita atravessa o oceano.",
+      "scroll": "Continue lendo"
+    },
+    "chapter2": {
+      "eyebrow": "1910 · O Fundador",
+      "heading": "Carlo.",
+      "imageAlt": "Fachada histórica da Carlo's Bakery em Hoboken, Nova Jersey",
+      "caption": "A padaria na Washington Street — Hoboken, desde 1910.",
+      "paragraphs": [
+        "Carlo Guastaffero chegou aos Estados Unidos vindo de Altamura, no sul da Itália, carregando consigo as receitas da família e a determinação de quem cruza um oceano em busca de uma vida nova.",
+        "No coração de Hoboken, Nova Jersey, ele abriu uma pequena padaria que rapidamente se tornou ponto de encontro da comunidade italiana imigrante. Os cannoli, as massas folhadas, os biscoitos amaretti — tudo feito como na velha pátria."
+      ],
+      "quote": "Carlo dizia: \"A pasticceria é a alma de uma família.\""
+    },
+    "chapter3": {
+      "eyebrow": "Quatro gerações",
+      "heading": "Uma linhagem de mestres.",
+      "subhead": "De Carlo a Buddy, cada geração adicionou um capítulo a esta história.",
+      "events": {
+        "e1910": {
+          "year": "1910",
+          "title": "Carlo abre a padaria",
+          "description": "A fachada original na Washington Street, em Hoboken — onde tudo começou."
+        },
+        "e1964": {
+          "year": "1964",
+          "title": "Bartolo assume",
+          "description": "Bartolo Valastro Sr., padrasto do futuro Buddy, compra a padaria e a renomeia Carlo's Bakery."
+        },
+        "e1990": {
+          "year": "1990",
+          "title": "Buddy aprende com o pai",
+          "description": "Na cozinha da padaria, pai e filho moldam massa à mão — a tradição passada de geração em geração."
+        },
+        "e1994": {
+          "year": "1994",
+          "title": "Buddy assume aos 17",
+          "description": "Com o avental da Carlo's, Buddy já cria bolos monumentais que definem o padrão da casa."
+        },
+        "e2009": {
+          "year": "2009",
+          "title": "Nasce o Cake Boss",
+          "description": "TLC estreia o reality show que tornaria Buddy uma estrela global. Mais de 200 episódios em 12 temporadas."
+        },
+        "e2015": {
+          "year": "2015",
+          "title": "Buddy no Brasil",
+          "description": "Primeira loja da Carlo's Bakery fora dos Estados Unidos abre em São Paulo. A única no Brasil até hoje."
+        },
+        "eToday": {
+          "year": "Hoje",
+          "title": "Tradição viva",
+          "description": "Buddy e a família Valastro na cozinha — quatro gerações de confeiteiros, uma só história."
+        }
+      }
+    },
+    "chapter4": {
+      "eyebrow": "O Cake Boss",
+      "heading": "Buddy.",
+      "subhead": "Bartolo \"Buddy\" Valastro Jr.",
+      "imageAlt": "Retrato de Buddy Valastro, confeiteiro da Carlo's Bakery",
+      "badge": "Star of Cake Boss · TLC",
+      "paragraphs": [
+        "Aos 17 anos, Buddy herdou uma padaria à beira da falência e a missão de honrar o legado do pai. Em uma década, transformou a Carlo's Bakery em referência mundial em confeitaria artesanal.",
+        "Em 2009, o TLC estreou \"Cake Boss\", o reality que mostrava o dia a dia da padaria. O programa virou fenômeno global, exibido em mais de 100 países. Buddy se tornou o confeiteiro mais conhecido do mundo.",
+        "Mas para ele, a história nunca foi sobre fama. Foi sempre sobre família."
+      ],
+      "quote": "\"Family means everything. Everything you do, you do for your family.\"",
+      "quoteTranslation": "\"Família é tudo. Tudo o que você faz, você faz pela sua família.\"",
+      "quoteSignature": "— Buddy Valastro"
+    },
+    "chapter5": {
+      "eyebrow": "Em números",
+      "heading": "Um fenômeno global.",
+      "subhead": "O legado da Carlo's ultrapassou Hoboken — e chegou às telas e às vitrines do mundo inteiro.",
+      "milestones": {
+        "episodes": "episódios de Cake Boss exibidos na televisão",
+        "countries": "países onde o programa foi transmitido",
+        "seasons": "temporadas no ar no TLC",
+        "books": "livros publicados sobre confeitaria"
+      }
+    },
+    "chapter6": {
+      "eyebrow": "2015 · A Travessia",
+      "heading": "De Hoboken a São Paulo.",
+      "subhead": "Em 2015, depois de décadas de pedidos de fãs brasileiros, Buddy Valastro escolheu São Paulo para abrir a primeira (e única) Carlo's Bakery fora dos Estados Unidos. Não foi acaso. Foi destino.",
+      "hobokenCoords": "Hoboken, NJ · 40.7°N 74.0°W",
+      "saopauloCoords": "São Paulo, BR · 23.5°S 46.6°W"
+    },
+    "chapter7": {
+      "eyebrow": "Aqui e agora",
+      "heading": "A Carlo's brasileira.",
+      "paragraphs": [
+        "Há dez anos, mantemos viva em São Paulo a tradição da família Valastro. Cada cannoli, cada lobster tail, cada bolo escultórico carrega a mesma alma que Carlo Guastaffero colocou em sua padaria em 1910.",
+        "Mais do que uma franquia, somos guardiões de um legado. E o único endereço onde, fora dos Estados Unidos, você pode provar a verdadeira Carlo's."
+      ],
+      "cta": "Visite nossa loja",
+      "galleryAlt": {
+        "0": "Vitrine da Carlo's Bakery em São Paulo",
+        "1": "Equipe da unidade brasileira",
+        "2": "Bolos artesanais expostos na loja",
+        "3": "Fachada da Carlo's Bakery nos Jardins"
+      }
+    },
+    "kherlakian": {
+      "eyebrow": "Brasil · Operação",
+      "heading": "A família Kherlakian",
+      "body": "Assim como a Família Valastro opera a Carlo's Bakery nos Estados Unidos, a Família Kherlakian foi escolhida por Buddy para cuidar de suas lojas no Brasil. Toda a família está envolvida de perto na operação e nas estratégias comerciais para garantir o sucesso da Carlo's Bakery no país.",
+      "imageAlt": "Família Kherlakian — Marcos, Milah, Marcos Filho e Mariana, responsáveis pela operação da Carlo's Bakery no Brasil",
+      "members": [
+        { "name": "Marcos Kherlakian", "role": "CEO" },
+        { "name": "Milah Kherlakian", "role": "Diretora de Operações" },
+        { "name": "Mariana Kherlakian", "role": "Marketing" },
+        { "name": "Marcos Filho", "role": "Financeiro" }
+      ]
+    },
+    "chapter8": {
+      "headline": "Cento e quinze anos depois, ainda é família.",
+      "subhead": "Cada visita à Carlo's é um capítulo a mais nessa história. Faça parte dela.",
+      "ctaVisit": "Visitar nossa loja",
+      "ctaMenu": "Ver cardápio",
+      "ctaCakes": "Encomendar bolo",
+      "signature": "Com amor, família Valastro."
+    }
+  },
+  "stores": {
+    "meta": {
+      "title": "Lojas | Carlo's Bakery São Paulo",
+      "description": "Encontre uma das 8 unidades Carlo's Bakery em São Paulo e região. Mapa interativo, horários, WhatsApp e rotas."
+    },
+    "hero": {
+      "eyebrow": "8 Endereços · São Paulo e Região",
+      "headline": "Onde nos encontrar.",
+      "subhead": "A única Carlo's Bakery fora dos Estados Unidos. Oito unidades para você viver a experiência."
+    },
+    "locator": {
+      "ariaLabel": "Localizador de lojas Carlo's Bakery",
+      "skipToList": "Pular para a lista de lojas"
+    },
+    "filters": {
+      "placeholder": "Buscar por bairro ou shopping...",
+      "resultCount": "{count} unidades encontradas",
+      "chips": {
+        "all": "Todas",
+        "shopping": "Shopping",
+        "street": "Rua",
+        "workshop": "Com workshop",
+        "flagship": "Flagship"
+      },
+      "view": {
+        "list": "Lista",
+        "grid": "Grid"
+      }
+    },
+    "list": {
+      "emptyTitle": "Nenhuma loja encontrada.",
+      "emptyBody": "Tente buscar por outro bairro, shopping ou remova os filtros ativos."
+    },
+    "map": {
+      "ariaLabel": "Mapa interativo das lojas Carlo's Bakery",
+      "details": "Ver detalhes",
+      "nearMe": "Lojas perto de mim",
+      "locating": "Localizando...",
+      "locationUnsupported": "Seu navegador não permite geolocalização.",
+      "locationError": "Não conseguimos acessar sua localização."
+    },
+    "status": {
+      "checking": "Atualizando horário...",
+      "openUntil": "Aberto · até {time}",
+      "closedOpens": "Fechado · abre {time}",
+      "closed": "Fechado"
+    },
+    "card": {
+      "flagship": "Flagship",
+      "whatsapp": "WhatsApp",
+      "directions": "Como chegar",
+      "call": "Ligar",
+      "distance": "{distance} de você"
+    },
+    "flagship": {
+      "eyebrow": "Nossa Flagship",
+      "heading": "Jardins. Onde tudo começou no Brasil.",
+      "subhead": "Dezembro de 2016. A primeira Carlo's Bakery fora dos Estados Unidos abriu suas portas na Rua Bela Cintra. Desde então, é o coração da operação brasileira.",
+      "hoursWeek": "Seg–Sáb · 10h às 22h",
+      "hoursSunday": "Domingo · 10h às 21h",
+      "directions": "Como chegar",
+      "whatsapp": "Chamar no WhatsApp"
+    },
+    "workshop": {
+      "eyebrow": "Exclusivo · Vila Leopoldina",
+      "heading": "Workshop Mini Confeiteiros.",
+      "subhead": "Uma experiência única para crianças de 5 a 17 anos. 45 minutos de pura magia confeitando como o Buddy.",
+      "info": {
+        "location": {
+          "label": "Local",
+          "value": "Vila Leopoldina"
+        },
+        "duration": {
+          "label": "Duração",
+          "value": "45 minutos"
+        },
+        "age": {
+          "label": "Idade",
+          "value": "5 a 17 anos"
+        },
+        "price": {
+          "label": "Investimento",
+          "value": "R$ 265"
+        }
+      },
+      "cta": "Reservar workshop"
+    },
+    "finalCta": {
+      "heading": "Não consegue ir até nós?",
+      "subhead": "Peça pelo iFood com entrega rápida em toda São Paulo.",
+      "ifood": "Pedir pelo iFood",
+      "whatsapp": "Falar no WhatsApp"
+    }
+  },
+  "buddysClub": {
+    "meta": {
+      "title": "Buddy's Club | Carlo's Bakery Brasil",
+      "description": "Baixe o app Buddy's Club, acumule pontos, resgate brindes e acesse benefícios exclusivos da Carlo's Bakery Brasil."
+    },
+    "hero": {
+      "eyebrow": "Programa de Fidelidade · Grátis",
+      "headline": "Buddy's Club. Cada doce vira recompensa.",
+      "subhead": "Acumule pontos a cada compra, ganhe brindes exclusivos e tenha acesso antecipado a lançamentos. Tudo no seu celular.",
+      "chips": [
+        "✓ 100% grátis",
+        "✓ Pontos automáticos",
+        "✓ Brindes exclusivos"
+      ],
+      "available": "Disponível para iPhone e Android"
+    },
+    "download": {
+      "appStoreEyebrow": "Download on the",
+      "appStore": "App Store",
+      "googlePlayEyebrow": "GET IT ON",
+      "googlePlay": "Google Play"
+    },
+    "steps": {
+      "eyebrow": "Como funciona",
+      "heading": "Comece em três passos.",
+      "subhead": "Em menos de 2 minutos você já está acumulando pontos.",
+      "items": [
+        {
+          "title": "Baixe o app",
+          "description": "Disponível grátis na App Store e Google Play. Cadastro em 30 segundos."
+        },
+        {
+          "title": "Compre em qualquer loja",
+          "description": "Apresente seu código QR no caixa ou peça pelo iFood vinculado. Pontos automáticos."
+        },
+        {
+          "title": "Resgate brindes",
+          "description": "Troque pontos por cannoli, cupcakes, descontos e experiências exclusivas."
+        }
+      ]
+    },
+    "features": {
+      "eyebrow": "Por que entrar",
+      "heading": "Mais do que pontos. Uma experiência.",
+      "subhead": "Acumular é só o começo. O Buddy's Club abre as portas de tudo que a Carlo's tem de melhor.",
+      "items": [
+        {
+          "eyebrow": "Carteira digital",
+          "title": "Seus pontos sempre à mão.",
+          "description": "Acompanhe seu saldo em tempo real. Veja histórico completo de compras, pontos ganhos e brindes resgatados.",
+          "bullets": [
+            "Saldo atualizado em tempo real",
+            "Histórico completo de compras",
+            "Notificações de novos brindes"
+          ]
+        },
+        {
+          "eyebrow": "Especial para você",
+          "title": "No seu aniversário, o mimo é por nossa conta.",
+          "description": "Todo membro ganha um cupcake exclusivo no mês de aniversário. Cake Boss style.",
+          "bullets": [
+            "Cupcake exclusivo no mês do aniversário",
+            "Edição limitada decorada",
+            "Retirada em qualquer unidade"
+          ]
+        },
+        {
+          "eyebrow": "Lançamentos",
+          "title": "Prove antes de todo mundo.",
+          "description": "Membros têm acesso antecipado a edições sazonais, colaborações exclusivas e o cardápio especial Cake Boss.",
+          "bullets": [
+            "48h de antecedência em lançamentos",
+            "Edições limitadas exclusivas para membros",
+            "Convites para eventos com Buddy"
+          ]
+        },
+        {
+          "eyebrow": "Comunidade",
+          "title": "Sua família também merece.",
+          "description": "Indique amigos e família. A cada novo membro que se cadastrar pelo seu código, vocês dois ganham 500 pontos.",
+          "bullets": [
+            "500 pontos por indicação confirmada",
+            "Sem limite de indicações",
+            "Bônus dobrado em datas especiais"
+          ]
+        }
+      ]
+    },
+    "tiers": {
+      "eyebrow": "Níveis de membership",
+      "heading": "Quanto mais ama, mais ganha.",
+      "subhead": "Três níveis. Benefícios progressivos. Conquiste o seu.",
+      "items": [
+        {
+          "name": "Bronze",
+          "tagline": "Bem-vindo ao Buddy's Club",
+          "requirement": "0 a 999 pontos",
+          "benefits": [
+            "Acúmulo de pontos",
+            "Brinde de aniversário",
+            "Acesso ao app"
+          ]
+        },
+        {
+          "name": "Silver",
+          "tagline": "O nível favorito da família",
+          "requirement": "1.000 a 4.999 pontos",
+          "badge": "MAIS POPULAR",
+          "benefits": [
+            "Tudo do Bronze",
+            "Acesso antecipado a lançamentos (48h)",
+            "Frete grátis no iFood (pedidos +R$80)",
+            "Bônus dobrado em indicações"
+          ]
+        },
+        {
+          "name": "Gold",
+          "tagline": "Cake Boss Status",
+          "requirement": "+5.000 pontos",
+          "benefits": [
+            "Tudo do Silver",
+            "Convites VIP para eventos com Buddy",
+            "15% off em bolos personalizados",
+            "Concierge exclusivo no WhatsApp",
+            "Edições limitadas Cake Boss"
+          ]
+        }
+      ]
+    },
+    "stats": {
+      "members": "membros ativos",
+      "points": "pontos resgatados",
+      "rewards": "brindes únicos",
+      "rating": "estrelas na App Store"
+    },
+    "testimonials": {
+      "eyebrow": "O que dizem nossos membros",
+      "heading": "Histórias do Buddy's Club.",
+      "items": [
+        {
+          "name": "Carolina M.",
+          "tier": "Tier Gold",
+          "quote": "Já tenho mais de 8.000 pontos. O concierge me liga quando tem cannoli sazonal novo. É outro nível de atendimento."
+        },
+        {
+          "name": "Roberto S.",
+          "tier": "Tier Silver",
+          "quote": "O brinde de aniversário ano passado foi um cupcake personalizado com o nome da minha filha. Surreal."
+        },
+        {
+          "name": "Família Almeida",
+          "tier": "Tier Gold",
+          "quote": "Indicamos toda a família. Já são 12 membros usando o app. Virou tradição encontrar na Carlo's aos domingos."
+        },
+        {
+          "name": "Mariana L.",
+          "tier": "Tier Silver",
+          "quote": "Baixei só pra testar e em 3 meses já estou no Silver. Os pontos acumulam mais rápido do que parece."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Dúvidas",
+      "heading": "Perguntas frequentes.",
+      "items": {
+        "free": {
+          "question": "É realmente grátis?",
+          "answer": "Sim, 100% gratuito. Nenhuma anuidade, nenhuma cobrança. Você só ganha."
+        },
+        "earn": {
+          "question": "Como acumulo pontos?",
+          "answer": "A cada R$ 1 gasto = 1 ponto. Vale para compras nas lojas físicas e pedidos pelo iFood quando o app estiver vinculado."
+        },
+        "expire": {
+          "question": "Os pontos expiram?",
+          "answer": "Pontos têm validade de 12 meses a partir da data de acúmulo. Renovam a cada nova compra."
+        },
+        "stores": {
+          "question": "Posso usar em qualquer loja?",
+          "answer": "Sim! Todas as 8 unidades Carlo's Bakery aceitam o programa, basta apresentar o QR Code do app no caixa."
+        },
+        "tier": {
+          "question": "Como mudo de tier?",
+          "answer": "Automaticamente. Ao atingir os pontos necessários, o app notifica e o upgrade acontece em até 24h."
+        },
+        "transfer": {
+          "question": "Posso transferir pontos?",
+          "answer": "Pontos não são transferíveis entre contas, mas você pode usar para presentear qualquer pessoa gerando um voucher."
+        },
+        "phone": {
+          "question": "E se eu perder o celular?",
+          "answer": "Sem problema. Seus pontos ficam vinculados ao seu CPF/e-mail. Basta baixar o app de novo e fazer login."
+        }
+      }
+    },
+    "final": {
+      "badge": "GRÁTIS PARA SEMPRE",
+      "heading": "Pronto para começar?",
+      "subhead": "Junte-se a +50.000 membros e transforme cada visita à Carlo's em recompensa.",
+      "qrLabel": "Aponte sua câmera para baixar",
+      "guarantee": "Cadastro em 30 segundos · Sem cartão de crédito"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Estamos por aqui",
+      "headline": "Fale com a família.",
+      "subhead": "Imprensa, parcerias, trabalho ou só pra dizer oi. Escolha o canal certo e nossa equipe responde rápido."
+    },
+    "departments": {
+      "eyebrow": "Canais diretos",
+      "heading": "Como podemos ajudar?",
+      "subhead": "Quatro departamentos. Respostas em até 24h úteis.",
+      "items": {
+        "press": {
+          "title": "Imprensa",
+          "description": "Pautas, entrevistas com Buddy Valastro e materiais de divulgação.",
+          "cta": "Enviar email →",
+          "subject": "Contato de imprensa"
+        },
+        "partnerships": {
+          "title": "Parcerias Corporativas",
+          "description": "Eventos empresariais, brindes corporativos e collabs de marca.",
+          "cta": "Propor parceria →",
+          "subject": "Proposta de parceria"
+        },
+        "careers": {
+          "title": "Trabalhe Conosco",
+          "description": "Faça parte da família Carlo's Bakery Brasil. Envie seu currículo.",
+          "cta": "Enviar currículo →",
+          "subject": "Currículo - Carlo's Bakery"
+        },
+        "support": {
+          "title": "SAC / Atendimento",
+          "description": "Dúvidas sobre pedidos, sugestões e reclamações.",
+          "cta": "Falar conosco →",
+          "subject": "Atendimento SAC"
+        }
+      }
+    },
+    "form": {
+      "fields": {
+        "fullName": "Nome completo",
+        "email": "Email",
+        "phone": "WhatsApp",
+        "subject": "Assunto",
+        "message": "Mensagem",
+        "lgpd": "Aceito receber contato da Carlo's Bakery sobre minha mensagem."
+      },
+      "subjects": {
+        "press": "Imprensa",
+        "partnerships": "Parcerias",
+        "careers": "Trabalhe conosco",
+        "support": "SAC",
+        "other": "Outro"
+      },
+      "submit": "Enviar mensagem",
+      "success": {
+        "title": "Mensagem enviada",
+        "body": "Recebemos seu contato. Nossa equipe responde em até 24h úteis."
+      },
+      "errors": {
+        "fullName": "Informe seu nome completo.",
+        "email": "Informe um email válido.",
+        "subject": "Selecione um assunto.",
+        "message": "Escreva uma mensagem com pelo menos 10 caracteres.",
+        "messageMax": "Máximo de 1000 caracteres.",
+        "lgpd": "É necessário aceitar para enviar."
+      }
+    },
+    "direct": {
+      "eyebrow": "Vamos conversar",
+      "heading": "Prefere algo mais direto?",
+      "whatsappHint": "Resposta em até 1h em horário comercial",
+      "whatsappCta": "Iniciar conversa",
+      "hoursTitle": "Horário de atendimento",
+      "hoursWeek": "Segunda a Sábado · 10h às 22h",
+      "hoursSunday": "Domingo · 10h às 21h",
+      "officeTitle": "Sede administrativa"
+    },
+    "faq": {
+      "eyebrow": "Antes de escrever",
+      "heading": "Talvez sua dúvida já tenha resposta.",
+      "items": {
+        "customCake": {
+          "question": "Como faço um pedido de bolo personalizado?",
+          "answer": "Preencha o formulário em /bolos-personalizados ou fale pelo WhatsApp. Nossa equipe responde em até 24h úteis."
+        },
+        "ifood": {
+          "question": "Vocês entregam pelo iFood?",
+          "answer": "Sim, todas as 8 unidades estão no iFood. Busque 'Carlo's Bakery' no app."
+        },
+        "outsideSp": {
+          "question": "Posso encomendar para fora de São Paulo?",
+          "answer": "Atendemos toda a região metropolitana de SP. Para outras cidades, consulte por email."
+        },
+        "franchise": {
+          "question": "Quero abrir uma franquia. Como funciona?",
+          "answer": "Envie email para parcerias@carlosbakery.com.br com seu perfil e cidade de interesse."
+        },
+        "supplier": {
+          "question": "Como faço para ser fornecedor?",
+          "answer": "Envie sua proposta para parcerias@carlosbakery.com.br com portfólio e informações da empresa."
+        }
+      }
+    },
+    "final": {
+      "heading": "Não encontrou o que procurava?",
+      "subhead": "Fale direto no WhatsApp. Atendimento humano, resposta rápida.",
+      "cta": "Abrir WhatsApp →"
+    }
+  },
+  "meta": {
+    "home": {
+      "title": "Carlo's Bakery Brasil | A única Cake Boss fora dos EUA",
+      "description": "A confeitaria de Buddy Valastro em São Paulo. 8 unidades, bolos personalizados, cannoli, lobster tail e tradição italiana.",
+      "keywords": "carlos bakery, cake boss brasil, buddy valastro, bolos personalizados são paulo, cannoli sp",
+      "og": {
+        "title": "Carlo's Bakery Brasil",
+        "description": "115 anos de tradição italiana. A única Carlo's Bakery fora dos EUA.",
+        "imageAlt": "Vitrine da Carlo's Bakery com bolos e doces italianos"
+      }
+    },
+    "menu": {
+      "title": "Cardápio Carlo's Bakery | Cannoli, Bolos e Doces Italianos",
+      "description": "Explore o cardápio da Carlo's Bakery Brasil: cannoli, lobster tail, rainbow cookies, bolos e clássicos italianos.",
+      "keywords": "cardápio carlos bakery, cannoli, lobster tail, rainbow cookies, doces italianos sp",
+      "og": {
+        "title": "Cardápio Carlo's Bakery",
+        "description": "Clássicos italianos e favoritos do Cake Boss em São Paulo.",
+        "imageAlt": "Mesa com doces clássicos da Carlo's Bakery"
+      }
+    },
+    "customCakes": {
+      "title": "Bolos Personalizados | Carlo's Bakery Brasil",
+      "description": "Encomende bolos personalizados Carlo's Bakery para casamentos, aniversários e eventos em São Paulo.",
+      "keywords": "bolos personalizados, bolo cake boss, bolo casamento sp, bolo aniversário",
+      "og": {
+        "title": "Bolos Personalizados Carlo's Bakery",
+        "description": "Bolos escultóricos com a assinatura Cake Boss em São Paulo.",
+        "imageAlt": "Bolo personalizado decorado da Carlo's Bakery"
+      }
+    },
+    "story": {
+      "title": "A História | Carlo's Bakery Brasil",
+      "description": "Conheça a trajetória da família Valastro, de Hoboken a São Paulo, e a chegada da Carlo's Bakery ao Brasil.",
+      "keywords": "história carlos bakery, família valastro, buddy valastro, hoboken",
+      "og": {
+        "title": "A História da Carlo's Bakery",
+        "description": "De Hoboken a São Paulo: quatro gerações da família Valastro.",
+        "imageAlt": "Retrato editorial da história da família Valastro"
+      }
+    },
+    "stores": {
+      "title": "Lojas Carlo's Bakery | 8 unidades em São Paulo",
+      "description": "Encontre uma das 8 lojas Carlo's Bakery em São Paulo e região com mapa, horários, telefone e WhatsApp.",
+      "keywords": "lojas carlos bakery, carlos bakery são paulo, cake boss lojas sp",
+      "og": {
+        "title": "Lojas Carlo's Bakery Brasil",
+        "description": "Mapa e diretório das 8 unidades Carlo's Bakery em São Paulo.",
+        "imageAlt": "Mapa das lojas Carlo's Bakery em São Paulo"
+      }
+    },
+    "buddysClub": {
+      "title": "Buddy's Club | App de Fidelidade Carlo's Bakery",
+      "description": "Baixe o app Buddy's Club, acumule pontos, resgate brindes e acesse benefícios exclusivos da Carlo's Bakery.",
+      "keywords": "buddys club, app carlos bakery, fidelidade, pontos, recompensas",
+      "og": {
+        "title": "Buddy's Club",
+        "description": "Cada doce vira recompensa no app oficial da Carlo's Bakery.",
+        "imageAlt": "Mockup do app Buddy's Club"
+      }
+    },
+    "contact": {
+      "title": "Contato Carlo's Bakery | Imprensa, Parcerias e SAC",
+      "description": "Fale com a Carlo's Bakery Brasil para imprensa, parcerias, trabalhe conosco, fornecedores e atendimento ao cliente.",
+      "keywords": "contato carlos bakery, sac, imprensa, parcerias, trabalhe conosco",
+      "og": {
+        "title": "Contato Carlo's Bakery Brasil",
+        "description": "Escolha o canal certo e fale com a família Carlo's Bakery.",
+        "imageAlt": "Página de contato da Carlo's Bakery Brasil"
+      }
+    }
+  }
+}

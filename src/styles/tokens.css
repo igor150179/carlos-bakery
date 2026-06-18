@@ -1,0 +1,91 @@
+/**
+ * Carlo's Bakery Brasil — Design System Tokens
+ * Official brand palette, typography scale, spacing, and easings.
+ */
+
+:root {
+  /* Brand Colors */
+  --carlo-red: #c8102e;
+  --carlo-red-dark: #a00d24;
+  --carlo-red-light: #e63950;
+
+  /* Champagne / dourado — escala completa */
+  --champagne-50: #faf4e8;
+  --champagne-100: #f2e6cc;
+  --champagne-200: #e8d4a8;
+  --champagne-300: #dec289;
+  --champagne-400: #d4a857;
+  --champagne-500: #c9982e;
+  --champagne-600: #a87d24;
+  --champagne-700: #7d5b1a;
+
+  /* Champagne em fundos escuros (mais claro e dessaturado) */
+  --champagne-on-dark: #e8d4a8;
+  --champagne-on-dark-soft: #dec289;
+  --champagne-on-dark-muted: #c9b68a;
+
+  /* Aliases legados (compatibilidade) */
+  --carlo-gold: var(--champagne-400);
+  --carlo-gold-light: var(--champagne-on-dark);
+  --carlo-gold-dark: var(--champagne-600);
+
+  /* Brand red alias */
+  --brand-red-500: var(--carlo-red);
+
+  /* Neutrals (warm-toned) */
+  --cream-50: #fbf8f3;
+  --cream-100: #f5efe6;
+  --cream-200: #ebe2d3;
+  --cream-300: #d9cbb3;
+
+  /* Dark (cinematic sections) */
+  --espresso-950: #0a0705;
+  --espresso-900: #0f0b08;
+  --espresso-800: #1a1411;
+  --espresso-700: #2b221c;
+  --espresso-600: #3d3128;
+
+  /* Soft Pink */
+  --rose-pastel: #f4d5d0;
+  --rose-pastel-dark: #e8b8b0;
+
+  /* Functional */
+  --success: #2d7a3e;
+  --error: #c8102e;
+  --warning: #b8935a;
+
+  /* Typography Scale */
+  --text-hero: clamp(3.5rem, 8vw, 8rem);
+  --text-display: clamp(2.5rem, 5vw, 5rem);
+  --text-h3: clamp(1.75rem, 3vw, 2.5rem);
+  --text-h4: clamp(1.25rem, 2vw, 1.75rem);
+  --text-body-lg: 1.125rem;
+  --text-body: 1rem;
+  --text-sm: 0.875rem;
+  --text-xs: 0.75rem;
+
+  /* Spacing & Layout */
+  --section-padding-y: clamp(2.5rem, 4vw, 4.5rem);
+  --container-padding-x: clamp(1.5rem, 5vw, 4rem);
+  --max-content-width: 1440px;
+  --max-prose-width: 65ch;
+
+  /* Easings (italian smoothness) */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1);
+  --ease-italian: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Theme — light mode (primary) */
+  --theme-background: var(--cream-50);
+  --theme-foreground: var(--espresso-900);
+  --theme-muted: var(--cream-200);
+  --theme-accent: var(--carlo-red);
+}
+
+/* Dark mode for cinematic sections (applied via .dark class on section or root) */
+.dark {
+  --theme-background: var(--espresso-900);
+  --theme-foreground: var(--cream-50);
+  --theme-muted: var(--espresso-700);
+  --theme-accent: var(--carlo-gold);
+}

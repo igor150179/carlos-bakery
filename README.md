@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Carlo's Bakery Brasil — Website Oficial
 
-## Getting Started
+Site institucional da única Carlo's Bakery fora dos Estados Unidos — a confeitaria italiana de Buddy Valastro em São Paulo desde 2016.
 
-First, run the development server:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-org/carlos-bakery)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Tailwind](https://img.shields.io/badge/Tailwind-4-cyan)
+
+## Visão geral
+
+Website premium com **7 páginas**, **3 idiomas** (PT, EN, IT), design system completo, SEO técnico avançado e foco em conversão para encomendas de bolos personalizados e Buddy's Club.
+
+## Stack
+
+| Tecnologia | Uso |
+|------------|-----|
+| **Next.js 15** | App Router, SSR/SSG |
+| **TypeScript** | Tipagem estática |
+| **Tailwind CSS v4** | Design tokens + utilitários |
+| **Framer Motion** | Animações de UI |
+| **GSAP** | Scroll cinematográfico |
+| **next-intl** | i18n (pt, en, it) |
+| **React Hook Form + Zod** | Formulários |
+| **Leaflet** | Mapa de lojas |
+| **Radix UI** | Select acessível |
+| **Vercel** | Deploy (região `gru1`) |
+
+## Estrutura
+
+```
+src/
+├── app/[locale]/     # Rotas por idioma
+├── components/       # UI, layout, páginas
+├── data/             # Lojas, cardápio, bolos
+├── lib/              # SEO, utils, constantes
+├── messages/         # Traduções i18n
+└── styles/           # tokens.css, fonts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup local
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+git clone <repo-url>
+cd carlos-bakery
+npm install
+cp .env.example .env.local
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abra [http://localhost:3000](http://localhost:3000) — o middleware redireciona para `/pt`.
 
-## Learn More
+```bash
+npm run build
+npm run start
+npm run lint
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Idiomas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Locale | URL exemplo |
+|--------|-------------|
+| `pt` (padrão) | `/pt/cardapio` |
+| `en` | `/en/cardapio` |
+| `it` | `/it/cardapio` |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Textos: `src/messages/{locale}.json`
 
-## Deploy on Vercel
+## Design system
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Vermelho marca**: `carlo-red` / `brand-red-500`
+- **Champagne (claro)**: `champagne-400`, `champagne-500`
+- **Champagne (escuro)**: `champagne-on-dark`, `champagne-on-dark-muted`
+- **Neutros**: `cream-*`, `espresso-*`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Documentação completa: [`docs/design-system.md`](docs/design-system.md)  
+Auditoria de contraste: [`docs/contrast-audit.md`](docs/contrast-audit.md)
+
+## SEO
+
+- Schema.org: Organization, Bakery, LocalBusiness, FAQ
+- `sitemap.xml`, `robots.txt`, `manifest.webmanifest`
+- Open Graph dinâmico + hreflang
+
+## Deploy na Vercel
+
+1. Importar repositório no [Vercel Dashboard](https://vercel.com)
+2. Framework: **Next.js** (detecção automática)
+3. Variáveis de ambiente (ver `.env.example`)
+4. Região: **São Paulo (gru1)** — configurado em `vercel.json`
+5. Domínio: `carlosbakery.com.br` + redirect `www` → apex
+
+Push em `main` → produção. Demais branches → preview URL automático.
+
+## Documentação para o cliente
+
+- [`docs/manual-cliente.md`](docs/manual-cliente.md) — editar conteúdo
+- [`docs/apresentacao-cliente.md`](docs/apresentacao-cliente.md) — material de entrega
+
+## Licença
+
+Projeto privado — Carlo's Bakery Brasil © 2026

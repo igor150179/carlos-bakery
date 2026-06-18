@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "title": "Bolos Personalizados",
+    "description": "Bolos escultóricos sob encomenda da Carlo's Bakery Brasil. Casamentos, aniversários e eventos com a tradição Valastro."
+  },
+  "hero": {
+    "eyebrow": "Bolos Personalizados",
+    "headline": "Seu momento, esculpido em açúcar.",
+    "subhead": "Da família Valastro para o seu casamento, aniversário ou evento corporativo. Cada bolo é uma obra única, feita à mão por nossos mestres confeiteiros.",
+    "cta1": "Solicitar orçamento",
+    "cta2": "Ver galeria",
+    "scroll": "scroll"
+  },
+  "stats": {
+    "years": { "label": "de tradição Valastro" },
+    "cakes": { "label": "bolos criados no Brasil" },
+    "generations": { "label": "de mestres confeiteiros" },
+    "handmade": { "label": "feito à mão" }
+  },
+  "occasions": {
+    "eyebrow": "Para cada ocasião",
+    "heading": "Um bolo à altura do seu momento.",
+    "subhead": "Trabalhamos com cinco categorias principais, sempre personalizadas para você.",
+    "items": {
+      "wedding": {
+        "title": "Casamentos",
+        "description": "Bolos de andares, design clássico ou contemporâneo."
+      },
+      "birthday": {
+        "title": "Aniversários",
+        "description": "Do infantil ao adulto, cada idade merece seu bolo."
+      },
+      "corporate": {
+        "title": "Corporativo",
+        "description": "Eventos empresariais, lançamentos, datas especiais."
+      },
+      "baptism": {
+        "title": "Batizados & Bodas",
+        "description": "Marcos familiares celebrados com elegância."
+      },
+      "special": {
+        "title": "Edições Especiais",
+        "description": "Bolos temáticos, escultóricos e personagens."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Nossa galeria",
+    "heading": "Obras de arte comestíveis.",
+    "subhead": "Selecionamos algumas das criações mais marcantes assinadas pela Carlo's Brasil.",
+    "items": {
+      "g1": { "title": "Bolo Monumental", "occasion": "Casamento" },
+      "g2": { "title": "Red Velvet Escultural", "occasion": "Aniversário" },
+      "g3": { "title": "Fondant Artístico", "occasion": "Corporativo" },
+      "g4": { "title": "Cake Boss Classic", "occasion": "Edição especial" },
+      "g5": { "title": "Andares Dourados", "occasion": "Casamento" },
+      "g6": { "title": "Personagem Temático", "occasion": "Infantil" },
+      "g7": { "title": "Flores de Açúcar", "occasion": "Bodas" },
+      "g8": { "title": "Minimal Chic", "occasion": "Corporativo" },
+      "g9": { "title": "Buttercream Luxe", "occasion": "Aniversário" },
+      "g10": { "title": "Escultura Valastro", "occasion": "Edição especial" }
+    }
+  },
+  "process": {
+    "eyebrow": "Como funciona",
+    "heading": "Do sonho ao bolo, em 4 etapas.",
+    "subhead": "Um processo cuidadoso para garantir que cada detalhe seja perfeito.",
+    "steps": {
+      "01": {
+        "title": "Conversa",
+        "description": "Você nos conta sobre o evento, tema e número de convidados pelo formulário ou WhatsApp."
+      },
+      "02": {
+        "title": "Briefing",
+        "description": "Nossa equipe entra em contato em até 24h para entender detalhes, paleta e referências."
+      },
+      "03": {
+        "title": "Criação",
+        "description": "Você recebe um sketch personalizado e aprovamos juntos cada detalhe antes da produção."
+      },
+      "04": {
+        "title": "Entrega",
+        "description": "Produzimos com 7 a 30 dias de antecedência (dependendo do porte) e entregamos no local do evento."
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "O que dizem",
+    "heading": "Histórias que viraram memórias.",
+    "items": {
+      "marina": {
+        "quote": "O bolo do casamento foi o assunto da festa. Buddy mantém um padrão que nenhuma outra confeitaria do Brasil consegue alcançar.",
+        "name": "Marina e Rafael",
+        "occasion": "Casamento 2024"
+      },
+      "pedro": {
+        "quote": "Encomendamos um bolo corporativo para o lançamento da empresa. Resultado impecável, todos os clientes ficaram impressionados.",
+        "name": "Pedro Almeida",
+        "occasion": "CEO LumenTech"
+      },
+      "silva": {
+        "quote": "O bolo de 1 ano do João foi exatamente como sonhamos. Atendimento atencioso do início ao fim.",
+        "name": "Família Silva",
+        "occasion": "Aniversário Infantil"
+      }
+    }
+  },
+  "form": {
+    "eyebrow": "Vamos criar juntos",
+    "heading": "Solicite seu orçamento.",
+    "subhead": "Preencha o formulário ao lado e nossa equipe entra em contato em até 24h úteis.",
+    "guarantees": {
+      "response": "Resposta em até 24h",
+      "briefing": "Briefing personalizado",
+      "sketch": "Sketch antes da produção",
+      "delivery": "Entrega no local do evento"
+    },
+    "whatsappTitle": "Prefere falar direto?",
+    "whatsappCta": "Falar no WhatsApp",
+    "fields": {
+      "fullName": "Nome completo",
+      "email": "E-mail",
+      "phone": "WhatsApp",
+      "eventType": "Tipo de evento",
+      "eventDate": "Data do evento",
+      "guests": "Número de convidados",
+      "message": "Conte sobre seu bolo",
+      "messagePlaceholder": "Tema, paleta de cores, referências, restrições alimentares...",
+      "references": "Upload de referências",
+      "referencesHint": "Opcional — até 5 imagens (JPG ou PNG).",
+      "lgpd": "Aceito receber contato sobre meu orçamento."
+    },
+    "eventTypes": {
+      "wedding": "Casamento",
+      "birthday": "Aniversário",
+      "corporate": "Corporativo",
+      "baptism": "Batizado/Boda",
+      "other": "Outro"
+    },
+    "guestRanges": {
+      "upTo30": "Até 30",
+      "30to80": "30–80",
+      "80to150": "80–150",
+      "150to300": "150–300",
+      "over300": "Mais de 300"
+    },
+    "submit": "Enviar solicitação",
+    "submitting": "Enviando...",
+    "success": {
+      "title": "Recebemos sua solicitação",
+      "body": "Em breve entraremos em contato. Obrigado por confiar na Carlo's Bakery."
+    },
+    "errors": {
+      "fullName": "Informe seu nome completo.",
+      "email": "Informe um e-mail válido.",
+      "phone": "Informe um WhatsApp válido.",
+      "eventType": "Selecione o tipo de evento.",
+      "eventDate": "Informe a data do evento.",
+      "eventDateMin": "A data deve ser pelo menos 14 dias a partir de hoje.",
+      "guests": "Selecione o número de convidados.",
+      "message": "Máximo de 500 caracteres.",
+      "lgpd": "É necessário aceitar para enviar."
+    }
+  },
+  "faq": {
+    "eyebrow": "Dúvidas",
+    "heading": "Perguntas frequentes.",
+    "items": {
+      "leadTime": {
+        "question": "Com quanto tempo de antecedência devo solicitar?",
+        "answer": "Recomendamos no mínimo 14 dias para bolos simples e 30+ dias para bolos escultóricos ou de casamento."
+      },
+      "pricing": {
+        "question": "Qual o investimento médio?",
+        "answer": "Bolos personalizados começam em R$ 800. O valor varia conforme complexidade, tamanho e tema."
+      },
+      "delivery": {
+        "question": "Vocês entregam no local do evento?",
+        "answer": "Sim, entregamos em São Paulo e região metropolitana. Para outras cidades, consulte."
+      },
+      "tasting": {
+        "question": "Posso provar antes de encomendar?",
+        "answer": "Sim, oferecemos sessão de degustação com agendamento prévio em nossa loja."
+      },
+      "dietary": {
+        "question": "Trabalham com restrições alimentares?",
+        "answer": "Sim, temos opções sem glúten, sem lactose e veganas. Informe no formulário."
+      },
+      "payment": {
+        "question": "Como funciona o pagamento?",
+        "answer": "50% para iniciar produção e 50% até 7 dias antes do evento."
+      }
+    }
+  },
+  "finalCta": {
+    "heading": "Pronto para criar seu bolo?",
+    "subhead": "Conte com 115 anos de tradição italiana para o momento mais importante.",
+    "cta": "Solicitar orçamento agora",
+    "phone": "ou ligue: (11) 9 1567-9619"
+  }
+}

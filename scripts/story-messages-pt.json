@@ -1,0 +1,121 @@
+{
+  "story": {
+    "meta": {
+      "title": "A História | Carlo's Bakery São Paulo",
+      "description": "De Hoboken a São Paulo: quatro gerações da família Valastro, de Carlo Guastaffero a Buddy Valastro, o Cake Boss."
+    },
+    "chapter1": {
+      "eyebrow": "Capítulo Um",
+      "headline": "Tudo começou com um sonho italiano.",
+      "subhead": "Hoboken, Nova Jersey, 1910. Um padeiro chamado Carlo Guastaffero abre as portas de uma pequena padaria no número 95 da Washington Street. Cento e quinze anos depois, sua receita atravessa o oceano.",
+      "scroll": "Continue lendo"
+    },
+    "chapter2": {
+      "eyebrow": "1910 · O Fundador",
+      "heading": "Carlo.",
+      "imageAlt": "Retrato histórico de Carlo Guastaffero, fundador da padaria em Hoboken",
+      "caption": "Carlo Guastaffero, fundador. Hoboken, 1910.",
+      "paragraphs": [
+        "Carlo Guastaffero chegou aos Estados Unidos vindo de Altamura, no sul da Itália, carregando consigo as receitas da família e a determinação de quem cruza um oceano em busca de uma vida nova.",
+        "No coração de Hoboken, Nova Jersey, ele abriu uma pequena padaria que rapidamente se tornou ponto de encontro da comunidade italiana imigrante. Os cannoli, as massas folhadas, os biscoitos amaretti — tudo feito como na velha pátria."
+      ],
+      "quote": "Carlo dizia: \"A pasticceria é a alma de uma família.\""
+    },
+    "chapter3": {
+      "eyebrow": "Quatro gerações",
+      "heading": "Uma linhagem de mestres.",
+      "subhead": "De Carlo a Buddy, cada geração adicionou um capítulo a esta história.",
+      "events": {
+        "e1910": {
+          "year": "1910",
+          "title": "Carlo abre a padaria",
+          "description": "No número 95 da Washington Street, em Hoboken, nasce a Carlo's Bake Shop."
+        },
+        "e1964": {
+          "year": "1964",
+          "title": "Bartolo assume",
+          "description": "Bartolo Valastro Sr., padrasto do futuro Buddy, compra a padaria e a renomeia Carlo's Bakery."
+        },
+        "e1990": {
+          "year": "1990",
+          "title": "Buddy aprende com o pai",
+          "description": "Aos 11 anos, Buddy Valastro Jr. já trabalha ao lado do pai aprendendo cada receita."
+        },
+        "e1994": {
+          "year": "1994",
+          "title": "Buddy assume aos 17",
+          "description": "Após a morte do pai, Buddy assume a padaria com apenas 17 anos. Salva o negócio da falência."
+        },
+        "e2009": {
+          "year": "2009",
+          "title": "Nasce o Cake Boss",
+          "description": "TLC estreia o reality show que tornaria Buddy uma estrela global. Mais de 200 episódios em 12 temporadas."
+        },
+        "e2015": {
+          "year": "2015",
+          "title": "Buddy no Brasil",
+          "description": "Primeira loja da Carlo's Bakery fora dos Estados Unidos abre em São Paulo. A única no Brasil até hoje."
+        },
+        "eToday": {
+          "year": "Hoje",
+          "title": "Tradição viva",
+          "description": "Quatro gerações depois, a Carlo's continua sendo família. E continua sendo italiana."
+        }
+      }
+    },
+    "chapter4": {
+      "eyebrow": "O Cake Boss",
+      "heading": "Buddy.",
+      "subhead": "Bartolo \"Buddy\" Valastro Jr.",
+      "imageAlt": "Retrato editorial de Buddy Valastro, confeiteiro e estrela do Cake Boss",
+      "badge": "Star of Cake Boss · TLC",
+      "paragraphs": [
+        "Aos 17 anos, Buddy herdou uma padaria à beira da falência e a missão de honrar o legado do pai. Em uma década, transformou a Carlo's Bakery em referência mundial em confeitaria artesanal.",
+        "Em 2009, o TLC estreou \"Cake Boss\", o reality que mostrava o dia a dia da padaria. O programa virou fenômeno global, exibido em mais de 100 países. Buddy se tornou o confeiteiro mais conhecido do mundo.",
+        "Mas para ele, a história nunca foi sobre fama. Foi sempre sobre família."
+      ],
+      "quote": "\"Family means everything. Everything you do, you do for your family.\"",
+      "quoteTranslation": "\"Família é tudo. Tudo o que você faz, você faz pela sua família.\"",
+      "quoteSignature": "— Buddy Valastro"
+    },
+    "chapter5": {
+      "eyebrow": "O fenômeno",
+      "stats": {
+        "episodes": "episódios de Cake Boss",
+        "countries": "países onde o programa foi exibido",
+        "seasons": "temporadas no TLC",
+        "books": "livros publicados sobre confeitaria"
+      }
+    },
+    "chapter6": {
+      "eyebrow": "2015 · A Travessia",
+      "heading": "De Hoboken a São Paulo.",
+      "subhead": "Em 2015, depois de décadas de pedidos de fãs brasileiros, Buddy Valastro escolheu São Paulo para abrir a primeira (e única) Carlo's Bakery fora dos Estados Unidos. Não foi acaso. Foi destino.",
+      "hobokenCoords": "Hoboken, NJ · 40.7°N 74.0°W",
+      "saopauloCoords": "São Paulo, BR · 23.5°S 46.6°W"
+    },
+    "chapter7": {
+      "eyebrow": "Aqui e agora",
+      "heading": "A Carlo's brasileira.",
+      "paragraphs": [
+        "Há dez anos, mantemos viva em São Paulo a tradição da família Valastro. Cada cannoli, cada lobster tail, cada bolo escultórico carrega a mesma alma que Carlo Guastaffero colocou em sua padaria em 1910.",
+        "Mais do que uma franquia, somos guardiões de um legado. E o único endereço onde, fora dos Estados Unidos, você pode provar a verdadeira Carlo's."
+      ],
+      "cta": "Visite nossa loja",
+      "galleryAlt": {
+        "0": "Vitrine da Carlo's Bakery em São Paulo",
+        "1": "Equipe da unidade brasileira",
+        "2": "Bolos artesanais expostos na loja",
+        "3": "Fachada da Carlo's Bakery nos Jardins"
+      }
+    },
+    "chapter8": {
+      "headline": "Cento e quinze anos depois, ainda é família.",
+      "subhead": "Cada visita à Carlo's é um capítulo a mais nessa história. Faça parte dela.",
+      "ctaVisit": "Visitar nossa loja",
+      "ctaMenu": "Ver cardápio",
+      "ctaCakes": "Encomendar bolo",
+      "signature": "Com amor, família Valastro."
+    }
+  }
+}

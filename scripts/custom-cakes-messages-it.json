@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "title": "Torte personalizzate",
+    "description": "Torte scultoree su misura di Carlo's Bakery Brasil. Matrimoni, compleanni ed eventi, con la tradizione Valastro."
+  },
+  "hero": {
+    "eyebrow": "Torte personalizzate",
+    "headline": "Il tuo momento, scolpito nello zucchero.",
+    "subhead": "Dalla famiglia Valastro al vostro matrimonio, compleanno o evento aziendale. Ogni torta è un’opera unica, realizzata a mano dai nostri maestri pasticceri.",
+    "cta1": "Richiedi un preventivo",
+    "cta2": "Apri la galleria",
+    "scroll": "scroll"
+  },
+  "stats": {
+    "years": { "label": "di tradizione Valastro" },
+    "cakes": { "label": "torte realizzate in Brasile" },
+    "generations": { "label": "di maestri pasticceri" },
+    "handmade": { "label": "fatto a mano" }
+  },
+  "occasions": {
+    "eyebrow": "Per ogni occasione",
+    "heading": "Una torta all’altezza del tuo momento.",
+    "subhead": "Lavoriamo su cinque categorie principali, sempre personalizzate per voi.",
+    "items": {
+      "wedding": {
+        "title": "Matrimoni",
+        "description": "Torte a più livelli, design classico o contemporaneo."
+      },
+      "birthday": {
+        "title": "Compleanni",
+        "description": "Dai più piccoli agli adulti: ogni età merita la sua torta."
+      },
+      "corporate": {
+        "title": "Corporate",
+        "description": "Eventi aziendali, presentazioni e ricorrenze speciali."
+      },
+      "baptism": {
+        "title": "Battesimi e anniversari",
+        "description": "Tappe della famiglia celebrate con eleganza."
+      },
+      "special": {
+        "title": "Edizioni speciali",
+        "description": "Torte a tema, scultoree e con personaggi."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "La nostra galleria",
+    "heading": "Opere d’arte commestibili.",
+    "subhead": "Una selezione delle creazioni più memorabili firmate Carlo's Brasil.",
+    "items": {
+      "g1": { "title": "Torta monumentale", "occasion": "Matrimonio" },
+      "g2": { "title": "Red velvet sculturale", "occasion": "Compleanno" },
+      "g3": { "title": "Pasta di zucchero artistica", "occasion": "Corporate" },
+      "g4": { "title": "Classico Cake Boss", "occasion": "Edizione speciale" },
+      "g5": { "title": "Piani dorati", "occasion": "Matrimonio" },
+      "g6": { "title": "Personaggio tematico", "occasion": "Bambini" },
+      "g7": { "title": "Fiori di zucchero", "occasion": "Nozze / anniversario" },
+      "g8": { "title": "Minimal chic", "occasion": "Corporate" },
+      "g9": { "title": "Buttercream luxury", "occasion": "Compleanno" },
+      "g10": { "title": "Scultura Valastro", "occasion": "Edizione speciale" }
+    }
+  },
+  "process": {
+    "eyebrow": "Come funziona",
+    "heading": "Dal sogno alla torta, in quattro passi.",
+    "subhead": "Un processo attento perché ogni dettaglio sia perfetto.",
+    "steps": {
+      "01": {
+        "title": "Dialogo",
+        "description": "Raccontateci evento, tema e numero di invitati tramite modulo o WhatsApp."
+      },
+      "02": {
+        "title": "Briefing",
+        "description": "Il team vi contatta entro 24 ore per definire dettagli, palette e referenze."
+      },
+      "03": {
+        "title": "Creazione",
+        "description": "Ricevete uno schizzo personalizzato e concordiamo ogni dettaglio prima della produzione."
+      },
+      "04": {
+        "title": "Consegna",
+        "description": "Produciamo con 7–30 giorni di anticipo (in base alla complessità) e consegniamo in sede dell’evento."
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Cosa dicono",
+    "heading": "Storie diventate ricordi.",
+    "items": {
+      "marina": {
+        "quote": "La torta del matrimonio è stata il tema della festa. Buddy tiene uno standard che nessuna altra pasticceria del Brasile raggiunge.",
+        "name": "Marina e Rafael",
+        "occasion": "Matrimonio 2024"
+      },
+      "pedro": {
+        "quote": "Abbiamo ordinato una torta corporate per il lancio aziendale. Risultato impeccabile: tutti i clienti ne sono rimasti impressionati.",
+        "name": "Pedro Almeida",
+        "occasion": "CEO, LumenTech"
+      },
+      "silva": {
+        "quote": "La torta del primo anno di João era esattamente come la sognavamo. Un’assistenza premurosa dall’inizio alla fine.",
+        "name": "Famiglia Silva",
+        "occasion": "Compleanno bambini"
+      }
+    }
+  },
+  "form": {
+    "eyebrow": "Creiamo insieme",
+    "heading": "Richiedete il vostro preventivo.",
+    "subhead": "Compilate il modulo: il nostro team risponderà entro 24 ore lavorative.",
+    "guarantees": {
+      "response": "Risposta entro 24 ore",
+      "briefing": "Briefing personalizzato",
+      "sketch": "Schizzo prima della produzione",
+      "delivery": "Consegna nella sede dell’evento"
+    },
+    "whatsappTitle": "Preferite parlare direttamente?",
+    "whatsappCta": "Scrivi su WhatsApp",
+    "fields": {
+      "fullName": "Nome e cognome",
+      "email": "E-mail",
+      "phone": "WhatsApp",
+      "eventType": "Tipo di evento",
+      "eventDate": "Data dell’evento",
+      "guests": "Numero di invitati",
+      "message": "Raccontate la vostra torta",
+      "messagePlaceholder": "Tema, palette colori, referenze, restrizioni alimentari...",
+      "references": "Carica referenze",
+      "referencesHint": "Opzionale — fino a 5 immagini (JPG o PNG).",
+      "lgpd": "Accetto di essere contattato riguardo al mio preventivo."
+    },
+    "eventTypes": {
+      "wedding": "Matrimonio",
+      "birthday": "Compleanno",
+      "corporate": "Corporate",
+      "baptism": "Battesimo / anniversario",
+      "other": "Altro"
+    },
+    "guestRanges": {
+      "upTo30": "Fino a 30",
+      "30to80": "30–80",
+      "80to150": "80–150",
+      "150to300": "150–300",
+      "over300": "Più di 300"
+    },
+    "submit": "Invia richiesta",
+    "submitting": "Invio in corso...",
+    "success": {
+      "title": "Abbiamo ricevuto la richiesta",
+      "body": "Vi contatteremo a breve. Grazie per aver scelto Carlo's Bakery."
+    },
+    "errors": {
+      "fullName": "Inserisci nome e cognome.",
+      "email": "Inserisci un’e-mail valida.",
+      "phone": "Inserisci un numero WhatsApp valido.",
+      "eventType": "Seleziona il tipo di evento.",
+      "eventDate": "Indica la data dell’evento.",
+      "eventDateMin": "La data deve essere almeno 14 giorni da oggi.",
+      "guests": "Seleziona il numero di invitati.",
+      "message": "Massimo 500 caratteri.",
+      "lgpd": "Per inviare è necessario acconsentire."
+    }
+  },
+  "faq": {
+    "eyebrow": "Domande",
+    "heading": "Domande frequenti.",
+    "items": {
+      "leadTime": {
+        "question": "Con quanto anticipo devo richiedere?",
+        "answer": "Consigliamo almeno 14 giorni per torte più semplici e oltre 30 giorni per torte scultoree o nuziali."
+      },
+      "pricing": {
+        "question": "Qual è l’investimento medio?",
+        "answer": "Le torte personalizzate partono da R$800. Il prezzo dipende da complessità, dimensioni e tema."
+      },
+      "delivery": {
+        "question": "Consegnate nel luogo dell’evento?",
+        "answer": "Sì, a São Paulo e nell’area metropolitana. Per altre città chiedete in sede."
+      },
+      "tasting": {
+        "question": "Posso assaggiare prima di ordinare?",
+        "answer": "Sì, offriamo degustazioni su appuntamento nel nostro negozio."
+      },
+      "dietary": {
+        "question": "Gestite restrizioni alimentari?",
+        "answer": "Sì: opzioni senza glutine, senza lattosio e vegane. Indicale nel modulo."
+      },
+      "payment": {
+        "question": "Come funziona il pagamento?",
+        "answer": "50% per avviare la produzione e il restante 50% entro 7 giorni prima dell’evento."
+      }
+    }
+  },
+  "finalCta": {
+    "heading": "Pronti a creare la vostra torta?",
+    "subhead": "Affidatevi a 115 anni di tradizione italiana nel momento più importante.",
+    "cta": "Richiedi subito un preventivo",
+    "phone": "oppure chiama: (11) 9 1567-9619"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "title": "Custom Cakes",
+    "description": "Sculptural bespoke cakes from Carlo's Bakery Brasil. Weddings, birthdays, and events—with the Valastro tradition."
+  },
+  "hero": {
+    "eyebrow": "Custom Cakes",
+    "headline": "Your moment, sculpted in sugar.",
+    "subhead": "From the Valastro family to your wedding, birthday, or corporate event. Each cake is a unique work of art, handmade by our master pastry chefs.",
+    "cta1": "Request a quote",
+    "cta2": "View gallery",
+    "scroll": "scroll"
+  },
+  "stats": {
+    "years": { "label": "of Valastro tradition" },
+    "cakes": { "label": "cakes created in Brazil" },
+    "generations": { "label": "of master pastry chefs" },
+    "handmade": { "label": "handmade" }
+  },
+  "occasions": {
+    "eyebrow": "For every occasion",
+    "heading": "A cake worthy of your moment.",
+    "subhead": "We work across five main categories—always personalised for you.",
+    "items": {
+      "wedding": {
+        "title": "Weddings",
+        "description": "Tier cakes, classic or contemporary design."
+      },
+      "birthday": {
+        "title": "Birthdays",
+        "description": "From kids to grown-ups—every milestone deserves its cake."
+      },
+      "corporate": {
+        "title": "Corporate",
+        "description": "Company events, product launches, and special milestones."
+      },
+      "baptism": {
+        "title": "Christenings & anniversaries",
+        "description": "Family milestones celebrated with elegance."
+      },
+      "special": {
+        "title": "Special editions",
+        "description": "Themed cakes, sculptural cakes, and character designs."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Our gallery",
+    "heading": "Edible works of art.",
+    "subhead": "A selection of some of the most unforgettable creations signed by Carlo's Brasil.",
+    "items": {
+      "g1": { "title": "Monumental cake", "occasion": "Wedding" },
+      "g2": { "title": "Sculptural red velvet", "occasion": "Birthday" },
+      "g3": { "title": "Artistic fondant", "occasion": "Corporate" },
+      "g4": { "title": "Cake Boss classic", "occasion": "Special edition" },
+      "g5": { "title": "Golden tiers", "occasion": "Wedding" },
+      "g6": { "title": "Themed character", "occasion": "Children's" },
+      "g7": { "title": "Sugar flowers", "occasion": "Anniversary" },
+      "g8": { "title": "Minimal chic", "occasion": "Corporate" },
+      "g9": { "title": "Buttercream luxe", "occasion": "Birthday" },
+      "g10": { "title": "Valastro sculpture", "occasion": "Special edition" }
+    }
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "heading": "From dream to cake in four steps.",
+    "subhead": "A careful process to make sure every detail is perfect.",
+    "steps": {
+      "01": {
+        "title": "Conversation",
+        "description": "Tell us about your event, theme, and guest count via the form or WhatsApp."
+      },
+      "02": {
+        "title": "Briefing",
+        "description": "Our team replies within 24 hours to clarify details, palette, and references."
+      },
+      "03": {
+        "title": "Creation",
+        "description": "You'll receive a custom sketch—we approve every detail together before production."
+      },
+      "04": {
+        "title": "Delivery",
+        "description": "We bake 7 to 30 days ahead (depending on size) and deliver to your venue."
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "What people say",
+    "heading": "Stories that became memories.",
+    "items": {
+      "marina": {
+        "quote": "Our wedding cake was the talk of the party. Buddy sets a standard no other confectionery in Brazil can match.",
+        "name": "Marina & Rafael",
+        "occasion": "Wedding 2024"
+      },
+      "pedro": {
+        "quote": "We ordered a corporate cake for our company launch—flawless. Every client was impressed.",
+        "name": "Pedro Almeida",
+        "occasion": "CEO, LumenTech"
+      },
+      "silva": {
+        "quote": "João's first birthday cake was exactly what we dreamed. Thoughtful service from start to finish.",
+        "name": "Silva family",
+        "occasion": "Children's birthday"
+      }
+    }
+  },
+  "form": {
+    "eyebrow": "Let's create together",
+    "heading": "Request your quote.",
+    "subhead": "Fill in the form and our team will get back to you within 24 business hours.",
+    "guarantees": {
+      "response": "Reply within 24 hours",
+      "briefing": "Personalised briefing",
+      "sketch": "Sketch before production",
+      "delivery": "Delivery to your venue"
+    },
+    "whatsappTitle": "Prefer to chat directly?",
+    "whatsappCta": "Message on WhatsApp",
+    "fields": {
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "WhatsApp",
+      "eventType": "Event type",
+      "eventDate": "Event date",
+      "guests": "Number of guests",
+      "message": "Tell us about your cake",
+      "messagePlaceholder": "Theme, colour palette, references, dietary restrictions...",
+      "references": "Upload references",
+      "referencesHint": "Optional—up to 5 images (JPG or PNG).",
+      "lgpd": "I agree to be contacted about my quote."
+    },
+    "eventTypes": {
+      "wedding": "Wedding",
+      "birthday": "Birthday",
+      "corporate": "Corporate",
+      "baptism": "Christening / anniversary",
+      "other": "Other"
+    },
+    "guestRanges": {
+      "upTo30": "Up to 30",
+      "30to80": "30–80",
+      "80to150": "80–150",
+      "150to300": "150–300",
+      "over300": "More than 300"
+    },
+    "submit": "Send request",
+    "submitting": "Sending...",
+    "success": {
+      "title": "We've received your request",
+      "body": "We'll be in touch shortly. Thank you for trusting Carlo's Bakery."
+    },
+    "errors": {
+      "fullName": "Please enter your full name.",
+      "email": "Please enter a valid email.",
+      "phone": "Please enter a valid WhatsApp number.",
+      "eventType": "Please select an event type.",
+      "eventDate": "Please enter the event date.",
+      "eventDateMin": "The date must be at least 14 days from today.",
+      "guests": "Please select the number of guests.",
+      "message": "Maximum 500 characters.",
+      "lgpd": "Acceptance required to submit."
+    }
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "heading": "Frequently asked questions.",
+    "items": {
+      "leadTime": {
+        "question": "How far in advance should I enquire?",
+        "answer": "We recommend at least 14 days for simpler cakes and 30+ days for sculptural or wedding cakes."
+      },
+      "pricing": {
+        "question": "What's the typical investment?",
+        "answer": "Custom cakes start at R$800. Pricing depends on complexity, size, and theme."
+      },
+      "delivery": {
+        "question": "Do you deliver to the venue?",
+        "answer": "Yes—in São Paulo and the metropolitan region. Ask us about other cities."
+      },
+      "tasting": {
+        "question": "Can I taste before I order?",
+        "answer": "Yes—we offer tastings by appointment at our shop."
+      },
+      "dietary": {
+        "question": "Do you accommodate dietary restrictions?",
+        "answer": "Yes—we offer gluten-free, dairy-free, and vegan options. Please note them on the form."
+      },
+      "payment": {
+        "question": "How does payment work?",
+        "answer": "50% to start production and the remaining 50% up to 7 days before the event."
+      }
+    }
+  },
+  "finalCta": {
+    "heading": "Ready to design your cake?",
+    "subhead": "Count on 115 years of Italian tradition for life's biggest moments.",
+    "cta": "Request a quote now",
+    "phone": "or call: (11) 9 1567-9619"
+  }
+}

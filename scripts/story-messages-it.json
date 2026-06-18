@@ -1,0 +1,121 @@
+{
+  "story": {
+    "meta": {
+      "title": "La Storia | Carlo's Bakery São Paulo",
+      "description": "Da Hoboken a São Paulo: quattro generazioni della famiglia Valastro, da Carlo Guastaffero a Buddy Valastro, il Cake Boss."
+    },
+    "chapter1": {
+      "eyebrow": "Capitolo Uno",
+      "headline": "Tutto iniziò con un sogno italiano.",
+      "subhead": "Hoboken, New Jersey, 1910. Un fornaio di nome Carlo Guastaffero apre le porte di una piccola pasticceria al numero 95 di Washington Street. Centoquindici anni dopo, la sua ricetta attraversa l'oceano.",
+      "scroll": "Continua a leggere"
+    },
+    "chapter2": {
+      "eyebrow": "1910 · Il Fondatore",
+      "heading": "Carlo.",
+      "imageAlt": "Ritratto storico di Carlo Guastaffero, fondatore della pasticceria di Hoboken",
+      "caption": "Carlo Guastaffero, fondatore. Hoboken, 1910.",
+      "paragraphs": [
+        "Carlo Guastaffero arrivò negli Stati Uniti da Altamura, nel sud Italia, portando con sé le ricette di famiglia e la determinazione di chi attraversa un oceano in cerca di una vita nuova.",
+        "Nel cuore di Hoboken, nel New Jersey, aprì una piccola pasticceria che divenne presto punto d'incontro della comunità italiana immigrata. Cannoli, sfoglie, amaretti — tutto fatto come nella vecchia patria."
+      ],
+      "quote": "Carlo diceva: \"La pasticceria è l'anima di una famiglia.\""
+    },
+    "chapter3": {
+      "eyebrow": "Quattro generazioni",
+      "heading": "Una stirpe di maestri.",
+      "subhead": "Da Carlo a Buddy, ogni generazione ha aggiunto un capitolo a questa storia.",
+      "events": {
+        "e1910": {
+          "year": "1910",
+          "title": "Carlo apre la pasticceria",
+          "description": "Al numero 95 di Washington Street, a Hoboken, nasce la Carlo's Bake Shop."
+        },
+        "e1964": {
+          "year": "1964",
+          "title": "Bartolo subentra",
+          "description": "Bartolo Valastro Sr., patrigno del futuro Buddy, acquista la pasticceria e la rinomina Carlo's Bakery."
+        },
+        "e1990": {
+          "year": "1990",
+          "title": "Buddy impara dal padre",
+          "description": "A 11 anni, Buddy Valastro Jr. lavora già accanto al padre imparando ogni ricetta."
+        },
+        "e1994": {
+          "year": "1994",
+          "title": "Buddy subentra a 17 anni",
+          "description": "Dopo la morte del padre, Buddy assume la pasticceria a soli 17 anni. Salva l'attività dalla bancarotta."
+        },
+        "e2009": {
+          "year": "2009",
+          "title": "Nasce il Cake Boss",
+          "description": "TLC lancia il reality che avrebbe reso Buddy una star globale. Oltre 200 episodi in 12 stagioni."
+        },
+        "e2015": {
+          "year": "2015",
+          "title": "Buddy in Brasile",
+          "description": "La prima Carlo's Bakery fuori dagli Stati Uniti apre a São Paulo. Ancora oggi l'unica in Brasile."
+        },
+        "eToday": {
+          "year": "Oggi",
+          "title": "Tradizione viva",
+          "description": "Quattro generazioni dopo, la Carlo's è ancora famiglia. E ancora italiana."
+        }
+      }
+    },
+    "chapter4": {
+      "eyebrow": "Il Cake Boss",
+      "heading": "Buddy.",
+      "subhead": "Bartolo \"Buddy\" Valastro Jr.",
+      "imageAlt": "Ritratto editoriale di Buddy Valastro, pasticcere e star del Cake Boss",
+      "badge": "Star of Cake Boss · TLC",
+      "paragraphs": [
+        "A 17 anni, Buddy ereditò una pasticceria sull'orlo del fallimento e la missione di onorare l'eredità del padre. In un decennio, trasformò la Carlo's Bakery in un riferimento mondiale della pasticceria artigianale.",
+        "Nel 2009, TLC lanciò \"Cake Boss\", il reality che mostrava la quotidianità della pasticceria. Il programma divenne un fenomeno globale, trasmesso in oltre 100 paesi. Buddy divenne il pasticcere più famoso al mondo.",
+        "Ma per lui, la storia non è mai stata fama. È sempre stata famiglia."
+      ],
+      "quote": "\"Family means everything. Everything you do, you do for your family.\"",
+      "quoteTranslation": "\"La famiglia è tutto. Tutto ciò che fai, lo fai per la tua famiglia.\"",
+      "quoteSignature": "— Buddy Valastro"
+    },
+    "chapter5": {
+      "eyebrow": "Il fenomeno",
+      "stats": {
+        "episodes": "episodi di Cake Boss",
+        "countries": "paesi in cui è andato in onda",
+        "seasons": "stagioni su TLC",
+        "books": "libri di pasticceria pubblicati"
+      }
+    },
+    "chapter6": {
+      "eyebrow": "2015 · La Traversata",
+      "heading": "Da Hoboken a São Paulo.",
+      "subhead": "Nel 2015, dopo decenni di richieste dai fan brasiliani, Buddy Valastro scelse São Paulo per aprire la prima (e unica) Carlo's Bakery fuori dagli Stati Uniti. Non fu un caso. Fu destino.",
+      "hobokenCoords": "Hoboken, NJ · 40.7°N 74.0°W",
+      "saopauloCoords": "São Paulo, BR · 23.5°S 46.6°W"
+    },
+    "chapter7": {
+      "eyebrow": "Qui e ora",
+      "heading": "La Carlo's brasiliana.",
+      "paragraphs": [
+        "Da dieci anni manteniamo viva a São Paulo la tradizione della famiglia Valastro. Ogni cannolo, ogni lobster tail, ogni torta scultorea porta la stessa anima che Carlo Guastaffero mise nella sua pasticceria nel 1910.",
+        "Più che un franchise, siamo custodi di un'eredità. E l'unico indirizzo dove, fuori dagli Stati Uniti, puoi assaggiare la vera Carlo's."
+      ],
+      "cta": "Visita il nostro negozio",
+      "galleryAlt": {
+        "0": "Vetrina della Carlo's Bakery a São Paulo",
+        "1": "Team dell'unità brasiliana",
+        "2": "Torte artigianali in esposizione",
+        "3": "Facciata della Carlo's Bakery a Jardins"
+      }
+    },
+    "chapter8": {
+      "headline": "Centoquindici anni dopo, è ancora famiglia.",
+      "subhead": "Ogni visita alla Carlo's è un capitolo in più di questa storia. Fanne parte.",
+      "ctaVisit": "Visita il nostro negozio",
+      "ctaMenu": "Vedi il menu",
+      "ctaCakes": "Ordina una torta",
+      "signature": "Con amore, famiglia Valastro."
+    }
+  }
+}
