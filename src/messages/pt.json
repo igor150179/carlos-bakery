@@ -2,16 +2,29 @@
   "home": {
     "hero": {
       "eyebrow": "Hoboken · Since 1910",
-      "headline": "A arte italiana do bolo, agora em São Paulo.",
+      "headline": "A confeitaria mais famosa do mundo.",
       "subheadline": "Buddy Valastro traz ao Brasil a tradição de quatro gerações da família Valastro.",
       "ctaMenu": "Ver o cardápio",
       "ctaStory": "Nossa história",
       "scroll": "scroll",
       "buddyAlt": "Buddy Valastro, confeiteiro da Carlo's Bakery, com avental branco"
     },
-    "statement": "Cada bolo carrega a alma de\nHoboken e o calor de São Paulo.",
+    "statement": "A casa do Cake Boss no Brasil.",
     "products": {
       "learnMore": "Saiba mais",
+      "menuBanner": {
+        "eyebrow": "Cardápio",
+        "tagline": "Ícones da vitrine Carlo's",
+        "cta": "Ver cardápio",
+        "imageAlt": "Cookie Pistache e Lobster Tail — ícones do cardápio Carlo's"
+      },
+      "customCakesBanner": {
+        "eyebrow": "Bolos Personalizados",
+        "heading": "Bolos Artísticos",
+        "description": "Esculturas comestíveis que viraram cultura pop — cada criação é desenhada e executada à mão por mestres confeiteiros Carlo's.",
+        "tagline": "Do sonho ao bolo, em escala mundial.",
+        "cta": "Solicitar orçamento"
+      },
       "cookiePistache": {
         "name": "Cookie Pistache",
         "description": "Massa com gotas de chocolate, creme de pistache siciliano e pistaches torrados."
@@ -25,17 +38,23 @@
         "description": "Recheio de ricota fresca, casca dourada, joia da Sicília."
       },
       "fondantCake": {
-        "name": "Fondant Cake",
+        "name": "Bolos Artísticos",
         "description": "Esculturas comestíveis que viraram cultura pop."
       }
     },
     "family": {
-      "eyebrow": "A Família",
-      "heading": "Quatro gerações. Uma só receita: amor.",
-      "body": "Desde 1910, a família Valastro transforma farinha, açúcar e manteiga em memórias compartilhadas. Em Hoboken, Buddy Valastro cresceu entre fornos e receitas de família — e levou essa herança italiana para o mundo. No Brasil, a família Kherlakian, escolhida por Buddy, cuida de cada loja com o mesmo compromisso.",
+      "eyebrow": "Buddy Valastro",
+      "heading": "O Cake Boss que conquistou o mundo, agora no Brasil.",
+      "lead": "Desde 1910 em Hoboken, quatro gerações da família Valastro transformam confeitaria em arte, tradição e memória.",
+      "body": "Aqui, a família Kherlakian — escolhida pessoalmente por Buddy — cuida de cada loja com o mesmo rigor italiano-americano que tornou a Carlo's a confeitaria mais famosa do planeta.",
+      "highlights": [
+        "Since 1910 · Hoboken, Nova Jersey",
+        "Única Carlo's Bakery fora dos Estados Unidos",
+        "8 lojas em São Paulo e região"
+      ],
       "cta": "Conheça a história",
       "ctaKherlakian": "Família Kherlakian",
-      "imageAlt": "Buddy Valastro, confeiteiro da Carlo's Bakery, com avental branco"
+      "imageAlt": "Buddy Valastro, Cake Boss da Carlo's Bakery, com avental branco"
     },
     "club": {
       "eyebrow": "Membership Exclusivo",
@@ -45,9 +64,9 @@
     },
     "visit": {
       "eyebrow": "Visite-nos",
-      "heading": "Jardins, São Paulo.",
-      "addressLine1": "Rua Oscar Freire, 0000",
-      "addressLine2": "Jardins — São Paulo",
+      "heading": "Vila Leopoldina, São Paulo.",
+      "addressLine1": "R. Aroaba, 309",
+      "addressLine2": "Vila Leopoldina — São Paulo",
       "hours": "Seg–Dom · 10h–22h",
       "directions": "Como chegar",
       "whatsapp": "WhatsApp"

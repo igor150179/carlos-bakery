@@ -4,13 +4,15 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { FadeIn } from "@/components/animations/FadeIn";
-import { SITE_CONFIG } from "@/lib/constants";
+import { WORKSHOP_STORE } from "@/data/stores";
 
-const MAP_QUERY = encodeURIComponent("Rua Oscar Freire, Jardins, São Paulo");
+const MAP_QUERY = encodeURIComponent(
+  `${WORKSHOP_STORE.address}, ${WORKSHOP_STORE.neighborhood}, ${WORKSHOP_STORE.city}`,
+);
 
 export function VisitSection() {
   const t = useTranslations("home.visit");
-  const whatsappUrl = `https://wa.me/${SITE_CONFIG.whatsapp.replace(/\D/g, "")}`;
+  const whatsappUrl = `https://wa.me/${WORKSHOP_STORE.whatsapp}`;
   const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${MAP_QUERY}`;
 
   return (

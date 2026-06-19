@@ -27,9 +27,10 @@ export function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src={HOME_IMAGES.hero}
-          alt=""
+          alt={t("buddyAlt")}
           fill
           priority
+          quality={90}
           className="object-cover object-center"
           sizes="100vw"
         />

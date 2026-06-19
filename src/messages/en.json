@@ -2,16 +2,29 @@
   "home": {
     "hero": {
       "eyebrow": "Hoboken · Since 1910",
-      "headline": "The Italian art of cake, now in São Paulo.",
+      "headline": "The world's most famous bakery.",
       "subheadline": "Buddy Valastro brings four generations of Valastro family tradition to Brazil.",
       "ctaMenu": "View the menu",
       "ctaStory": "Our story",
       "scroll": "scroll",
       "buddyAlt": "Buddy Valastro, Carlo's Bakery pastry chef, in a white chef coat"
     },
-    "statement": "Every cake carries the soul of\nHoboken and the warmth of São Paulo.",
+    "statement": "The Cake Boss home in Brazil.",
     "products": {
       "learnMore": "Learn more",
+      "menuBanner": {
+        "eyebrow": "Menu",
+        "tagline": "Icons from the Carlo's display",
+        "cta": "View the menu",
+        "imageAlt": "Pistachio Cookie and Lobster Tail — Carlo's menu icons"
+      },
+      "customCakesBanner": {
+        "eyebrow": "Custom Cakes",
+        "heading": "Artistic Cakes",
+        "description": "Edible sculptures that became pop culture — each creation is designed and crafted by hand by Carlo's master pastry chefs.",
+        "tagline": "From dream to cake, at world-class scale.",
+        "cta": "Request a quote"
+      },
       "cookiePistache": {
         "name": "Pistachio Cookie",
         "description": "Chocolate chip dough, Sicilian pistachio cream and toasted pistachios."
@@ -25,17 +38,23 @@
         "description": "Fresh ricotta filling, golden shell, Sicily's jewel."
       },
       "fondantCake": {
-        "name": "Fondant Cake",
+        "name": "Artistic Cakes",
         "description": "Edible sculptures that became pop culture."
       }
     },
     "family": {
-      "eyebrow": "The Family",
-      "heading": "Four generations. One recipe: love.",
-      "body": "Since 1910, the Valastro family has turned flour, sugar, and butter into shared memories. In Hoboken, Buddy Valastro grew up among ovens and family recipes — and carried that Italian heritage to the world. In Brazil, the Kherlakian family, chosen by Buddy, runs every store with the same commitment.",
+      "eyebrow": "Buddy Valastro",
+      "heading": "The Cake Boss who conquered the world — now in Brazil.",
+      "lead": "Since 1910 in Hoboken, four generations of the Valastro family have turned pastry into art, tradition, and memory.",
+      "body": "Here, the Kherlakian family — personally chosen by Buddy — runs every store with the same Italian-American standard that made Carlo's the world's most famous bakery.",
+      "highlights": [
+        "Since 1910 · Hoboken, New Jersey",
+        "The only Carlo's Bakery outside the United States",
+        "8 locations in São Paulo and region"
+      ],
       "cta": "Discover our story",
       "ctaKherlakian": "The Kherlakian Family",
-      "imageAlt": "Buddy Valastro, Carlo's Bakery pastry chef, in a white chef coat"
+      "imageAlt": "Buddy Valastro, Cake Boss of Carlo's Bakery, in a white chef coat"
     },
     "club": {
       "eyebrow": "Exclusive Membership",
@@ -45,9 +64,9 @@
     },
     "visit": {
       "eyebrow": "Visit us",
-      "heading": "Jardins, São Paulo.",
-      "addressLine1": "Rua Oscar Freire, 0000",
-      "addressLine2": "Jardins — São Paulo",
+      "heading": "Vila Leopoldina, São Paulo.",
+      "addressLine1": "R. Aroaba, 309",
+      "addressLine2": "Vila Leopoldina — São Paulo",
       "hours": "Mon–Sun · 10am–10pm",
       "directions": "Get directions",
       "whatsapp": "WhatsApp"

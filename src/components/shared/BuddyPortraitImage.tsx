@@ -8,19 +8,28 @@ type BuddyPortraitImageProps = {
   className?: string;
   sizes?: string;
   priority?: boolean;
+  variant?: "default" | "compact";
 };
+
+const VARIANT_CLASS = {
+  default:
+    "aspect-[3/4] min-h-[24rem] sm:min-h-[28rem] lg:min-h-[34rem]",
+  compact:
+    "aspect-[4/5] w-full max-w-[300px] min-h-0 sm:max-w-[340px] md:max-w-[360px]",
+} as const;
 
 export function BuddyPortraitImage({
   alt,
   className,
   sizes = "(max-width: 1024px) 100vw, 50vw",
   priority,
+  variant = "default",
 }: BuddyPortraitImageProps) {
   return (
     <div
       className={cn(
-        "relative w-full overflow-hidden rounded-sm",
-        "aspect-[3/4] min-h-[24rem] sm:min-h-[28rem] lg:min-h-[34rem]",
+        "relative overflow-hidden rounded-sm shadow-[0_24px_48px_-12px_rgba(44,24,16,0.18)]",
+        VARIANT_CLASS[variant],
         className,
       )}
     >
@@ -29,7 +38,8 @@ export function BuddyPortraitImage({
         alt={alt}
         fill
         priority={priority}
-        className="object-contain object-bottom"
+        quality={90}
+        className="object-cover object-[center_15%]"
         sizes={sizes}
       />
     </div>
