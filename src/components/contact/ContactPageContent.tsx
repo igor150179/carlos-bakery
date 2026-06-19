@@ -39,9 +39,9 @@ export function ContactPageContent() {
 
   return (
     <article>
-      <section className="relative flex min-h-[50vh] items-center justify-center overflow-hidden bg-cream-50 px-[var(--container-padding-x)] text-center">
+      <section className="relative overflow-hidden bg-cream-50 px-[var(--container-padding-x)] pb-6 pt-14 text-center md:pb-8 md:pt-16">
         <MonogramBackground size="lg" />
-        <FadeIn className="relative z-10 mx-auto max-w-3xl py-20">
+        <FadeIn className="relative z-10 mx-auto max-w-3xl">
           <p className="mb-4 font-sans text-xs font-semibold uppercase tracking-[0.35em] text-champagne-500">
             {t("hero.eyebrow")}
           </p>
@@ -54,7 +54,7 @@ export function ContactPageContent() {
         </FadeIn>
       </section>
 
-      <section className="bg-cream-50 px-[var(--container-padding-x)] py-14 md:py-16">
+      <section className="bg-cream-50 px-[var(--container-padding-x)] pb-14 pt-2 md:pb-16 md:pt-4">
         <SectionHeader
           eyebrow={t("departments.eyebrow")}
           heading={t("departments.heading")}
