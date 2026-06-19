@@ -42,7 +42,9 @@ export function ProductCard({ id, price, priceFrom, image, badge }: ProductCardP
     <article className="group flex flex-col">
       <div
         className={cn(
-          "relative aspect-[4/5] overflow-hidden rounded-sm",
+          "relative aspect-[4/5] overflow-hidden rounded-sm ring-0",
+          "transition-[box-shadow,ring-width,ring-color] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]",
+          "group-hover:ring-1 group-hover:ring-champagne-400/40 group-hover:shadow-[0_20px_44px_-24px_rgba(44,24,16,0.14)]",
           isStudioPhoto ? "bg-cream-50" : "bg-espresso-100",
         )}
       >
@@ -51,7 +53,7 @@ export function ProductCard({ id, price, priceFrom, image, badge }: ProductCardP
           alt={name}
           fill
           className={cn(
-            "transition-transform duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.03]",
+            "transition-transform duration-[1.2s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]",
             isStudioPhoto
               ? "object-contain p-3"
               : "object-cover",
@@ -59,7 +61,11 @@ export function ProductCard({ id, price, priceFrom, image, badge }: ProductCardP
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
         <div
-          className="absolute inset-0 bg-gradient-to-t from-espresso-900/50 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+          className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(255,255,255,0.12) 0%, transparent 28%, transparent 72%, rgba(212,168,87,0.06) 100%)",
+          }}
           aria-hidden
         />
         {badge ? (

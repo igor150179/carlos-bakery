@@ -11,9 +11,9 @@ export const SITE_CONFIG = {
   ifood: "https://ifoodbr.onelink.me/F4X4/carlosbakerysp",
   menuUrl: "/cardapio",
   social: {
-    instagram: "https://instagram.com/carlosbakery_brasil",
-    facebook: "https://facebook.com/carlosbakerybrasil",
-    tiktok: "https://www.tiktok.com/@carlosbakerybrasil",
+    instagram: "https://www.instagram.com/carlosbakerysp/",
+    facebook: "https://www.facebook.com/carlosbakerysp",
+    tiktok: "https://www.tiktok.com/@carlosbakerysp",
     youtube: "https://www.youtube.com/@carlosbakerybrasil",
   },
   developer: {

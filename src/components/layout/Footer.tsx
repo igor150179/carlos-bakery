@@ -7,23 +7,20 @@ import { Link } from "@/i18n/routing";
 import { SITE_CONFIG } from "@/lib/constants";
 import { NAV_ITEMS, type NavKey } from "@/lib/navigation";
 
-// TODO: substituir por URL oficial do TikTok
-const TIKTOK_URL = "https://www.tiktok.com/@carlosbakerybrasil";
-
 export async function Footer() {
   const t = await getTranslations("footer");
   const tNav = await getTranslations("nav");
   const year = new Date().getFullYear();
 
-  const exploreItems = NAV_ITEMS.filter((item) => item.key !== "contact");
+  const exploreItems = NAV_ITEMS;
 
   return (
     <footer className="relative overflow-hidden bg-espresso-950 text-cream-50">
       <div className="relative z-10 mx-auto max-w-[var(--max-content-width)] px-[var(--container-padding-x)] py-14 md:py-16">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-8">
-          <div className="space-y-6">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-12 lg:items-start lg:gap-8">
+          <div className="space-y-6 md:col-span-2 lg:col-span-5">
             <Logo variant="light" size="lg" showTagline href="/" />
-            <p className="max-w-xs text-sm leading-relaxed text-cream-200/80">
+            <p className="max-w-sm text-sm leading-relaxed text-cream-200/80">
               {t("tagline")}
             </p>
             <div className="flex gap-4">
@@ -46,7 +43,7 @@ export async function Footer() {
                 <FacebookIcon />
               </a>
               <a
-                href={TIKTOK_URL}
+                href={SITE_CONFIG.social.tiktok}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
@@ -57,7 +54,7 @@ export async function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="lg:col-span-3">
             <h3 className="font-display text-sm font-medium uppercase tracking-[0.2em] text-champagne-on-dark">
               {t("explore")}
             </h3>
@@ -75,7 +72,7 @@ export async function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="lg:col-span-4">
             <h3 className="font-display text-sm font-medium uppercase tracking-[0.2em] text-champagne-on-dark">
               {t("visit")}
             </h3>
@@ -100,34 +97,6 @@ export async function Footer() {
             >
               {t("viewAllStores")} →
             </Link>
-          </div>
-
-          <div>
-            <h3 className="font-display text-sm font-medium uppercase tracking-[0.2em] text-champagne-on-dark">
-              {t("newsletter")}
-            </h3>
-            <p className="mt-6 text-sm leading-relaxed text-cream-200/80">
-              {t("newsletterDesc")}
-            </p>
-            <div
-              className="mt-6 flex gap-3 border-b border-champagne-on-dark-muted/40 pb-2"
-              role="form"
-              aria-label={t("newsletter")}
-            >
-              <input
-                type="email"
-                name="email"
-                placeholder={t("newsletterPlaceholder")}
-                className="min-w-0 flex-1 bg-transparent text-sm text-cream-50 placeholder:text-cream-200/50 focus:outline-none"
-                autoComplete="email"
-              />
-              <button
-                type="button"
-                className="shrink-0 text-xs font-semibold uppercase tracking-widest text-champagne-on-dark transition-opacity hover:opacity-80"
-              >
-                {t("newsletterCta")}
-              </button>
-            </div>
           </div>
         </div>
 
