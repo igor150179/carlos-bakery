@@ -33,7 +33,7 @@ export function TierCard({
       className={cn(
         "relative rounded-sm p-7 transition-transform duration-500 hover:scale-[1.02]",
         isGold
-          ? "bg-espresso-900 text-cream-50 shadow-[0_24px_60px_rgba(15,11,8,0.18)]"
+          ? "bg-carlo-red-900 text-cream-50 shadow-[0_24px_60px_rgba(56,21,25,0.18)]"
           : "bg-cream-50 text-espresso-900",
         isSilver
           ? "border-2 border-carlo-gold shadow-[0_24px_60px_rgba(184,147,90,0.16)]"

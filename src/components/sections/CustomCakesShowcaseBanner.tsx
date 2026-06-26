@@ -23,7 +23,7 @@ export function CustomCakesShowcaseBanner() {
       <Link
         href="/bolos-personalizados"
         id="bolos-personalizados"
-        className="group relative block scroll-mt-28 overflow-hidden rounded-sm bg-espresso-950 shadow-[0_32px_80px_-40px_rgba(15,11,8,0.65)] ring-1 ring-champagne-on-dark-muted/20 transition-[box-shadow,ring-color] duration-700 hover:shadow-[0_40px_90px_-36px_rgba(15,11,8,0.72)] hover:ring-champagne-on-dark-soft/35 md:scroll-mt-32"
+        className="group relative block scroll-mt-28 overflow-hidden rounded-sm bg-carlo-red-950 shadow-[0_32px_80px_-40px_rgba(56,21,25,0.65)] ring-1 ring-champagne-on-dark-muted/20 transition-[box-shadow,ring-color] duration-700 hover:shadow-[0_40px_90px_-36px_rgba(56,21,25,0.72)] hover:ring-champagne-on-dark-soft/35 md:scroll-mt-32"
       >
         <div className="grid lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
           <div className="flex flex-col justify-center border-b border-champagne-on-dark-muted/10 px-6 py-8 md:px-10 md:py-10 lg:border-b-0 lg:border-r lg:py-14 lg:pl-12 lg:pr-10">
@@ -84,7 +84,7 @@ export function CustomCakesShowcaseBanner() {
                       className={cn(
                         "object-contain object-bottom",
                         cake.emphasis &&
-                          "drop-shadow-[0_20px_40px_rgba(15,11,8,0.22)]",
+                          "drop-shadow-[0_20px_40px_rgba(56,21,25,0.22)]",
                       )}
                       sizes="(max-width: 1024px) 33vw, 24vw"
                     />
@@ -97,7 +97,7 @@ export function CustomCakesShowcaseBanner() {
             </div>
 
             <div
-              className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-espresso-950/0 to-transparent lg:w-0"
+              className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-carlo-red-950/0 to-transparent lg:w-0"
               aria-hidden
             />
           </div>

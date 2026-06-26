@@ -13,6 +13,7 @@ import { FadeIn } from "@/components/animations/FadeIn";
 import { FAQ } from "@/components/custom-cakes/FAQ";
 import { MonogramBackground } from "@/components/shared/MonogramBackground";
 import { SITE_CONFIG } from "@/lib/constants";
+import { CONTACT_DEPARTMENTS_ENABLED } from "@/lib/feature-flags";
 
 import { ContactForm } from "./ContactForm";
 import { DepartmentCard } from "./DepartmentCard";
@@ -54,35 +55,37 @@ export function ContactPageContent() {
         </FadeIn>
       </section>
 
-      <section className="bg-cream-50 px-[var(--container-padding-x)] pb-14 pt-2 md:pb-16 md:pt-4">
-        <SectionHeader
-          eyebrow={t("departments.eyebrow")}
-          heading={t("departments.heading")}
-          subhead={t("departments.subhead")}
-        />
-        <div className="mx-auto mt-10 grid max-w-[var(--max-content-width)] gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {DEPARTMENT_IDS.map((id, index) => {
-            const Icon = DEPARTMENT_ICONS[index];
-            const email = EMAILS[id];
-            return (
-              <FadeIn key={id} delay={index * 0.08}>
-                <DepartmentCard
-                  icon={<Icon className="size-6" strokeWidth={1.75} aria-hidden />}
-                  title={t(`departments.items.${id}.title`)}
-                  description={t(`departments.items.${id}.description`)}
-                  email={email}
-                  cta={t(`departments.items.${id}.cta`)}
-                  href={`mailto:${email}?subject=${encodeURIComponent(
-                    t(`departments.items.${id}.subject`),
-                  )}`}
-                />
-              </FadeIn>
-            );
-          })}
-        </div>
-      </section>
+      {CONTACT_DEPARTMENTS_ENABLED ? (
+        <section className="bg-cream-50 px-[var(--container-padding-x)] pb-14 pt-2 md:pb-16 md:pt-4">
+          <SectionHeader
+            eyebrow={t("departments.eyebrow")}
+            heading={t("departments.heading")}
+            subhead={t("departments.subhead")}
+          />
+          <div className="mx-auto mt-10 grid max-w-[var(--max-content-width)] gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {DEPARTMENT_IDS.map((id, index) => {
+              const Icon = DEPARTMENT_ICONS[index];
+              const email = EMAILS[id];
+              return (
+                <FadeIn key={id} delay={index * 0.08}>
+                  <DepartmentCard
+                    icon={<Icon className="size-6" strokeWidth={1.75} aria-hidden />}
+                    title={t(`departments.items.${id}.title`)}
+                    description={t(`departments.items.${id}.description`)}
+                    email={email}
+                    cta={t(`departments.items.${id}.cta`)}
+                    href={`mailto:${email}?subject=${encodeURIComponent(
+                      t(`departments.items.${id}.subject`),
+                    )}`}
+                  />
+                </FadeIn>
+              );
+            })}
+          </div>
+        </section>
+      ) : null}
 
-      <section className="bg-espresso-900 px-[var(--container-padding-x)] py-14 md:py-16">
+      <section className="bg-carlo-red-900 px-[var(--container-padding-x)] py-14 md:py-16">
         <div className="mx-auto grid max-w-[var(--max-content-width)] gap-10 lg:grid-cols-[3fr_2fr] lg:gap-12">
           <FadeIn>
             <ContactForm />

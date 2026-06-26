@@ -11,7 +11,7 @@ export function ProcessSection() {
   const t = useTranslations("customCakes.process");
 
   return (
-    <section className="bg-espresso-900 px-[var(--container-padding-x)] py-12 md:py-16">
+    <section className="bg-carlo-red-900 px-[var(--container-padding-x)] py-12 md:py-16">
       <div className="mx-auto max-w-[var(--max-content-width)]">
         <FadeIn className="mx-auto max-w-2xl text-center">
           <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.35em] text-carlo-gold">

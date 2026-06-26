@@ -1,5 +1,7 @@
 "use client";
 
+import { CUSTOM_CAKES_TESTIMONIALS_ENABLED } from "@/lib/feature-flags";
+
 import { CustomCakesHero } from "./CustomCakesHero";
 import { FAQSection } from "./FAQSection";
 import { FinalCtaSection } from "./FinalCtaSection";
@@ -18,7 +20,7 @@ export function CustomCakesPageContent() {
       <OccasionsSection />
       <GallerySection />
       <ProcessSection />
-      <TestimonialsSection />
+      {CUSTOM_CAKES_TESTIMONIALS_ENABLED ? <TestimonialsSection /> : null}
       <QuoteSection />
       <FAQSection />
       <FinalCtaSection />

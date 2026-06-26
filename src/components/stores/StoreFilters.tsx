@@ -79,7 +79,7 @@ export function StoreFilters({
               className={cn(
                 "rounded-full px-4 py-1.5 font-sans text-xs font-semibold uppercase tracking-[0.12em] transition-colors",
                 view === item
-                  ? "bg-espresso-900 text-cream-50"
+                  ? "bg-carlo-red-900 text-cream-50"
                   : "text-espresso-600 hover:text-espresso-900",
               )}
             >

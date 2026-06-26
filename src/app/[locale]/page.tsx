@@ -7,7 +7,7 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { SignatureProductsSection } from "@/components/sections/SignatureProductsSection";
 import { SignatureStatementSection } from "@/components/sections/SignatureStatementSection";
 import { BakeryJsonLd } from "@/components/seo/StructuredData";
-import { BUDDYS_CLUB_ENABLED } from "@/lib/feature-flags";
+import { BUDDYS_CLUB_ENABLED, STORY_ENABLED } from "@/lib/feature-flags";
 import { buildPageMetadata } from "@/lib/seo";
 
 type Props = {
@@ -31,7 +31,7 @@ export default async function HomePage({ params }: Props) {
       <SignatureStatementSection />
       <SignatureProductsSection />
       {BUDDYS_CLUB_ENABLED ? <BuddysClubSection /> : null}
-      <FamilySection />
+      {STORY_ENABLED ? <FamilySection /> : null}
     </>
   );
 }

@@ -216,7 +216,7 @@ export function QuoteForm() {
           type="file"
           accept="image/*"
           multiple
-          className="w-full font-sans text-sm text-espresso-700 file:mr-4 file:rounded-full file:border-0 file:bg-espresso-900/5 file:px-4 file:py-2 file:text-xs file:font-semibold file:uppercase file:tracking-wider file:text-espresso-900"
+          className="w-full font-sans text-sm text-espresso-700 file:mr-4 file:rounded-full file:border-0 file:bg-carlo-red-900/5 file:px-4 file:py-2 file:text-xs file:font-semibold file:uppercase file:tracking-wider file:text-espresso-900"
         />
         <p className="mt-2 font-sans text-xs text-espresso-600">{t("fields.referencesHint")}</p>
       </Field>

@@ -10,7 +10,7 @@ export function MenuCtaBanner() {
   const t = useTranslations("menu.ctaBanner");
 
   return (
-    <section className="bg-espresso-900 px-[var(--container-padding-x)] py-12 md:py-16">
+    <section className="bg-carlo-red-900 px-[var(--container-padding-x)] py-12 md:py-16">
       <FadeIn className="mx-auto max-w-2xl text-center">
         <p className="font-display text-[clamp(1.75rem,3.5vw,2.75rem)] italic leading-snug text-cream-50">
           {t("quote")}

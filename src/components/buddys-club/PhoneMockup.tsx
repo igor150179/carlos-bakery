@@ -65,9 +65,9 @@ function StatusBar() {
     <div className="flex items-center justify-between px-2 font-sans text-[0.65rem] font-semibold text-espresso-900">
       <span>9:41</span>
       <span className="flex items-center gap-1">
-        <span className="h-2 w-3 rounded-sm bg-espresso-900/80" />
+        <span className="h-2 w-3 rounded-sm bg-carlo-red-900/80" />
         <span className="h-2 w-5 rounded-sm border border-espresso-900/70">
-          <span className="block h-full w-4 rounded-sm bg-espresso-900/80" />
+          <span className="block h-full w-4 rounded-sm bg-carlo-red-900/80" />
         </span>
       </span>
     </div>
@@ -83,7 +83,7 @@ function AppHeader() {
           Buddy&apos;s Club
         </p>
       </div>
-      <div className="flex size-9 items-center justify-center rounded-full bg-espresso-900 text-cream-50">
+      <div className="flex size-9 items-center justify-center rounded-full bg-carlo-red-900 text-cream-50">
         <User className="size-4" aria-hidden />
       </div>
     </div>
@@ -172,7 +172,7 @@ function CardScreen() {
   return (
     <div>
       <p className="font-display text-3xl leading-tight text-espresso-900">Carteira</p>
-      <div className="mt-4 rounded-3xl bg-espresso-900 p-5 text-cream-50">
+      <div className="mt-4 rounded-3xl bg-carlo-red-900 p-5 text-cream-50">
         <p className="font-sans text-xs uppercase tracking-[0.18em] text-carlo-gold">Gold</p>
         <p className="mt-8 font-display text-4xl">2.847</p>
         <p className="font-sans text-xs text-cream-50/60">Buddy&apos;s points</p>

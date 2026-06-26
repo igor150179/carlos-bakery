@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import { Link } from "@/i18n/routing";
+import { STORY_ENABLED } from "@/lib/feature-flags";
 import { HOME_IMAGES } from "@/lib/home-images";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
@@ -43,7 +44,7 @@ export function HeroSection() {
           autoPlay
           aria-hidden
         />
-        <div className="absolute inset-0 bg-espresso-900/40" aria-hidden />
+        <div className="absolute inset-0 bg-gradient-to-b from-espresso-900/45 via-espresso-900/20 to-espresso-900/55" aria-hidden />
       </div>
 
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-[var(--container-padding-x)] pb-28 pt-32 text-center">
@@ -91,12 +92,14 @@ export function HeroSection() {
             {t("ctaMenu")}
             <ArrowRight className="size-4" aria-hidden />
           </Link>
-          <Link
-            href="/a-historia"
-            className="inline-flex items-center gap-2 rounded-full border border-cream-50/50 px-8 py-3.5 text-sm font-semibold text-cream-50 transition-colors hover:border-cream-50 hover:bg-cream-50/10"
-          >
-            {t("ctaStory")}
-          </Link>
+          {STORY_ENABLED ? (
+            <Link
+              href="/a-historia"
+              className="inline-flex items-center gap-2 rounded-full border border-cream-50/50 px-8 py-3.5 text-sm font-semibold text-cream-50 transition-colors hover:border-cream-50 hover:bg-cream-50/10"
+            >
+              {t("ctaStory")}
+            </Link>
+          ) : null}
         </motion.div>
       </div>
 

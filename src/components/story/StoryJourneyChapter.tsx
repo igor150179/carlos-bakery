@@ -43,7 +43,7 @@ export function StoryJourneyChapter() {
           />
         </div>
       </div>
-      <div className="absolute inset-0 bg-espresso-900/70" aria-hidden />
+      <div className="absolute inset-0 bg-carlo-red-900/70" aria-hidden />
 
       <div className="relative z-10 mx-auto max-w-3xl px-[var(--container-padding-x)] py-16 text-center md:py-20">
         <FadeIn>

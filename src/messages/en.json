@@ -27,11 +27,11 @@
       },
       "cookiePistache": {
         "name": "Pistachio Cookie",
-        "description": "Chocolate chip dough, Sicilian pistachio cream and toasted pistachios."
+        "description": "Artisan chocolate chip cookie, finished with Dubai pistachio cream as the topping."
       },
       "lobsterTail": {
         "name": "Lobster Tail",
-        "description": "Crispy puff pastry filled with Sicilian vanilla cream."
+        "description": "A pastry masterpiece — exceptionally crisp, light puff pastry with generous fillings."
       },
       "cannoli": {
         "name": "Cannoli",
@@ -266,7 +266,7 @@
       },
       "lobster-tail": {
         "name": "Traditional Lobster Tail",
-        "description": "Crispy, light laminated pastry filled with vanilla french cream — a house classic."
+        "description": "A pastry masterpiece — exceptionally crisp, light puff pastry with generous fillings."
       },
       "cannoli-siciliano": {
         "name": "Traditional Cannoli",
@@ -278,7 +278,7 @@
       },
       "cookie-pistache": {
         "name": "Pistachio Cookie",
-        "description": "Chocolate chip dough, Sicilian pistachio cream and toasted pistachios on top."
+        "description": "Artisan chocolate chip cookie, finished with Dubai pistachio cream as the topping."
       },
       "croissant-classico": {
         "name": "Plain Croissant",
@@ -684,6 +684,10 @@
       "eyebrow": "Let's create together",
       "heading": "Request your quote.",
       "subhead": "Fill in the form and our team will get back to you within 24 business hours.",
+      "subheadContact": "Reach our Vila Leopoldina store — personalised service for your custom cake.",
+      "storeEyebrow": "In-store service",
+      "storeHours": "Mon–Sun · 10am–10pm",
+      "directions": "Get directions",
       "guarantees": {
         "response": "Reply within 24 hours",
         "briefing": "Personalised briefing",
@@ -1208,7 +1212,7 @@
     "hero": {
       "eyebrow": "We are here",
       "headline": "Talk to the family.",
-      "subhead": "Press, partnerships, careers, support or just to say hello. Choose the right channel and our team will reply quickly."
+      "subhead": "Press, partnerships, careers, support or just to say hello — reach us on WhatsApp and our team will reply quickly."
     },
     "departments": {
       "eyebrow": "Direct channels",
@@ -1287,7 +1291,7 @@
       "items": {
         "customCake": {
           "question": "How do I order a custom cake?",
-          "answer": "Fill out the form at /bolos-personalizados or message us on WhatsApp. Our team replies within one business day."
+          "answer": "Message us on WhatsApp or visit our Vila Leopoldina store. Our team replies within one business day."
         },
         "ifood": {
           "question": "Do you deliver through iFood?",
@@ -1299,11 +1303,11 @@
         },
         "franchise": {
           "question": "I want to open a franchise. How does it work?",
-          "answer": "Email parcerias@carlosbakery.com.br with your profile and city of interest."
+          "answer": "Contact us on WhatsApp with your profile and city of interest."
         },
         "supplier": {
           "question": "How can I become a supplier?",
-          "answer": "Send your proposal to parcerias@carlosbakery.com.br with portfolio and company information."
+          "answer": "Send your proposal on WhatsApp with portfolio and company information."
         }
       }
     },

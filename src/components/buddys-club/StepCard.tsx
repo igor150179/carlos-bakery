@@ -39,7 +39,7 @@ function MiniVisual({ type }: { type: "app" | "qr" | "gift" }) {
   return (
     <div className="mt-6 flex h-28 items-center justify-center rounded-sm bg-cream-100">
       {type === "app" ? (
-        <div className="h-20 w-12 rounded-[1rem] bg-espresso-900 p-1">
+        <div className="h-20 w-12 rounded-[1rem] bg-carlo-red-900 p-1">
           <div className="size-full rounded-[0.8rem] bg-cream-50 p-1">
             <div className="h-8 rounded-lg bg-carlo-red" />
             <div className="mt-1 grid grid-cols-2 gap-1">
@@ -54,7 +54,7 @@ function MiniVisual({ type }: { type: "app" | "qr" | "gift" }) {
           {Array.from({ length: 16 }).map((_, index) => (
             <span
               key={index}
-              className={cn("rounded-[1px]", index % 3 === 0 || index % 5 === 0 ? "bg-espresso-900" : "bg-cream-200")}
+              className={cn("rounded-[1px]", index % 3 === 0 || index % 5 === 0 ? "bg-carlo-red-900" : "bg-cream-200")}
             />
           ))}
           <span className="absolute left-2 right-2 top-1/2 h-px bg-carlo-red shadow-[0_0_10px_rgba(200,16,46,0.8)]" />

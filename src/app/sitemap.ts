@@ -1,13 +1,15 @@
 import type { MetadataRoute } from "next";
 
-import { BUDDYS_CLUB_ENABLED } from "@/lib/feature-flags";
+import { BUDDYS_CLUB_ENABLED, STORY_ENABLED } from "@/lib/feature-flags";
 
 const LOCALES = ["pt", "en", "it"] as const;
 const ROUTES = [
   { path: "", priority: 1.0, changeFrequency: "weekly" },
   { path: "cardapio", priority: 0.9, changeFrequency: "weekly" },
   { path: "bolos-personalizados", priority: 0.9, changeFrequency: "monthly" },
-  { path: "a-historia", priority: 0.7, changeFrequency: "yearly" },
+  ...(STORY_ENABLED
+    ? [{ path: "a-historia" as const, priority: 0.7, changeFrequency: "yearly" as const }]
+    : []),
   { path: "lojas", priority: 0.8, changeFrequency: "monthly" },
   ...(BUDDYS_CLUB_ENABLED
     ? [{ path: "buddys-club" as const, priority: 0.8, changeFrequency: "monthly" as const }]

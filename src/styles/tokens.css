@@ -9,6 +9,11 @@
   --carlo-red-dark: #a00d24;
   --carlo-red-light: #e63950;
 
+  /* Vermelho profundo Carlo's — superfícies cinematográficas */
+  --carlo-red-950: #381519;
+  --carlo-red-900: #521820;
+  --carlo-red-800: #6b222c;
+
   /* Champagne / dourado — escala completa */
   --champagne-50: #faf4e8;
   --champagne-100: #f2e6cc;
@@ -84,8 +89,8 @@
 
 /* Dark mode for cinematic sections (applied via .dark class on section or root) */
 .dark {
-  --theme-background: var(--espresso-900);
+  --theme-background: var(--carlo-red-900);
   --theme-foreground: var(--cream-50);
-  --theme-muted: var(--espresso-700);
+  --theme-muted: var(--carlo-red-800);
   --theme-accent: var(--carlo-gold);
 }

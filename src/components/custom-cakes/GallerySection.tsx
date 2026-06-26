@@ -74,7 +74,7 @@ export function GallerySection() {
                       "absolute inset-0 transition-colors duration-500",
                       item.studioPresentation
                         ? "bg-gradient-to-t from-cream-200/40 via-transparent to-transparent group-hover:from-cream-300/50"
-                        : "bg-espresso-900/0 group-hover:bg-espresso-900/25",
+                        : "bg-carlo-red-900/0 group-hover:bg-carlo-red-900/25",
                     )}
                     aria-hidden
                   />

@@ -22,7 +22,7 @@ export function StoryKherlakianChapter() {
     >
       <div className="mx-auto grid max-w-[var(--max-content-width)] items-center gap-8 lg:grid-cols-2 lg:gap-12">
         <FadeIn className="relative order-2 lg:order-1">
-          <div className="relative min-h-[280px] overflow-hidden rounded-sm bg-espresso-900 sm:min-h-[360px] lg:min-h-[420px]">
+          <div className="relative min-h-[280px] overflow-hidden rounded-sm bg-carlo-red-900 sm:min-h-[360px] lg:min-h-[420px]">
             <Image
               src={STORY_IMAGES.kherlakianFamily}
               alt={t("imageAlt")}

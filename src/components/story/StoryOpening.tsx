@@ -22,7 +22,7 @@ export function StoryOpening() {
           className="object-cover object-center grayscale"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-espresso-900/60" aria-hidden />
+        <div className="absolute inset-0 bg-carlo-red-900/60" aria-hidden />
       </div>
 
       <div className="relative z-10 mx-auto max-w-3xl px-[var(--container-padding-x)] py-32 text-center">

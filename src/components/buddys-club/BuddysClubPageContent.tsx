@@ -113,7 +113,7 @@ export function BuddysClubPageContent() {
         </div>
       </section>
 
-      <section className="bg-espresso-900 px-[var(--container-padding-x)] py-16 md:py-20">
+      <section className="bg-carlo-red-900 px-[var(--container-padding-x)] py-16 md:py-20">
         <DarkSectionHeader
           eyebrow={t("features.eyebrow")}
           heading={t("features.heading")}
@@ -154,7 +154,7 @@ export function BuddysClubPageContent() {
         </div>
       </section>
 
-      <section className="bg-espresso-900 px-[var(--container-padding-x)] py-12 md:py-14">
+      <section className="bg-carlo-red-900 px-[var(--container-padding-x)] py-12 md:py-14">
         <div className="mx-auto grid max-w-[var(--max-content-width)] grid-cols-2 gap-8 md:grid-cols-4">
           {[
             [50000, "+", t("stats.members")],
@@ -197,7 +197,7 @@ export function BuddysClubPageContent() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-espresso-900 px-[var(--container-padding-x)] py-16 md:py-20">
+      <section className="relative overflow-hidden bg-carlo-red-900 px-[var(--container-padding-x)] py-16 md:py-20">
         <MonogramBackground variant="light" size="lg" />
         <span className="absolute left-[18%] top-20 size-2 rounded-full bg-champagne-on-dark/70" />
         <span className="absolute right-[16%] top-32 size-1.5 rounded-full bg-champagne-on-dark/60" />

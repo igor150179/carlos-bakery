@@ -53,7 +53,7 @@ export function FamilySection() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/a-historia"
-              className="inline-flex items-center gap-2 rounded-full border border-espresso-900/20 px-7 py-3 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-espresso-900 hover:text-cream-50"
+              className="inline-flex items-center gap-2 rounded-full border border-espresso-900/20 px-7 py-3 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-carlo-red-950 hover:text-cream-50"
             >
               {t("cta")}
               <ArrowRight className="size-4" aria-hidden />

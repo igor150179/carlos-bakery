@@ -159,7 +159,7 @@ export function ProductCard({
           />
         </div>
         <div
-          className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-espresso-900/95 via-espresso-900/50 to-espresso-900/5 transition-opacity duration-500 group-hover:from-espresso-900"
+          className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-carlo-red-950/95 via-carlo-red-900/50 to-carlo-red-950/5 transition-opacity duration-500 group-hover:from-carlo-red-950"
           aria-hidden
         />
         <div className="absolute inset-x-0 bottom-0 z-20 p-6 md:p-8">

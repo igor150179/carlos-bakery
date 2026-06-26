@@ -68,7 +68,7 @@ export function Lightbox({
           role="dialog"
           aria-modal="true"
           aria-label={current.alt}
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-espresso-900/95 p-4 backdrop-blur-md md:p-8"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-carlo-red-900/95 p-4 backdrop-blur-md md:p-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}

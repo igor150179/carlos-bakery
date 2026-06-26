@@ -25,7 +25,7 @@ export function CustomCakesHero() {
           className="object-cover object-[center_35%]"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-espresso-900/50" aria-hidden />
+        <div className="absolute inset-0 bg-gradient-to-b from-espresso-900/50 via-espresso-900/25 to-espresso-900/60" aria-hidden />
       </div>
 
       <div className="relative z-10 w-full px-[var(--container-padding-x)] pb-20 pt-28 md:pb-24 md:pt-32">

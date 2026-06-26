@@ -12,6 +12,7 @@ import { MonogramBackground } from "@/components/shared/MonogramBackground";
 import { FLAGSHIP_STORE, STORES, WORKSHOP_STORE } from "@/data/stores";
 import { Link } from "@/i18n/routing";
 import { SITE_CONFIG } from "@/lib/constants";
+import { STORE_PHOTOS_ENABLED } from "@/lib/feature-flags";
 import {
   getStoreDistance,
   type Coordinates,
@@ -116,20 +117,22 @@ export function StoresPageContent() {
   return (
     <>
       <section className="relative flex min-h-[55vh] items-center justify-center overflow-hidden bg-cream-50">
-        <div className="absolute inset-0">
-          <Image
-            src={FLAGSHIP_STORE.image}
-            alt=""
-            fill
-            priority
-            className="object-cover opacity-[0.14] blur-sm"
-            sizes="100vw"
-          />
-          <div
-            className="absolute inset-0 bg-gradient-to-b from-cream-50/70 via-cream-50/95 to-cream-50"
-            aria-hidden
-          />
-        </div>
+        {STORE_PHOTOS_ENABLED ? (
+          <div className="absolute inset-0">
+            <Image
+              src={FLAGSHIP_STORE.image}
+              alt=""
+              fill
+              priority
+              className="object-cover opacity-[0.14] blur-sm"
+              sizes="100vw"
+            />
+            <div
+              className="absolute inset-0 bg-gradient-to-b from-cream-50/70 via-cream-50/95 to-cream-50"
+              aria-hidden
+            />
+          </div>
+        ) : null}
         <FadeIn className="relative z-10 mx-auto max-w-3xl px-[var(--container-padding-x)] py-16 text-center md:py-20">
           <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.35em] text-carlo-gold">
             {t("hero.eyebrow")}
@@ -154,7 +157,7 @@ export function StoresPageContent() {
           {t("locator.skipToList")}
         </a>
         <div className="grid lg:h-[calc(100vh-80px)] lg:grid-cols-[45%_55%]">
-          <div className="order-2 min-h-[60vh] lg:order-1 lg:h-full">
+          <div className="order-2 min-h-[60vh] lg:order-1 lg:h-full lg:min-h-0 lg:overflow-hidden">
             <StoresList
               stores={filteredStores}
               activeStoreId={activeStoreId}
@@ -193,20 +196,22 @@ function FlagshipSection() {
   const whatsappUrl = `https://wa.me/${FLAGSHIP_STORE.whatsapp}`;
 
   return (
-    <section className="bg-espresso-900 px-[var(--container-padding-x)] py-14 md:py-16">
+    <section className="bg-carlo-red-900 px-[var(--container-padding-x)] py-14 md:py-16">
       <div className="mx-auto grid max-w-[var(--max-content-width)] items-center gap-8 lg:grid-cols-2 lg:gap-12">
-        <FadeIn className="relative aspect-[4/5] overflow-hidden rounded-sm">
-          <Parallax speed={0.25} className="relative size-full">
-            <Image
-              src={FLAGSHIP_STORE.image}
-              alt={FLAGSHIP_STORE.name}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
-            />
-          </Parallax>
-        </FadeIn>
-        <FadeIn delay={0.12} direction="left">
+        {STORE_PHOTOS_ENABLED ? (
+          <FadeIn className="relative aspect-[4/5] overflow-hidden rounded-sm">
+            <Parallax speed={0.25} className="relative size-full">
+              <Image
+                src={FLAGSHIP_STORE.image}
+                alt={FLAGSHIP_STORE.name}
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </Parallax>
+          </FadeIn>
+        ) : null}
+        <FadeIn delay={0.12} direction="left" className={STORE_PHOTOS_ENABLED ? undefined : "lg:col-span-2 lg:max-w-3xl lg:mx-auto"}>
           <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.35em] text-carlo-gold">
             {t("eyebrow")}
           </p>
@@ -331,7 +336,7 @@ function FinalCtaSection() {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-espresso-900/20 px-8 py-3.5 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-espresso-900 hover:text-cream-50"
+            className="inline-flex items-center gap-2 rounded-full border border-espresso-900/20 px-8 py-3.5 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-carlo-red-950 hover:text-cream-50"
           >
             <MessageCircle className="size-4" aria-hidden />
             {t("whatsapp")}

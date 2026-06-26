@@ -27,11 +27,11 @@
       },
       "cookiePistache": {
         "name": "Cookie Pistache",
-        "description": "Massa com gotas de chocolate, creme de pistache siciliano e pistaches torrados."
+        "description": "Cookie artesanal com gotas de chocolate, finalizado com creme pistache Dubai como topping."
       },
       "lobsterTail": {
         "name": "Lobster Tail",
-        "description": "Massa folhada crocante, recheio de creme de baunilha siciliano."
+        "description": "Obra-prima da confeitaria — massa folhada extremamente crocante e leve, com generosos recheios."
       },
       "cannoli": {
         "name": "Cannoli",
@@ -266,7 +266,7 @@
       },
       "lobster-tail": {
         "name": "Lobster Tail Tradicional",
-        "description": "Massa folhada crocante e leve, recheada com creme de baunilha em french cream — clássico da casa."
+        "description": "Obra-prima da confeitaria — massa folhada extremamente crocante e leve, com generosos recheios."
       },
       "cannoli-siciliano": {
         "name": "Cannoli Tradicional",
@@ -278,7 +278,7 @@
       },
       "cookie-pistache": {
         "name": "Cookie Pistache",
-        "description": "Massa com gotas de chocolate, creme de pistache siciliano e pistaches torrados."
+        "description": "Cookie artesanal com gotas de chocolate, finalizado com creme pistache Dubai como topping."
       },
       "croissant-classico": {
         "name": "Croissant Simples",
@@ -684,6 +684,10 @@
       "eyebrow": "Vamos criar juntos",
       "heading": "Solicite seu orçamento.",
       "subhead": "Preencha o formulário ao lado e nossa equipe entra em contato em até 24h úteis.",
+      "subheadContact": "Entre em contato com nossa loja da Vila Leopoldina — atendimento personalizado para o seu bolo.",
+      "storeEyebrow": "Atendimento na loja",
+      "storeHours": "Seg–Dom · 10h–22h",
+      "directions": "Como chegar",
       "guarantees": {
         "response": "Resposta em até 24h",
         "briefing": "Briefing personalizado",
@@ -1208,7 +1212,7 @@
     "hero": {
       "eyebrow": "Estamos por aqui",
       "headline": "Fale com a família.",
-      "subhead": "Imprensa, parcerias, trabalho ou só pra dizer oi. Escolha o canal certo e nossa equipe responde rápido."
+      "subhead": "Imprensa, parcerias, trabalho ou só pra dizer oi — fale conosco pelo WhatsApp e nossa equipe responde rápido."
     },
     "departments": {
       "eyebrow": "Canais diretos",
@@ -1287,7 +1291,7 @@
       "items": {
         "customCake": {
           "question": "Como faço um pedido de bolo personalizado?",
-          "answer": "Preencha o formulário em /bolos-personalizados ou fale pelo WhatsApp. Nossa equipe responde em até 24h úteis."
+          "answer": "Fale conosco pelo WhatsApp ou visite a loja da Vila Leopoldina. Nossa equipe responde em até 24h úteis."
         },
         "ifood": {
           "question": "Vocês entregam pelo iFood?",
@@ -1299,11 +1303,11 @@
         },
         "franchise": {
           "question": "Quero abrir uma franquia. Como funciona?",
-          "answer": "Envie email para parcerias@carlosbakery.com.br com seu perfil e cidade de interesse."
+          "answer": "Entre em contato pelo WhatsApp com seu perfil e cidade de interesse."
         },
         "supplier": {
           "question": "Como faço para ser fornecedor?",
-          "answer": "Envie sua proposta para parcerias@carlosbakery.com.br com portfólio e informações da empresa."
+          "answer": "Envie sua proposta pelo WhatsApp com portfólio e informações da empresa."
         }
       }
     },

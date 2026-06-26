@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import type { Store } from "@/data/stores";
+import { STORE_PHOTOS_ENABLED } from "@/lib/feature-flags";
 import { formatDistance } from "@/lib/store-utils";
 import { cn } from "@/lib/utils";
 
@@ -60,20 +61,22 @@ export function StoreCard({
           view === "grid" ? "space-y-4" : "flex items-start",
         )}
       >
-        <div
-          className={cn(
-            "relative shrink-0 overflow-hidden rounded-sm bg-cream-100",
-            view === "grid" ? "aspect-[4/3] w-full" : "aspect-square w-24 md:w-32",
-          )}
-        >
-          <Image
-            src={store.image}
-            alt={store.name}
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-            sizes={view === "grid" ? "(max-width: 1024px) 100vw, 22vw" : "128px"}
-          />
-        </div>
+        {STORE_PHOTOS_ENABLED ? (
+          <div
+            className={cn(
+              "relative shrink-0 overflow-hidden rounded-sm bg-cream-100",
+              view === "grid" ? "aspect-[4/3] w-full" : "aspect-square w-24 md:w-32",
+            )}
+          >
+            <Image
+              src={store.image}
+              alt={store.name}
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+              sizes={view === "grid" ? "(max-width: 1024px) 100vw, 22vw" : "128px"}
+            />
+          </div>
+        ) : null}
 
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-start gap-x-3 gap-y-2">
@@ -105,7 +108,7 @@ export function StoreCard({
             {store.features.map((feature) => (
               <span
                 key={feature}
-                className="rounded-full bg-espresso-900/[0.06] px-3 py-1 font-sans text-[0.7rem] font-medium text-espresso-700"
+                className="rounded-full bg-carlo-red-900/[0.06] px-3 py-1 font-sans text-[0.7rem] font-medium text-espresso-700"
               >
                 {feature}
               </span>

@@ -25,7 +25,7 @@ export function OccasionCard({
           sizes="(max-width: 768px) 100vw, 20vw"
         />
         <div
-          className="absolute inset-0 bg-gradient-to-t from-espresso-900/90 via-espresso-900/35 to-transparent transition-opacity duration-500 group-hover:from-espresso-900"
+          className="absolute inset-0 bg-gradient-to-t from-carlo-red-950/90 via-carlo-red-900/35 to-transparent transition-opacity duration-500 group-hover:from-carlo-red-950"
           aria-hidden
         />
         <div className="absolute inset-x-0 bottom-0 p-5 transition-transform duration-500 group-hover:-translate-y-2 md:p-6">

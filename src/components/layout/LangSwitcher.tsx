@@ -62,7 +62,7 @@ export function LangSwitcher({
           "flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold tracking-normal transition-colors",
           isLight
             ? "text-cream-50 hover:bg-cream-50/10"
-            : "text-espresso-800 hover:bg-espresso-900/5",
+            : "text-espresso-800 hover:bg-carlo-red-900/5",
         )}
       >
         {current.label}

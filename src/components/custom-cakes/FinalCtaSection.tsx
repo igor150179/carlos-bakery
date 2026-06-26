@@ -13,7 +13,7 @@ export function FinalCtaSection() {
   const { lenis } = useLenis();
 
   return (
-    <section className="relative overflow-hidden bg-espresso-900 px-[var(--container-padding-x)] py-16 md:py-20">
+    <section className="relative overflow-hidden bg-carlo-red-900 px-[var(--container-padding-x)] py-16 md:py-20">
       <MonogramBackground variant="light" size="md" />
       <FadeIn className="relative z-10 mx-auto max-w-2xl text-center">
         <h2 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] leading-tight text-cream-50">

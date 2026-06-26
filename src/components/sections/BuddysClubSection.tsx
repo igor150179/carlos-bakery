@@ -12,7 +12,7 @@ export function BuddysClubSection() {
   return (
     <section
       id="buddys-club"
-      className="scroll-mt-28 relative overflow-hidden bg-espresso-900 px-[var(--container-padding-x)] py-14 md:scroll-mt-32 md:py-16"
+      className="scroll-mt-28 relative overflow-hidden bg-carlo-red-900 px-[var(--container-padding-x)] py-14 md:scroll-mt-32 md:py-16"
     >
       <MonogramBackground variant="light" size="lg" />
 

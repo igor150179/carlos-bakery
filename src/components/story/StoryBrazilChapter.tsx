@@ -39,7 +39,7 @@ export function StoryBrazilChapter() {
           </div>
           <Link
             href="/lojas"
-            className="mt-10 inline-flex items-center gap-2 rounded-full border border-espresso-900/25 px-8 py-3.5 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-espresso-900 hover:text-cream-50"
+            className="mt-10 inline-flex items-center gap-2 rounded-full border border-espresso-900/25 px-8 py-3.5 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-carlo-red-950 hover:text-cream-50"
           >
             {t("cta")}
             <ArrowRight className="size-4" aria-hidden />

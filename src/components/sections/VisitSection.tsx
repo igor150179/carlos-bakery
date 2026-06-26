@@ -63,7 +63,7 @@ export function VisitSection() {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-espresso-900/20 px-6 py-3 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-espresso-900 hover:text-cream-50"
+                className="inline-flex items-center gap-2 rounded-full border border-espresso-900/20 px-6 py-3 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-carlo-red-950 hover:text-cream-50"
               >
                 <MessageCircle className="size-4" aria-hidden />
                 {t("whatsapp")}

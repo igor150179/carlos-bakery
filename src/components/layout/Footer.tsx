@@ -15,7 +15,7 @@ export async function Footer() {
   const exploreItems = NAV_ITEMS;
 
   return (
-    <footer className="relative overflow-hidden bg-espresso-950 text-cream-50">
+    <footer className="relative overflow-hidden bg-carlo-red-950 text-cream-50">
       <div className="relative z-10 mx-auto max-w-[var(--max-content-width)] px-[var(--container-padding-x)] py-14 md:py-16">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-12 lg:items-start lg:gap-8">
           <div className="space-y-6 md:col-span-2 lg:col-span-5">

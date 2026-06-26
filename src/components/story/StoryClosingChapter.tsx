@@ -11,7 +11,7 @@ export function StoryClosingChapter() {
   const t = useTranslations("story.chapter8");
 
   return (
-    <section className="relative overflow-hidden bg-espresso-900 px-[var(--container-padding-x)] py-16 md:py-20">
+    <section className="relative overflow-hidden bg-carlo-red-900 px-[var(--container-padding-x)] py-16 md:py-20">
       <MonogramBackground variant="light" size="lg" />
 
       <FadeIn className="relative z-10 mx-auto max-w-3xl text-center">

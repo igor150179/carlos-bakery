@@ -7,6 +7,7 @@ import { hasLocale } from "next-intl";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
+import { FloatingWhatsApp } from "@/components/shared/FloatingWhatsApp";
 import { Analytics } from "@/components/seo/Analytics";
 import { OrganizationJsonLd } from "@/components/seo/StructuredData";
 import { routing } from "@/i18n/routing";
@@ -84,6 +85,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             </main>
           </SmoothScrollProvider>
           <Footer />
+          <FloatingWhatsApp />
         </NextIntlClientProvider>
       </body>
     </html>

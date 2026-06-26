@@ -32,6 +32,9 @@
   --color-carlo-red: var(--carlo-red);
   --color-carlo-red-dark: var(--carlo-red-dark);
   --color-carlo-red-light: var(--carlo-red-light);
+  --color-carlo-red-950: var(--carlo-red-950);
+  --color-carlo-red-900: var(--carlo-red-900);
+  --color-carlo-red-800: var(--carlo-red-800);
   --color-carlo-gold: var(--carlo-gold);
   --color-carlo-gold-light: var(--carlo-gold-light);
   --color-carlo-gold-dark: var(--carlo-gold-dark);
@@ -99,23 +102,23 @@
 }
 
 .dark {
-  --background: var(--espresso-900);
+  --background: var(--carlo-red-950);
   --foreground: var(--cream-50);
-  --card: var(--espresso-800);
+  --card: var(--carlo-red-900);
   --card-foreground: var(--cream-50);
-  --popover: var(--espresso-800);
+  --popover: var(--carlo-red-900);
   --popover-foreground: var(--cream-50);
   --primary: var(--carlo-red-light);
   --primary-foreground: var(--cream-50);
-  --secondary: var(--espresso-700);
+  --secondary: var(--carlo-red-800);
   --secondary-foreground: var(--cream-100);
-  --muted: var(--espresso-700);
+  --muted: var(--carlo-red-800);
   --muted-foreground: var(--cream-300);
   --accent: var(--carlo-gold);
   --accent-foreground: var(--espresso-900);
   --destructive: var(--carlo-red-light);
-  --border: var(--espresso-600);
-  --input: var(--espresso-600);
+  --border: var(--carlo-red-800);
+  --input: var(--carlo-red-800);
   --ring: var(--carlo-gold);
 }
 
@@ -220,7 +223,7 @@ select {
   line-height: 1.05;
 }
 
-/* Champagne em superfícies escuras — use dentro de bg-espresso-900/950 */
+/* Champagne em superfícies escuras — use dentro de bg-carlo-red-900/950 */
 @utility text-gold-on-dark {
   color: var(--champagne-on-dark);
 }

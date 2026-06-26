@@ -31,7 +31,7 @@ export function MenuFinalCta() {
           </a>
           <Link
             href="/lojas"
-            className="inline-flex items-center gap-2 rounded-full border border-espresso-900/20 px-8 py-3.5 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-espresso-900 hover:text-cream-50"
+            className="inline-flex items-center gap-2 rounded-full border border-espresso-900/20 px-8 py-3.5 text-sm font-semibold text-espresso-900 transition-colors hover:border-espresso-900 hover:bg-carlo-red-950 hover:text-cream-50"
           >
             {t("secondaryCta")}
           </Link>

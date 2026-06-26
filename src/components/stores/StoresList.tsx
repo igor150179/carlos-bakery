@@ -47,7 +47,8 @@ export function StoresList({
   return (
     <div
       id="stores-list"
-      className="h-full overflow-y-auto bg-cream-50 px-5 pb-8 md:px-8 lg:px-10"
+      data-lenis-prevent
+      className="h-full overflow-y-auto overscroll-y-contain bg-cream-50 px-5 pb-8 md:px-8 lg:px-10"
     >
       <StoreFilters
         query={query}
