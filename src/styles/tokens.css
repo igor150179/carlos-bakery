@@ -17,7 +17,7 @@
   /* Listras Carlo's — padrão awning / packaging (dois tons de vermelho) */
   --carlo-stripe-dark: #7c111c;
   --carlo-stripe-light: #9e1b2a;
-  --carlo-stripe-width: clamp(18px, 2.2vw, 28px);
+  --carlo-stripe-width: clamp(27px, 3.3vw, 42px);
 
   /* Champagne / dourado — escala completa */
   --champagne-50: #faf4e8;
