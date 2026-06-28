@@ -35,6 +35,8 @@
   --color-carlo-red-950: var(--carlo-red-950);
   --color-carlo-red-900: var(--carlo-red-900);
   --color-carlo-red-800: var(--carlo-red-800);
+  --color-carlo-stripe-dark: var(--carlo-stripe-dark);
+  --color-carlo-stripe-light: var(--carlo-stripe-light);
   --color-carlo-gold: var(--carlo-gold);
   --color-carlo-gold-light: var(--carlo-gold-light);
   --color-carlo-gold-dark: var(--carlo-gold-dark);
@@ -223,7 +225,18 @@ select {
   line-height: 1.05;
 }
 
-/* Champagne em superfícies escuras — use dentro de bg-carlo-red-900/950 */
+/* Champagne em superfícies escuras — use dentro de bg-carlo-stripes */
+@utility bg-carlo-stripes {
+  background-color: var(--carlo-stripe-dark);
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--carlo-stripe-dark) 0,
+    var(--carlo-stripe-dark) var(--carlo-stripe-width),
+    var(--carlo-stripe-light) var(--carlo-stripe-width),
+    var(--carlo-stripe-light) calc(var(--carlo-stripe-width) * 2)
+  );
+}
+
 @utility text-gold-on-dark {
   color: var(--champagne-on-dark);
 }

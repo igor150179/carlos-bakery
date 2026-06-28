@@ -85,7 +85,7 @@ export function ContactPageContent() {
         </section>
       ) : null}
 
-      <section className="bg-carlo-red-900 px-[var(--container-padding-x)] py-14 md:py-16">
+      <section className="bg-carlo-stripes px-[var(--container-padding-x)] py-14 md:py-16">
         <div className="mx-auto grid max-w-[var(--max-content-width)] gap-10 lg:grid-cols-[3fr_2fr] lg:gap-12">
           <FadeIn>
             <ContactForm />

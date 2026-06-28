@@ -98,7 +98,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
           role="dialog"
           aria-modal="true"
           aria-label={t("mobileMenu")}
-          className="fixed inset-0 z-[60] flex flex-col bg-carlo-red-950"
+          className="fixed inset-0 z-[60] flex flex-col bg-carlo-stripes"
           variants={overlayVariants}
           initial="closed"
           animate="open"

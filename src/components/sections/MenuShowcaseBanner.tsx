@@ -30,7 +30,7 @@ export function MenuShowcaseBanner() {
     <FadeIn>
       <Link
         href="/cardapio"
-        className="group relative block overflow-hidden rounded-sm bg-carlo-red-950 shadow-[0_32px_80px_-40px_rgba(56,21,25,0.65)] ring-1 ring-champagne-on-dark-muted/20 transition-[box-shadow,ring-color] duration-700 hover:shadow-[0_40px_90px_-36px_rgba(56,21,25,0.72)] hover:ring-champagne-on-dark-soft/35"
+        className="group relative block overflow-hidden rounded-sm bg-carlo-stripes shadow-[0_32px_80px_-40px_rgba(124,17,28,0.55)] ring-1 ring-champagne-on-dark-muted/20 transition-[box-shadow,ring-color] duration-700 hover:shadow-[0_40px_90px_-36px_rgba(124,17,28,0.62)] hover:ring-champagne-on-dark-soft/35"
       >
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(280px,0.9fr)_minmax(0,1fr)]">
           <div className="relative min-h-[280px] overflow-hidden sm:min-h-[320px] lg:min-h-[460px]">

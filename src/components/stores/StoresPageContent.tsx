@@ -196,7 +196,7 @@ function FlagshipSection() {
   const whatsappUrl = `https://wa.me/${FLAGSHIP_STORE.whatsapp}`;
 
   return (
-    <section className="bg-carlo-red-900 px-[var(--container-padding-x)] py-14 md:py-16">
+    <section className="bg-carlo-stripes px-[var(--container-padding-x)] py-14 md:py-16">
       <div className="mx-auto grid max-w-[var(--max-content-width)] items-center gap-8 lg:grid-cols-2 lg:gap-12">
         {STORE_PHOTOS_ENABLED ? (
           <FadeIn className="relative aspect-[4/5] overflow-hidden rounded-sm">

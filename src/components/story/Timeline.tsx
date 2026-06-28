@@ -22,7 +22,7 @@ export function Timeline() {
   return (
     <section
       ref={containerRef}
-      className="bg-carlo-red-900 px-[var(--container-padding-x)] py-12 md:py-16"
+      className="bg-carlo-stripes px-[var(--container-padding-x)] py-12 md:py-16"
       aria-labelledby="story-timeline-heading"
     >
       <div className="mx-auto max-w-[var(--max-content-width)]">

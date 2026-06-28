@@ -23,7 +23,7 @@ export function CustomCakesShowcaseBanner() {
       <Link
         href="/bolos-personalizados"
         id="bolos-personalizados"
-        className="group relative block scroll-mt-28 overflow-hidden rounded-sm bg-carlo-red-950 shadow-[0_32px_80px_-40px_rgba(56,21,25,0.65)] ring-1 ring-champagne-on-dark-muted/20 transition-[box-shadow,ring-color] duration-700 hover:shadow-[0_40px_90px_-36px_rgba(56,21,25,0.72)] hover:ring-champagne-on-dark-soft/35 md:scroll-mt-32"
+        className="group relative block scroll-mt-28 overflow-hidden rounded-sm bg-carlo-stripes shadow-[0_32px_80px_-40px_rgba(124,17,28,0.55)] ring-1 ring-champagne-on-dark-muted/20 transition-[box-shadow,ring-color] duration-700 hover:shadow-[0_40px_90px_-36px_rgba(124,17,28,0.62)] hover:ring-champagne-on-dark-soft/35 md:scroll-mt-32"
       >
         <div className="grid lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
           <div className="flex flex-col justify-center border-b border-champagne-on-dark-muted/10 px-6 py-8 md:px-10 md:py-10 lg:border-b-0 lg:border-r lg:py-14 lg:pl-12 lg:pr-10">
