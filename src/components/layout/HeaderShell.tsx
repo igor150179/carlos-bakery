@@ -63,11 +63,8 @@ export function HeaderShell() {
             ))}
           </nav>
 
-          <div className="ml-auto flex shrink-0 items-center gap-2 md:ml-0 md:gap-4">
-            <LangSwitcher
-              variant={overlay ? "light" : "dark"}
-              className="hidden md:block"
-            />
+          <div className="ml-auto flex shrink-0 items-center gap-1 md:ml-0 md:gap-4">
+            <LangSwitcher variant={overlay ? "light" : "dark"} />
 
             <Link
               href="/cardapio"

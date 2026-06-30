@@ -9,7 +9,6 @@ import { useLenis } from "@/components/providers/SmoothScrollProvider";
 import { Link } from "@/i18n/routing";
 import { NAV_ITEMS } from "@/lib/navigation";
 
-import { LangSwitcher } from "./LangSwitcher";
 import { NavLink } from "./NavLink";
 
 const overlayVariants = {
@@ -134,17 +133,14 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
           </nav>
 
           <div className="shrink-0 border-t border-cream-50/10 px-5 py-5 pb-[max(1.25rem,env(safe-area-inset-bottom,0px))] sm:px-8">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-              <LangSwitcher variant="light" placement="top" />
-              <Link
-                href="/cardapio"
-                onClick={onClose}
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-carlo-red px-6 py-3 text-sm font-semibold text-cream-50 transition-colors hover:bg-carlo-red-dark"
-              >
-                <ShoppingBag className="size-4" strokeWidth={2} aria-hidden />
-                {t("orderNow")}
-              </Link>
-            </div>
+            <Link
+              href="/cardapio"
+              onClick={onClose}
+              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-carlo-red px-6 py-3 text-sm font-semibold text-cream-50 transition-colors hover:bg-carlo-red-dark"
+            >
+              <ShoppingBag className="size-4" strokeWidth={2} aria-hidden />
+              {t("orderNow")}
+            </Link>
           </div>
         </motion.div>
       )}

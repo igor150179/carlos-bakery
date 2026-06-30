@@ -62,7 +62,7 @@ export function LangSwitcher({
         aria-haspopup="listbox"
         aria-label="Selecionar idioma"
         className={cn(
-          "flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold tracking-normal transition-colors",
+          "flex items-center gap-1 rounded-full px-2.5 py-2 text-xs font-semibold tracking-normal transition-colors md:px-3 md:py-1.5",
           isLight
             ? "text-cream-50 hover:bg-cream-50/10"
             : "text-espresso-800 hover:bg-carlo-red-900/5",
