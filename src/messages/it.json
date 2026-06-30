@@ -16,7 +16,7 @@
         "eyebrow": "Menu",
         "tagline": "Icone della vetrina Carlo's",
         "cta": "Vedi il menu",
-        "imageAlt": "Cookie al Pistacchio e Lobster Tail — icone del menu Carlo's"
+        "imageAlt": "Cannolo Tradizionale e Lobster Tail — icone del menu Carlo's"
       },
       "customCakesBanner": {
         "eyebrow": "Torte Personalizzate",
@@ -25,9 +25,9 @@
         "tagline": "Dal sogno alla torta, in scala mondiale.",
         "cta": "Richiedi preventivo"
       },
-      "cookiePistache": {
-        "name": "Cookie al Pistacchio",
-        "description": "Cookie artigianale con gocce di cioccolato, guarnito con crema al pistacchio Dubai."
+      "cannoliTradizionale": {
+        "name": "Cannolo Tradizionale",
+        "description": "Guscio croccante con crema di ricotta dolce, gocce di cioccolato fondente e tocco di cannella."
       },
       "lobsterTail": {
         "name": "Lobster Tail",
@@ -1330,8 +1330,8 @@
     },
     "menu": {
       "title": "Menu Carlo's Bakery | Cannoli, Torte e Dolci Italiani",
-      "description": "Scopri il menu Carlo's Bakery Brasile: cannoli, lobster tail, rainbow cookies, torte e classici italiani.",
-      "keywords": "menu carlo's bakery, cannoli, lobster tail, rainbow cookies, dolci italiani",
+      "description": "Scopri il menu Carlo's Bakery Brasile: cannoli, lobster tail, torte e classici italiani.",
+      "keywords": "menu carlo's bakery, cannoli, lobster tail, dolci italiani",
       "og": {
         "title": "Menu Carlo's Bakery",
         "description": "Classici italiani e preferiti Cake Boss a São Paulo.",

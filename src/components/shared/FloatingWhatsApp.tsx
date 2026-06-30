@@ -3,14 +3,14 @@
 import { MessageCircle } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-import { WORKSHOP_STORE } from "@/data/stores";
+import { getSiteWhatsAppUrl } from "@/lib/constants";
 
 const DEFAULT_MESSAGE =
   "Olá! Gostaria de mais informações sobre a Carlo's Bakery.";
 
 export function FloatingWhatsApp() {
   const t = useTranslations("home.visit");
-  const whatsappUrl = `https://wa.me/${WORKSHOP_STORE.whatsapp}?text=${encodeURIComponent(DEFAULT_MESSAGE)}`;
+  const whatsappUrl = getSiteWhatsAppUrl(DEFAULT_MESSAGE);
 
   return (
     <a

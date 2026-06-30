@@ -20,7 +20,7 @@ type ProductCardProps = {
 };
 
 const STUDIO_PRODUCT_IDS: ProductId[] = [
-  "cookiePistache",
+  "cannoliTradizionale",
   "cannoli",
   "lobsterTail",
   "fondantCake",
@@ -99,7 +99,6 @@ function ProductImage({
   }
 
   const isStudio = STUDIO_PRODUCT_IDS.includes(id);
-  const isCookie = id === "cookiePistache";
   const zoomStyle =
     imageZoom !== 1
       ? { transform: `scale(${imageZoom})`, transformOrigin: "center center" }
@@ -112,12 +111,8 @@ function ProductImage({
       fill
       className={cn(
         "pointer-events-none transition-transform duration-[1.2s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105",
-        isStudio && "bg-cream-50 object-contain",
-        isCookie
-          ? "object-contain object-[center_42%] p-4 sm:p-6"
-          : isStudio
-            ? "p-2 sm:p-3"
-            : "object-cover",
+        isStudio && "bg-cream-50 object-contain p-2 sm:p-3",
+        !isStudio && "object-cover",
       )}
       sizes="(max-width: 768px) 100vw, 50vw"
       style={zoomStyle}

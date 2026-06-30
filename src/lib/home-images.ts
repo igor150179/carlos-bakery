@@ -9,7 +9,7 @@ const img = (file: string) => `/images/hero/${file}`;
 export const HOME_IMAGES = {
   hero: img("buddy-bakery.jpg"),
   heroPoster: img("buddy-bakery.jpg"),
-  cookiePistache: MENU_IMAGES.cookiePistache,
+  cannoliTradizionale: MENU_IMAGES.cannoliTradizionale,
   lobsterTail: MENU_IMAGES.lobsterTail,
   cannoli: MENU_IMAGES.cannoliClassico,
   fondantCake: CUSTOM_CAKE_IMAGES.birthday,

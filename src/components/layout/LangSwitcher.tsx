@@ -16,11 +16,14 @@ const LOCALES = [
 type LangSwitcherProps = {
   variant?: "dark" | "light";
   className?: string;
+  /** Where the dropdown opens relative to the trigger */
+  placement?: "bottom" | "top";
 };
 
 export function LangSwitcher({
   variant = "dark",
   className,
+  placement = "bottom",
 }: LangSwitcherProps) {
   const locale = useLocale();
   const pathname = usePathname();
@@ -79,7 +82,8 @@ export function LangSwitcher({
           role="listbox"
           aria-label="Idiomas disponíveis"
           className={cn(
-            "absolute right-0 top-full z-50 mt-2 min-w-[5rem] overflow-hidden rounded-lg border py-1 shadow-lg",
+            "absolute right-0 z-50 min-w-[5rem] overflow-hidden rounded-lg border py-1 shadow-lg",
+            placement === "top" ? "bottom-full mb-2" : "top-full mt-2",
             isLight
               ? "border-cream-50/10 bg-espresso-800"
               : "border-cream-300 bg-cream-50",

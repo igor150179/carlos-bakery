@@ -16,7 +16,7 @@
         "eyebrow": "Cardápio",
         "tagline": "Ícones da vitrine Carlo's",
         "cta": "Ver cardápio",
-        "imageAlt": "Cookie Pistache e Lobster Tail — ícones do cardápio Carlo's"
+        "imageAlt": "Cannoli Tradicional e Lobster Tail — ícones do cardápio Carlo's"
       },
       "customCakesBanner": {
         "eyebrow": "Bolos Personalizados",
@@ -25,9 +25,9 @@
         "tagline": "Do sonho ao bolo, em escala mundial.",
         "cta": "Solicitar orçamento"
       },
-      "cookiePistache": {
-        "name": "Cookie Pistache",
-        "description": "Cookie artesanal com gotas de chocolate, finalizado com creme pistache Dubai como topping."
+      "cannoliTradizionale": {
+        "name": "Cannoli Tradicional",
+        "description": "Massa crocante com recheio de creme de ricota adocicado, gotinhas de chocolate meio amargo e toque de canela."
       },
       "lobsterTail": {
         "name": "Lobster Tail",
@@ -1330,8 +1330,8 @@
     },
     "menu": {
       "title": "Cardápio Carlo's Bakery | Cannoli, Bolos e Doces Italianos",
-      "description": "Explore o cardápio da Carlo's Bakery Brasil: cannoli, lobster tail, rainbow cookies, bolos e clássicos italianos.",
-      "keywords": "cardápio carlos bakery, cannoli, lobster tail, rainbow cookies, doces italianos sp",
+      "description": "Explore o cardápio da Carlo's Bakery Brasil: cannoli, lobster tail, bolos e clássicos italianos.",
+      "keywords": "cardápio carlos bakery, cannoli, lobster tail, doces italianos sp",
       "og": {
         "title": "Cardápio Carlo's Bakery",
         "description": "Clássicos italianos e favoritos do Cake Boss em São Paulo.",

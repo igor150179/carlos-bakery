@@ -29,7 +29,7 @@ export function OrganizationJsonLd() {
         contactPoint: [
           {
             "@type": "ContactPoint",
-            telephone: "+55-11-91567-9346",
+            telephone: "+55-11-99315-0639",
             contactType: "customer service",
             areaServed: "BR",
             availableLanguage: ["Portuguese", "English", "Italian"],

@@ -70,13 +70,6 @@ export const MENU_CATEGORIES = [
 
 export const MENU_ITEMS: MenuItem[] = [
   {
-    id: "rainbow-cookies",
-    category: "signatures",
-    price: 28,
-    image: MENU_IMAGES.rainbowCookies,
-    badge: "bestseller",
-  },
-  {
     id: "lobster-tail",
     category: "signatures",
     price: 25.99,
@@ -96,13 +89,6 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 21.99,
     image: MENU_IMAGES.cookieChocolateChip,
     badge: "bestseller",
-  },
-  {
-    id: "cookie-pistache",
-    category: "cookies",
-    price: 18,
-    image: MENU_IMAGES.cookiePistache,
-    badge: "novo",
   },
   {
     id: "croissant-classico",

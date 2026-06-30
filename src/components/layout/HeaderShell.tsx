@@ -42,10 +42,12 @@ export function HeaderShell() {
         )}
       >
         <motion.div
-          className="mx-auto flex h-full max-w-[var(--max-content-width)] items-center gap-4 px-[var(--container-padding-x)] md:gap-8"
+          className="mx-auto flex h-full max-w-[var(--max-content-width)] items-center gap-3 px-[var(--container-padding-x)] md:gap-8"
           layout
         >
-          <Logo variant={overlay ? "light" : "dark"} size="sm" />
+          <div className="min-w-0 shrink">
+            <Logo variant={overlay ? "light" : "dark"} size="sm" />
+          </div>
 
           <nav
             className="hidden flex-1 items-center justify-center gap-6 md:flex lg:gap-8"
@@ -61,7 +63,7 @@ export function HeaderShell() {
             ))}
           </nav>
 
-          <div className="flex shrink-0 items-center gap-2 md:gap-4">
+          <div className="ml-auto flex shrink-0 items-center gap-2 md:ml-0 md:gap-4">
             <LangSwitcher
               variant={overlay ? "light" : "dark"}
               className="hidden md:block"

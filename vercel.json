@@ -1,6 +1,11 @@
 {
   "framework": "nextjs",
   "regions": ["gru1"],
+  "build": {
+    "env": {
+      "VERCEL_TOOLBAR": "0"
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",

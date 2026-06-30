@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { MonogramBackground } from "@/components/shared/MonogramBackground";
 import { WORKSHOP_STORE } from "@/data/stores";
+import { getSiteWhatsAppUrl } from "@/lib/constants";
 import { CUSTOM_CAKES_QUOTE_FORM_ENABLED } from "@/lib/feature-flags";
 
 import { QuoteForm } from "./QuoteForm";
@@ -14,9 +15,9 @@ const GUARANTEE_KEYS = ["response", "briefing", "sketch", "delivery"] as const;
 
 export function QuoteSection() {
   const t = useTranslations("customCakes.form");
-  const whatsappUrl = `https://wa.me/${WORKSHOP_STORE.whatsapp}?text=${encodeURIComponent(
+  const whatsappUrl = getSiteWhatsAppUrl(
     "Olá! Gostaria de solicitar um orçamento de bolo personalizado.",
-  )}`;
+  );
 
   return (
     <section

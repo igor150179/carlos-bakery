@@ -4,6 +4,7 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { FadeIn } from "@/components/animations/FadeIn";
+import { getSiteWhatsAppUrl } from "@/lib/constants";
 import { WORKSHOP_STORE } from "@/data/stores";
 
 const MAP_QUERY = encodeURIComponent(
@@ -12,7 +13,7 @@ const MAP_QUERY = encodeURIComponent(
 
 export function VisitSection() {
   const t = useTranslations("home.visit");
-  const whatsappUrl = `https://wa.me/${WORKSHOP_STORE.whatsapp}`;
+  const whatsappUrl = getSiteWhatsAppUrl();
   const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${MAP_QUERY}`;
 
   return (

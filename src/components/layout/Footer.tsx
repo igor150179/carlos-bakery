@@ -4,7 +4,7 @@ import { Logo } from "@/components/shared/Logo";
 import { MonogramBackground } from "@/components/shared/MonogramBackground";
 import { WORKSHOP_STORE } from "@/data/stores";
 import { Link } from "@/i18n/routing";
-import { SITE_CONFIG } from "@/lib/constants";
+import { SITE_CONFIG, getSiteWhatsAppUrl } from "@/lib/constants";
 import { NAV_ITEMS, type NavKey } from "@/lib/navigation";
 
 export async function Footer() {
@@ -84,7 +84,7 @@ export async function Footer() {
               <p>{t("hours")}</p>
             </address>
             <a
-              href={`https://wa.me/${WORKSHOP_STORE.whatsapp}`}
+              href={getSiteWhatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-block text-sm text-cream-50 transition-colors hover:text-champagne-on-dark"

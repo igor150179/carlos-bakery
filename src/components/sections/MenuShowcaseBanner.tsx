@@ -10,8 +10,8 @@ import { HOME_IMAGES } from "@/lib/home-images";
 
 const MENU_HIGHLIGHTS = [
   {
-    id: "cookiePistache" as const,
-    image: HOME_IMAGES.cookiePistache,
+    id: "cannoliTradizionale" as const,
+    image: HOME_IMAGES.cannoliTradizionale,
     index: "01",
     imageClass: "object-cover object-center",
   },

@@ -16,7 +16,7 @@
         "eyebrow": "Menu",
         "tagline": "Icons from the Carlo's display",
         "cta": "View the menu",
-        "imageAlt": "Pistachio Cookie and Lobster Tail — Carlo's menu icons"
+        "imageAlt": "Traditional Cannoli and Lobster Tail — Carlo's menu icons"
       },
       "customCakesBanner": {
         "eyebrow": "Custom Cakes",
@@ -25,9 +25,9 @@
         "tagline": "From dream to cake, at world-class scale.",
         "cta": "Request a quote"
       },
-      "cookiePistache": {
-        "name": "Pistachio Cookie",
-        "description": "Artisan chocolate chip cookie, finished with Dubai pistachio cream as the topping."
+      "cannoliTradizionale": {
+        "name": "Traditional Cannoli",
+        "description": "Crispy shell with sweetened ricotta cream, bittersweet chocolate chips and a touch of cinnamon."
       },
       "lobsterTail": {
         "name": "Lobster Tail",
@@ -1330,8 +1330,8 @@
     },
     "menu": {
       "title": "Carlo's Bakery Menu | Cannoli, Cakes and Italian Pastries",
-      "description": "Explore Carlo's Bakery Brazil menu: cannoli, lobster tail, rainbow cookies, cakes and Italian classics.",
-      "keywords": "carlo's bakery menu, cannoli, lobster tail, rainbow cookies, italian pastries",
+      "description": "Explore Carlo's Bakery Brazil menu: cannoli, lobster tail, cakes and Italian classics.",
+      "keywords": "carlo's bakery menu, cannoli, lobster tail, italian pastries",
       "og": {
         "title": "Carlo's Bakery Menu",
         "description": "Italian classics and Cake Boss favorites in São Paulo.",

@@ -12,7 +12,7 @@ import { useTranslations } from "next-intl";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { FAQ } from "@/components/custom-cakes/FAQ";
 import { MonogramBackground } from "@/components/shared/MonogramBackground";
-import { SITE_CONFIG } from "@/lib/constants";
+import { getSiteWhatsAppUrl, SITE_CONFIG } from "@/lib/constants";
 import { CONTACT_DEPARTMENTS_ENABLED } from "@/lib/feature-flags";
 
 import { ContactForm } from "./ContactForm";
@@ -31,7 +31,7 @@ const EMAILS: Record<(typeof DEPARTMENT_IDS)[number], string> = {
 
 export function ContactPageContent() {
   const t = useTranslations("contact");
-  const whatsappUrl = `https://wa.me/${SITE_CONFIG.whatsapp.replace(/\D/g, "")}`;
+  const whatsappUrl = getSiteWhatsAppUrl();
   const faqItems = FAQ_IDS.map((id) => ({
     id,
     question: t(`faq.items.${id}.question`),
@@ -105,7 +105,7 @@ export function ContactPageContent() {
             >
               <MessageCircle className="size-10" aria-hidden />
               <p className="mt-5 font-display text-3xl">WhatsApp</p>
-              <p className="mt-2 font-sans text-lg font-semibold">(11) 91567-9346</p>
+              <p className="mt-2 font-sans text-lg font-semibold">{SITE_CONFIG.whatsappDisplay}</p>
               <p className="mt-2 font-sans text-sm text-cream-50/80">
                 {t("direct.whatsappHint")}
               </p>

@@ -1,37 +1,30 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { X } from "lucide-react";
+import { ShoppingBag, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useRef } from "react";
 
 import { useLenis } from "@/components/providers/SmoothScrollProvider";
+import { Link } from "@/i18n/routing";
 import { NAV_ITEMS } from "@/lib/navigation";
 
 import { LangSwitcher } from "./LangSwitcher";
 import { NavLink } from "./NavLink";
 
 const overlayVariants = {
-  closed: {
-    opacity: 0,
-    scale: 1.02,
-    clipPath: "inset(0 0 100% 0)",
-  },
-  open: {
-    opacity: 1,
-    scale: 1,
-    clipPath: "inset(0 0 0% 0)",
-  },
+  closed: { opacity: 0, x: "100%" },
+  open: { opacity: 1, x: 0 },
 };
 
 const linkVariants = {
-  closed: { opacity: 0, y: 40 },
+  closed: { opacity: 0, y: 24 },
   open: (i: number) => ({
     opacity: 1,
     y: 0,
     transition: {
-      delay: 0.15 + i * 0.07,
-      duration: 0.5,
+      delay: 0.08 + i * 0.05,
+      duration: 0.4,
       ease: [0.16, 1, 0.3, 1] as const,
     },
   }),
@@ -98,26 +91,29 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
           role="dialog"
           aria-modal="true"
           aria-label={t("mobileMenu")}
-          className="fixed inset-0 z-[60] flex flex-col bg-carlo-stripes"
+          className="fixed inset-0 z-[60] flex min-h-dvh flex-col bg-carlo-stripes pt-[env(safe-area-inset-top,0px)]"
           variants={overlayVariants}
           initial="closed"
           animate="open"
           exit="closed"
-          transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
         >
-          <div className="flex items-center justify-end px-6 pt-6">
+          <div className="flex shrink-0 items-center justify-end px-5 pt-4 sm:px-6">
             <button
               ref={closeButtonRef}
               type="button"
               onClick={onClose}
               aria-label={t("closeMenu")}
-              className="rounded-full p-2 text-cream-50 transition-colors hover:bg-cream-50/10"
+              className="rounded-full p-2.5 text-cream-50 transition-colors hover:bg-cream-50/10"
             >
               <X className="size-7" strokeWidth={1.5} />
             </button>
           </div>
 
-          <nav className="flex flex-1 flex-col justify-center gap-2 px-8 pb-12">
+          <nav
+            className="flex min-h-0 flex-1 flex-col justify-center gap-1 overflow-y-auto overscroll-y-contain px-5 py-4 sm:gap-2 sm:px-8"
+            aria-label="Navegação principal"
+          >
             {NAV_ITEMS.map((item, index) => (
               <motion.div
                 key={item.key}
@@ -131,14 +127,24 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
                   labelKey={item.key}
                   variant="light"
                   onClick={onClose}
-                  className="font-display text-5xl font-medium leading-tight text-cream-50 md:text-6xl"
+                  className="block py-2 font-display text-[clamp(1.65rem,7vw,2.5rem)] font-medium leading-[1.15] whitespace-normal text-cream-50 sm:py-2.5"
                 />
               </motion.div>
             ))}
           </nav>
 
-          <div className="border-t border-cream-50/10 px-8 py-8">
-            <LangSwitcher variant="light" />
+          <div className="shrink-0 border-t border-cream-50/10 px-5 py-5 pb-[max(1.25rem,env(safe-area-inset-bottom,0px))] sm:px-8">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <LangSwitcher variant="light" placement="top" />
+              <Link
+                href="/cardapio"
+                onClick={onClose}
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-carlo-red px-6 py-3 text-sm font-semibold text-cream-50 transition-colors hover:bg-carlo-red-dark"
+              >
+                <ShoppingBag className="size-4" strokeWidth={2} aria-hidden />
+                {t("orderNow")}
+              </Link>
+            </div>
           </div>
         </motion.div>
       )}

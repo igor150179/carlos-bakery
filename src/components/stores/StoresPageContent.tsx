@@ -11,7 +11,7 @@ import { Parallax } from "@/components/animations/Parallax";
 import { MonogramBackground } from "@/components/shared/MonogramBackground";
 import { FLAGSHIP_STORE, STORES, WORKSHOP_STORE } from "@/data/stores";
 import { Link } from "@/i18n/routing";
-import { SITE_CONFIG } from "@/lib/constants";
+import { getSiteWhatsAppUrl, SITE_CONFIG } from "@/lib/constants";
 import { STORE_PHOTOS_ENABLED } from "@/lib/feature-flags";
 import {
   getStoreDistance,
@@ -310,7 +310,7 @@ function WorkshopSection() {
 
 function FinalCtaSection() {
   const t = useTranslations("stores.finalCta");
-  const whatsappUrl = `https://wa.me/${SITE_CONFIG.whatsapp.replace(/\D/g, "")}`;
+  const whatsappUrl = getSiteWhatsAppUrl();
 
   return (
     <section className="relative overflow-hidden bg-cream-50 px-[var(--container-padding-x)] py-14 md:py-16">

@@ -1,7 +1,7 @@
 import { HOME_IMAGES } from "./home-images";
 
 export type ProductId =
-  | "cookiePistache"
+  | "cannoliTradizionale"
   | "lobsterTail"
   | "cannoli"
   | "fondantCake";
@@ -19,8 +19,8 @@ export type SignatureProduct = {
 
 export const SIGNATURE_PRODUCTS: SignatureProduct[] = [
   {
-    id: "cookiePistache",
-    image: HOME_IMAGES.cookiePistache,
+    id: "cannoliTradizionale",
+    image: HOME_IMAGES.cannoliTradizionale,
     href: "/cardapio",
     gridClass: "md:col-span-7 md:h-[520px]",
     imageZoom: 1.28,
