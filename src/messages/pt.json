@@ -103,15 +103,15 @@
     "developerAriaLabel": "CLAPE by IO produções — igoroliveira.com.br"
   },
   "showKitchen": {
-    "ariaLabel": "Cozinha Show — presente em todas as lojas Carlo's",
+    "ariaLabel": "Cozinha Show — presente em todas as unidades Carlo's",
     "badge": "Cozinha Show",
-    "scope": "Presente em todas as lojas",
-    "heading": "Veja a magia acontecer pelo vidro.",
+    "scope": "Experiência ao vivo",
+    "heading": "Veja a magia acontecendo em nossa cozinha show, presente em todas as unidades.",
     "body": "Em cada unidade Carlo's, você acompanha nossos confeiteiros preparando bolos personalizados, cannoli e outras delícias — ao vivo, na cozinha show.",
     "highlights": {
       "live": "Ao vivo",
       "allStores": "8 unidades",
-      "glass": "Vista pelo vidro"
+      "glass": "Confeiteiros ao vivo"
     }
   },
   "menu": {
