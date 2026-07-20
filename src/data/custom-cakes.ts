@@ -31,7 +31,6 @@ export const FAQ_IDS = [
   "pricing",
   "delivery",
   "tasting",
-  "dietary",
   "payment",
 ] as const;
 

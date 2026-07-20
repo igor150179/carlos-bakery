@@ -165,7 +165,7 @@
     },
     "categorySections": {
       "signatures": {
-        "eyebrow": "Signature",
+        "eyebrow": "Signatures #1",
         "heading": "House classics",
         "description": "Hoboken icons that have defined Carlo's for over a century."
       },
@@ -207,12 +207,12 @@
       "donuts": {
         "eyebrow": "Donuts",
         "heading": "Donuts",
-        "description": "Fresh-fried rings with glossy glazes and colorful sprinkles."
+        "description": ""
       },
       "beverages": {
         "eyebrow": "Beverages",
         "heading": "Hot Beverages",
-        "description": "Espresso, cappuccino, Belgian hot chocolate and Carlo's classics in the official house cup."
+        "description": "Espresso, cappuccino, creamy hot chocolate and Carlo's classics in the official house cup."
       },
       "cold-beverages": {
         "eyebrow": "Beverages",
@@ -246,12 +246,12 @@
       "eyebrow": "Ingredients",
       "heading": "Only the best enters our kitchen.",
       "imageAlt": "Flour, eggs, butter and sugar — Carlo's Bakery pastry ingredients",
-      "body": "We select ingredients with the same rigor as the Valastro family in Hoboken: fresh eggs, European-quality butter and Italian flours when the recipe calls for it. Ricotta and creams are made fresh in-house daily.",
+      "body": "We select ingredients with the same rigor as the Valastro family in Hoboken: fresh eggs, European-quality butter and Italian flours when the recipe calls for it.",
+      "highlightsTitle": "Other differentiators",
       "highlights": [
-        "Farm-fresh eggs",
-        "French butter",
-        "Selected Italian flours",
-        "Fresh ricotta made in-house"
+        "Premium chocolate",
+        "Artisan processes",
+        "Quality cream"
       ]
     },
     "finalCta": {
@@ -266,7 +266,7 @@
       },
       "lobster-tail": {
         "name": "Traditional Lobster Tail",
-        "description": "A pastry masterpiece — exceptionally crisp, light puff pastry with generous fillings."
+        "description": "Exceptionally crisp, light puff pastry filled with Carlo's Bakery's exclusive vanilla cream."
       },
       "cannoli-siciliano": {
         "name": "Traditional Cannoli",
@@ -316,6 +316,10 @@
         "name": "Cannoli Cake",
         "description": "Whole cake (13 cm — about 10 slices). Vanilla sponge with sweetened ricotta cream filling."
       },
+      "bolo-strawberry-shortcake": {
+        "name": "Strawberry Shortcake Cake 13 cm",
+        "description": "Whole cake (13 cm — approx. 12 slices). Vanilla sponge with condensed milk filling, layered with Chantilly and fresh strawberries. Made to order."
+      },
       "fatia-bolo-rainbow": {
         "name": "Rainbow Cake Slice — Ganache",
         "description": "Vanilla sponge in six colors with chocolate ganache between each layer."
@@ -356,6 +360,10 @@
         "name": "Chocolate Cannoli",
         "description": "Crispy shell dipped in Belgian bittersweet chocolate with sweetened ricotta cream filling."
       },
+      "cannoli-chocolate-zero": {
+        "name": "Cannoli Chocolate Zero",
+        "description": "Crispy chocolate shell filled with ricotta cream. Sweetened with Maltitol."
+      },
       "cannoli-cioccolato-chip": {
         "name": "Chocolate Chip Dipped Cannoli",
         "description": "Chocolate-dipped shell with chips and fresh chocolate cream."
@@ -371,10 +379,6 @@
       "cannoli-fondente-crema": {
         "name": "Dark Chocolate & Cream Cannoli",
         "description": "Balance of dark chocolate and smooth ricotta cream."
-      },
-      "sfogliatella-ricota": {
-        "name": "Sfogliatella Ricotta",
-        "description": "Sfogliatella riccia — paper-thin crispy layers with ricotta cream and powdered sugar."
       },
       "sfogliatella-chocolate": {
         "name": "Nutella Lobster Tail",
@@ -396,6 +400,10 @@
         "name": "Salted Caramel Lobster Tail",
         "description": "Crispy laminated pastry with french cream flavored with caramel and fleur de sel."
       },
+      "lobster-tail-limao-siciliano": {
+        "name": "Sicilian Lemon Lobster Tail",
+        "description": "Incredible crispy, light laminated pastry with Sicilian lemon cream filling, finished with condensed milk drizzle."
+      },
       "red-velvet-cupcake": {
         "name": "Red Velvet Cupcake",
         "description": "Red velvet with cream cheese frosting and original-recipe crumble."
@@ -405,7 +413,7 @@
         "description": "Chocolate cake with frosting and a brigadeiro topped with Belgian sprinkles."
       },
       "donut-confete": {
-        "name": "Sprinkle Donut",
+        "name": "Donut Simpson",
         "description": "Classic American recipe with soft, airy dough, glossy pink glaze and colorful sprinkles."
       },
       "donut-sonho-morango": {
@@ -413,56 +421,52 @@
         "description": "Soft, airy dough filled with cream, whipped cream and fresh strawberries — best enjoyed fresh."
       },
       "italian-espresso": {
-        "name": "Italian Espresso",
+        "name": "Espresso",
         "description": "Short pull with golden crema in the Carlo's cup — intense and aromatic."
       },
       "cafe-americano": {
-        "name": "Americano",
+        "name": "Double Espresso",
         "description": "Espresso lengthened with crema on top — balance of body and smoothness."
       },
       "signature-hot-chocolate": {
         "name": "Signature Hot Chocolate",
-        "description": "Dense, creamy Belgian chocolate in the Carlo's mug — a winter classic."
+        "description": "Dense, creamy chocolate in the Carlo's mug — a winter classic."
       },
       "cappuccino": {
-        "name": "Cappuccino",
+        "name": "Coffee with milk foam",
         "description": "Aerated milk foam over espresso — velvety texture and perfect balance."
       },
       "house-latte": {
-        "name": "House Latte",
+        "name": "Cappuccino",
         "description": "Espresso with steamed milk and creamy microfoam in the official cup."
       },
       "macchiato": {
-        "name": "Macchiato",
+        "name": "Coffee with milk",
         "description": "Espresso marked with a layer of milk foam — bold with a soft finish."
       },
       "flat-white": {
-        "name": "Flat White",
+        "name": "Double coffee with milk",
         "description": "Silky microfoam over a double espresso — intense and velvety."
       },
       "cafe-com-leite": {
-        "name": "Café au Lait",
+        "name": "Serving of milk",
         "description": "Steamed creamy milk — gentle and comforting, ideal with pastries."
       },
-      "cortado": {
-        "name": "Cortado",
-        "description": "Espresso cut with steamed milk and fine foam — between bold and creamy."
-      },
       "latte-macchiato": {
-        "name": "Latte Macchiato",
+        "name": "Double coffee with milk foam",
         "description": "Steamed milk stained with espresso — layered look, delicate flavor."
       },
       "iced-latte-caramelo": {
-        "name": "Iced Caramel Latte",
+        "name": "Iced caramel coffee",
         "description": "Iced milk, caramel syrup and espresso layered with ice in the Carlo's cup."
       },
       "iced-latte": {
-        "name": "Iced Latte",
+        "name": "Iced coffee",
         "description": "Espresso over iced milk in layers — refreshing and creamy."
       },
       "cha-frutas-vermelhas": {
-        "name": "Red Berry Iced Tea",
-        "description": "Vibrant chilled drink with red berries and ice — light and refreshing."
+        "name": "Pink lemonade",
+        "description": "Sparkling water, strawberry preparation, Sicilian lemon syrup, ice. Sweetened."
       },
       "eclair-morango-creme": {
         "name": "Strawberry Éclair",
@@ -476,13 +480,9 @@
         "name": "Dubai Pistachio Éclair",
         "description": "Fine choux pastry with pistachio pastry cream and ganache, topped with crunchy pistachios."
       },
-      "eclair-chocolate-morango": {
-        "name": "Chocolate & Strawberry Éclair",
-        "description": "Chocolate ganache with fresh strawberries and drizzle."
-      },
-      "entremet-limao": {
-        "name": "Lemon Entremet",
-        "description": "Dome with citrus mirror glaze, creamy layers and crunchy almond base."
+      "mousse-limao": {
+        "name": "Lemon Mousse",
+        "description": "Creamy, airy lemon mousse topped with a thin layer of tangy citrus glaze."
       },
       "mini-bolo-chocolate": {
         "name": "Baby Brigadeiro Cake",
@@ -504,6 +504,14 @@
         "name": "Belgian Brigadeiro",
         "description": "The classic brigadeiro with Belgian chocolate sprinkles. Serves 1."
       },
+      "morango-com-chocolate": {
+        "name": "Chocolate-Dipped Strawberry (single)",
+        "description": "Fresh strawberry dipped in premium chocolate and decorated with white chocolate."
+      },
+      "cone-morango-chocolate": {
+        "name": "Chocolate Strawberry Cone (4 pieces)",
+        "description": "4 fresh strawberries dipped in premium chocolate and decorated with white chocolate."
+      },
       "cheesecake-frutas-vermelhas": {
         "name": "Red Berry Cheesecake",
         "description": "Creamy American cheesecake with cream cheese base and artisan strawberry red berry sauce."
@@ -513,36 +521,36 @@
         "description": "Bittersweet chocolate brownie with an ultra-creamy texture. Tip: heat for 15 seconds in the microwave! Best enjoyed fresh."
       },
       "brownie-pistache": {
-        "name": "Pistachio Brownie",
+        "name": "Pistache Dubai",
         "description": "Chocolate brownie base with pistachio cream layer and chocolate drizzle."
       },
       "tiramisu-potinho": {
         "name": "Mascarpone Tiramisu",
         "description": "Vanilla cake layers with mascarpone cream, coffee syrup and cocoa. Best enjoyed fresh."
       },
+      "mousse-maracuja": {
+        "name": "Passion Fruit Mousse",
+        "description": "Creamy, airy passion fruit mousse topped with a thin layer of tangy passion fruit glaze."
+      },
+      "mousse-chocolate": {
+        "name": "Chocolate Mousse",
+        "description": "Creamy, airy chocolate mousse topped with a thin layer of bittersweet chocolate glaze."
+      },
       "caneca-ilustrada-cake-boss": {
-        "name": "Cake Boss Illustrated Mug",
+        "name": "Mega Mug SP",
         "description": "Exclusive Cake Boss artwork — helicopter, cake towers and colorful skyline."
       },
       "caneca-carlos-faixa": {
-        "name": "Carlo's Mug — Red Band",
+        "name": "Carlo's Classic Mug",
         "description": "White porcelain with Carlo's logo, red rim and base band."
       },
       "caneca-carlos-classica": {
-        "name": "Classic Carlo's Mug",
+        "name": "Carlo's Cup",
         "description": "White mug with Since 1910 Hoboken logo and thin red top rim."
       },
-      "caneca-buddy": {
-        "name": "Buddy Mug",
-        "description": "Buddy Valastro silhouette in red with BUDDY lettering — Cake Boss edition."
-      },
       "garrafa-carlos-vermelha": {
-        "name": "Carlo's Thermal Bottle — Red",
-        "description": "Red metallic squeeze bottle with white Carlo's Bake Shop logo."
-      },
-      "garrafa-buddy-vermelha": {
-        "name": "Buddy Thermal Bottle — Red",
-        "description": "Red metallic bottle with Buddy silhouette and official lettering."
+        "name": "Carlo's Bottle — Red",
+        "description": "Red metallic bottle available with Carlo's logo or Buddy silhouette."
       },
       "garrafa-carlos-transparente": {
         "name": "Carlo's Bottle — Clear",
@@ -647,17 +655,18 @@
         },
         "02": {
           "title": "Briefing",
-          "description": "Our team replies within 24 hours to clarify details, palette, and references."
+          "description": "Our team gets in touch to clarify details, palette, and references."
         },
         "03": {
           "title": "Creation",
-          "description": "You'll receive a custom sketch—we approve every detail together before production."
+          "description": "You'll receive a custom project—we approve every detail together before production."
         },
         "04": {
           "title": "Delivery",
           "description": "We bake 7 to 30 days ahead (depending on size) and deliver to your venue."
         }
-      }
+      },
+      "note": "Every store has a show kitchen."
     },
     "testimonials": {
       "eyebrow": "What people say",
@@ -683,16 +692,14 @@
     "form": {
       "eyebrow": "Let's create together",
       "heading": "Request your quote.",
-      "subhead": "Fill in the form and our team will get back to you within 24 business hours.",
-      "subheadContact": "Reach our Vila Leopoldina store — personalised service for your custom cake.",
+      "subhead": "Fill in the form and our team will get in touch.",
+      "subheadContact": "Reach out to our team — personalised service for your custom cake.",
       "storeEyebrow": "In-store service",
       "storeHours": "Mon–Sun · 10am–10pm",
       "directions": "Get directions",
       "guarantees": {
-        "response": "Reply within 24 hours",
         "briefing": "Personalised briefing",
-        "sketch": "Sketch before production",
-        "delivery": "Delivery to your venue"
+        "delivery": "Delivery to your venue — shipping rates apply"
       },
       "whatsappTitle": "Prefer to chat directly?",
       "whatsappCta": "Message on WhatsApp",
@@ -755,7 +762,7 @@
         },
         "delivery": {
           "question": "Do you deliver to the venue?",
-          "answer": "Yes—in São Paulo and the metropolitan region. Ask us about other cities."
+          "answer": "Yes—in São Paulo and the metropolitan region. Shipping rates apply. Pickup at our Vila Leopoldina factory is free."
         },
         "tasting": {
           "question": "Can I taste before I order?",

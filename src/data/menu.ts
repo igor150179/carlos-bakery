@@ -48,23 +48,25 @@ export interface MenuItem {
   /** Exibe "A partir de" antes do preço (variantes no iFood) */
   priceFrom?: boolean;
   image: string;
+  /** Galeria opcional — exibe carrossel quando há mais de uma foto */
+  images?: string[];
   badge?: MenuBadge;
   subgroup?: MenuSubgroup;
 }
 
 export const MENU_CATEGORIES = [
   { id: "signatures" as const, order: 1 },
-  { id: "cookies" as const, order: 2 },
-  { id: "croissants" as const, order: 3 },
-  { id: "salgados" as const, order: 4 },
+  { id: "cannoli" as const, order: 2 },
+  { id: "specials" as const, order: 3 },
+  { id: "cake-slices" as const, order: 4 },
   { id: "cakes" as const, order: 5 },
-  { id: "cake-slices" as const, order: 6 },
-  { id: "cannoli" as const, order: 7 },
+  { id: "cookies" as const, order: 6 },
+  { id: "croissants" as const, order: 7 },
   { id: "cupcakes" as const, order: 8 },
   { id: "donuts" as const, order: 9 },
   { id: "beverages" as const, order: 10 },
   { id: "cold-beverages" as const, order: 11 },
-  { id: "specials" as const, order: 12 },
+  { id: "salgados" as const, order: 12 },
   { id: "souvenirs" as const, order: 13 },
 ] as const;
 
@@ -162,7 +164,14 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "novo",
   },
   {
-    id: "entremet-limao",
+    id: "bolo-strawberry-shortcake",
+    category: "cakes",
+    subgroup: "bolos-inteiros",
+    price: 180,
+    image: MENU_IMAGES.boloStrawberryShortcake,
+  },
+  {
+    id: "mousse-limao",
     category: "specials",
     price: 32,
     image: MENU_IMAGES.especialMiniBoloLimao,
@@ -266,6 +275,13 @@ export const MENU_ITEMS: MenuItem[] = [
     image: MENU_IMAGES.cannoliCioccolato,
   },
   {
+    id: "cannoli-chocolate-zero",
+    category: "cannoli",
+    price: 24.99,
+    image: MENU_IMAGES.cannoliChocolateZero,
+    badge: "novo",
+  },
+  {
     id: "cannoli-cioccolato-chip",
     category: "cannoli",
     price: 26,
@@ -290,13 +306,6 @@ export const MENU_ITEMS: MenuItem[] = [
     category: "cannoli",
     price: 26,
     image: MENU_IMAGES.cannoliFondenteCrema,
-  },
-  {
-    id: "sfogliatella-ricota",
-    category: "cannoli",
-    price: 26,
-    image: MENU_IMAGES.folhadoSfogliatellaRicota,
-    badge: "bestseller",
   },
   {
     id: "sfogliatella-chocolate",
@@ -333,6 +342,13 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 25.99,
     priceFrom: true,
     image: MENU_IMAGES.folhadoSfogliatellaFondente,
+  },
+  {
+    id: "lobster-tail-limao-siciliano",
+    category: "cannoli",
+    price: 25.99,
+    priceFrom: true,
+    image: MENU_IMAGES.folhadoLobsterTailLimaoSiciliano,
   },
   {
     id: "red-velvet-cupcake",
@@ -395,7 +411,7 @@ export const MENU_ITEMS: MenuItem[] = [
     id: "house-latte",
     category: "beverages",
     price: 16,
-    image: MENU_IMAGES.bebidaLatte,
+    image: MENU_IMAGES.bebidaCortado,
   },
   {
     id: "macchiato",
@@ -415,12 +431,6 @@ export const MENU_ITEMS: MenuItem[] = [
     category: "beverages",
     price: 12,
     image: MENU_IMAGES.bebidaCafeComLeite,
-  },
-  {
-    id: "cortado",
-    category: "beverages",
-    price: 13,
-    image: MENU_IMAGES.bebidaCortado,
   },
   {
     id: "latte-macchiato",
@@ -470,18 +480,23 @@ export const MENU_ITEMS: MenuItem[] = [
     image: MENU_IMAGES.especialEclairPistache,
   },
   {
-    id: "eclair-chocolate-morango",
-    category: "specials",
-    price: 30,
-    image: MENU_IMAGES.especialEclairChocolateMorango,
-    badge: "novo",
-  },
-  {
     id: "brigadeiro-gourmet",
     category: "specials",
     price: 10.99,
     image: MENU_IMAGES.especialBrigadeiro,
     badge: "bestseller",
+  },
+  {
+    id: "morango-com-chocolate",
+    category: "specials",
+    price: 11.99,
+    image: MENU_IMAGES.especialMorangoChocolate,
+  },
+  {
+    id: "cone-morango-chocolate",
+    category: "specials",
+    price: 37.99,
+    image: MENU_IMAGES.especialConeMorangoChocolate,
   },
   {
     id: "cheesecake-frutas-vermelhas",
@@ -512,6 +527,19 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "bestseller",
   },
   {
+    id: "mousse-maracuja",
+    category: "specials",
+    price: 24.99,
+    image: MENU_IMAGES.especialMousseMaracuja,
+    badge: "novo",
+  },
+  {
+    id: "mousse-chocolate",
+    category: "specials",
+    price: 24.99,
+    image: MENU_IMAGES.especialMousseChocolate,
+  },
+  {
     id: "caneca-ilustrada-cake-boss",
     category: "souvenirs",
     subgroup: "canecas",
@@ -535,27 +563,16 @@ export const MENU_ITEMS: MenuItem[] = [
     image: MENU_IMAGES.souvenirCanecaCarlosClassica,
   },
   {
-    id: "caneca-buddy",
-    category: "souvenirs",
-    subgroup: "canecas",
-    price: 49,
-    image: MENU_IMAGES.souvenirCanecaBuddy,
-    badge: "bestseller",
-  },
-  {
     id: "garrafa-carlos-vermelha",
     category: "souvenirs",
     subgroup: "garrafas",
     price: 89,
     image: MENU_IMAGES.souvenirGarrafaCarlosVermelha,
+    images: [
+      MENU_IMAGES.souvenirGarrafaCarlosVermelha,
+      MENU_IMAGES.souvenirGarrafaBuddyVermelha,
+    ],
     badge: "bestseller",
-  },
-  {
-    id: "garrafa-buddy-vermelha",
-    category: "souvenirs",
-    subgroup: "garrafas",
-    price: 89,
-    image: MENU_IMAGES.souvenirGarrafaBuddyVermelha,
   },
   {
     id: "garrafa-carlos-transparente",

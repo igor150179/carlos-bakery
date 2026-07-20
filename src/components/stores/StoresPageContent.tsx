@@ -9,7 +9,7 @@ import { useEffect, useMemo, useState } from "react";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { Parallax } from "@/components/animations/Parallax";
 import { MonogramBackground } from "@/components/shared/MonogramBackground";
-import { FLAGSHIP_STORE, STORES, WORKSHOP_STORE } from "@/data/stores";
+import { FLAGSHIP_STORE, STORES } from "@/data/stores";
 import { Link } from "@/i18n/routing";
 import { getSiteWhatsAppUrl, SITE_CONFIG } from "@/lib/constants";
 import { STORE_PHOTOS_ENABLED } from "@/lib/feature-flags";
@@ -65,10 +65,6 @@ export function StoresPageContent() {
         filter === "all" ||
         (filter === "shopping" && store.features.includes("Shopping")) ||
         (filter === "street" && !store.features.includes("Shopping")) ||
-        (filter === "workshop" &&
-          store.features.some((feature) =>
-            feature.toLowerCase().includes("workshop"),
-          )) ||
         (filter === "flagship" && store.isFlagship);
 
       return matchesQuery && matchesFilter;
@@ -185,7 +181,6 @@ export function StoresPageContent() {
       </section>
 
       <FlagshipSection />
-      <WorkshopSection />
       <FinalCtaSection />
     </>
   );
@@ -262,48 +257,6 @@ function FlagshipSection() {
           </div>
         </FadeIn>
       </div>
-    </section>
-  );
-}
-
-function WorkshopSection() {
-  const t = useTranslations("stores.workshop");
-  const whatsappUrl = `https://wa.me/${WORKSHOP_STORE.whatsapp}`;
-
-  return (
-    <section className="bg-cream-50 px-[var(--container-padding-x)] py-14 md:py-16">
-      <FadeIn className="mx-auto max-w-3xl text-center">
-        <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.35em] text-carlo-gold">
-          {t("eyebrow")}
-        </p>
-        <h2 className="font-display text-[clamp(2.25rem,4.5vw,4rem)] leading-tight text-espresso-900">
-          {t("heading")}
-        </h2>
-        <p className="mx-auto mt-5 max-w-2xl font-sans text-base leading-relaxed text-espresso-700 md:text-lg">
-          {t("subhead")}
-        </p>
-        <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-2 gap-4 text-left md:grid-cols-4">
-          {(["location", "duration", "age", "price"] as const).map((key) => (
-            <div key={key} className="rounded-sm bg-cream-100 p-4">
-              <dt className="font-sans text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-carlo-gold">
-                {t(`info.${key}.label`)}
-              </dt>
-              <dd className="mt-2 font-sans text-sm font-medium text-espresso-900">
-                {t(`info.${key}.value`)}
-              </dd>
-            </div>
-          ))}
-        </dl>
-        <a
-          href={whatsappUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-8 inline-flex items-center gap-2 rounded-full bg-carlo-red px-8 py-3.5 text-sm font-semibold text-cream-50 transition-colors hover:bg-carlo-red-dark"
-        >
-          {t("cta")}
-          <ArrowRight className="size-4" aria-hidden />
-        </a>
-      </FadeIn>
     </section>
   );
 }

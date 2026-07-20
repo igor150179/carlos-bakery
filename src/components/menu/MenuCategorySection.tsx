@@ -33,6 +33,7 @@ function ProductGrid({ items }: { items: MenuItem[] }) {
               price={item.price}
               priceFrom={item.priceFrom}
               image={item.image}
+              images={item.images}
               badge={item.badge}
               category={item.category}
             />
@@ -59,6 +60,7 @@ export function MenuCategorySection({ category, order }: MenuCategorySectionProp
           : null;
   const items = getItemsByCategory(category);
   const orderLabel = String(order).padStart(2, "0");
+  const description = t(`${category}.description`);
 
   return (
     <section
@@ -76,9 +78,11 @@ export function MenuCategorySection({ category, order }: MenuCategorySectionProp
           <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight text-espresso-900">
             {t(`${category}.heading`)}
           </h2>
-          <p className="mt-4 font-display text-lg italic leading-relaxed text-espresso-700">
-            {t(`${category}.description`)}
-          </p>
+          {description ? (
+            <p className="mt-4 font-display text-lg italic leading-relaxed text-espresso-700">
+              {description}
+            </p>
+          ) : null}
         </FadeIn>
 
         {subgroupOrder && tSub ? (

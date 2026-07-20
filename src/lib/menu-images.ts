@@ -13,6 +13,7 @@ export const MENU_IMAGES = {
   folhadoCaudaLagostaDoceLeite: img("folhado-cauda-lagosta-doce-leite.png"),
   folhadoCaudaLagostaCacau: img("folhado-cauda-lagosta-cacau.png"),
   folhadoSfogliatellaFondente: img("folhado-sfogliatella-fondente.png"),
+  folhadoLobsterTailLimaoSiciliano: img("lobster-tail-limao-siciliano.png"),
   /** Cannoli */
   cannoliClassico: img("cannoli-classico.png"),
   cannoliTradizionale: img("cannoli-tradizionale-ricota.png"),
@@ -21,6 +22,7 @@ export const MENU_IMAGES = {
   cannoliPistachioFondente: img("cannoli-pistachio-fondente.png"),
   cannoliChocolateChip: img("cannoli-chocolate-chip.png"),
   cannoliCioccolato: img("cannoli-cioccolato.png"),
+  cannoliChocolateZero: img("cannoli-chocolate-zero.png"),
   cannoliCioccolatoChip: img("cannoli-cioccolato-chip.png"),
   cannoliCioccolatoPremium: img("cannoli-cioccolato-premium.png"),
   cannoliFondente: img("cannoli-fondente.png"),
@@ -30,6 +32,7 @@ export const MENU_IMAGES = {
   boloChocolateBrigadeiro: img("bolo-chocolate-brigadeiro.png"),
   boloBlackWhite: img("bolo-black-white.png"),
   boloCannoli: img("bolo-cannoli.png"),
+  boloStrawberryShortcake: img("bolo-strawberry-shortcake.png"),
   /** Fatias de bolo */
   fatiaBoloRainbow: img("fatia-bolo-rainbow.png"),
   fatiaBoloCoco: img("fatia-bolo-coco.png"),
@@ -77,10 +80,14 @@ export const MENU_IMAGES = {
   especialCupcakeBrigadeiro: img("especial-cupcake-brigadeiro.png"),
   especialCupcakeRedVelvet: img("especial-cupcake-red-velvet.png"),
   especialBrigadeiro: img("especial-brigadeiro.png"),
+  especialMorangoChocolate: img("morango-com-chocolate.png"),
+  especialConeMorangoChocolate: img("cone-morango-chocolate.png"),
   especialCheesecakeFrutas: img("especial-cheesecake-frutas-vermelhas.png"),
   especialBrownieChocolate: img("especial-brownie-chocolate.png"),
   especialBrowniePistache: img("especial-brownie-pistache.png"),
   especialTiramisu: img("especial-tiramisu.png"),
+  especialMousseMaracuja: img("mousse-maracuja.png"),
+  especialMousseChocolate: img("mousse-chocolate.png"),
   /** Donuts */
   donutConfete: img("donut-confete.png"),
   donutSonhoMorango: img("donut-sonho-morango.png"),

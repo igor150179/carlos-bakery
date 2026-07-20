@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 
 import { cn } from "@/lib/utils";
 
-export type StoreFilter = "all" | "shopping" | "street" | "workshop" | "flagship";
+export type StoreFilter = "all" | "shopping" | "street" | "flagship";
 export type StoreView = "list" | "grid";
 
 type StoreFiltersProps = {
@@ -18,7 +18,7 @@ type StoreFiltersProps = {
   resultCount: number;
 };
 
-const FILTERS: StoreFilter[] = ["all", "shopping", "street", "workshop", "flagship"];
+const FILTERS: StoreFilter[] = ["all", "shopping", "street", "flagship"];
 
 export function StoreFilters({
   query,

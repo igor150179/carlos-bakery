@@ -39,6 +39,10 @@ export function ProcessSection() {
             </li>
           ))}
         </ol>
+
+        <p className="mt-10 text-center font-sans text-sm leading-relaxed text-cream-50/80 md:text-base">
+          {t("note")}
+        </p>
       </div>
     </section>
   );

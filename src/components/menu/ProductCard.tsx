@@ -1,8 +1,9 @@
 "use client";
 
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
+import { useState } from "react";
 
 import type { MenuBadge } from "@/data/menu";
 import { formatMenuPrice } from "@/lib/format-price";
@@ -13,30 +14,51 @@ export type ProductCardProps = {
   price: number;
   priceFrom?: boolean;
   image: string;
+  images?: string[];
   badge?: MenuBadge;
   category: string;
 };
 
-export function ProductCard({ id, price, priceFrom, image, badge }: ProductCardProps) {
+function isStudioPhoto(src: string) {
+  return (
+    src.includes("/cannoli-") ||
+    src.includes("/especial-") ||
+    src.includes("/donut-") ||
+    src.includes("/folhado-") ||
+    src.includes("/bolo-") ||
+    src.includes("/mini-bolo-") ||
+    src.includes("/especial-mini-bolo-") ||
+    src.includes("entremet") ||
+    src.includes("/cookie-") ||
+    src.includes("/croissant-") ||
+    src.includes("/salgado-") ||
+    src.includes("/fatia-bolo-") ||
+    src.includes("/souvenir-") ||
+    src.includes("/bebida-")
+  );
+}
+
+export function ProductCard({
+  id,
+  price,
+  priceFrom,
+  image,
+  images,
+  badge,
+}: ProductCardProps) {
   const t = useTranslations("menu");
   const locale = useLocale();
   const name = t(`items.${id}.name`);
   const description = t(`items.${id}.description`);
-  const isStudioPhoto =
-    image.includes("/cannoli-") ||
-    image.includes("/especial-") ||
-    image.includes("/donut-") ||
-    image.includes("/folhado-") ||
-    image.includes("/bolo-") ||
-    image.includes("/mini-bolo-") ||
-    image.includes("/especial-mini-bolo-") ||
-    image.includes("entremet") ||
-    image.includes("/cookie-") ||
-    image.includes("/croissant-") ||
-    image.includes("/salgado-") ||
-    image.includes("/fatia-bolo-") ||
-    image.includes("/souvenir-") ||
-    image.includes("/bebida-");
+  const gallery = images && images.length > 1 ? images : [image];
+  const [activeIndex, setActiveIndex] = useState(0);
+  const hasCarousel = gallery.length > 1;
+  const activeImage = gallery[activeIndex] ?? image;
+  const studioPhoto = isStudioPhoto(activeImage);
+
+  const goTo = (index: number) => {
+    setActiveIndex((index + gallery.length) % gallery.length);
+  };
 
   return (
     <article className="group flex flex-col">
@@ -45,18 +67,17 @@ export function ProductCard({ id, price, priceFrom, image, badge }: ProductCardP
           "relative aspect-[4/5] overflow-hidden rounded-sm ring-0",
           "transition-[box-shadow,ring-width,ring-color] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]",
           "group-hover:ring-1 group-hover:ring-champagne-400/40 group-hover:shadow-[0_20px_44px_-24px_rgba(44,24,16,0.14)]",
-          isStudioPhoto ? "bg-cream-50" : "bg-espresso-100",
+          studioPhoto ? "bg-cream-50" : "bg-espresso-100",
         )}
       >
         <Image
-          src={image}
-          alt={name}
+          key={activeImage}
+          src={activeImage}
+          alt={hasCarousel ? `${name} — foto ${activeIndex + 1}` : name}
           fill
           className={cn(
             "transition-transform duration-[1.2s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]",
-            isStudioPhoto
-              ? "object-contain p-3"
-              : "object-cover",
+            studioPhoto ? "object-contain p-3" : "object-cover",
           )}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
@@ -68,6 +89,43 @@ export function ProductCard({ id, price, priceFrom, image, badge }: ProductCardP
           }}
           aria-hidden
         />
+        {hasCarousel ? (
+          <>
+            <button
+              type="button"
+              onClick={() => goTo(activeIndex - 1)}
+              aria-label="Foto anterior"
+              className="absolute left-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-cream-50/90 p-1.5 text-espresso-900 shadow-sm transition-colors hover:bg-cream-50"
+            >
+              <ChevronLeft className="size-4" strokeWidth={2} />
+            </button>
+            <button
+              type="button"
+              onClick={() => goTo(activeIndex + 1)}
+              aria-label="Próxima foto"
+              className="absolute right-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-cream-50/90 p-1.5 text-espresso-900 shadow-sm transition-colors hover:bg-cream-50"
+            >
+              <ChevronRight className="size-4" strokeWidth={2} />
+            </button>
+            <div className="absolute inset-x-0 bottom-3 z-10 flex justify-center gap-1.5">
+              {gallery.map((src, index) => (
+                <button
+                  key={src}
+                  type="button"
+                  aria-label={`Ver foto ${index + 1}`}
+                  aria-current={index === activeIndex}
+                  onClick={() => setActiveIndex(index)}
+                  className={cn(
+                    "size-2 rounded-full transition-colors",
+                    index === activeIndex
+                      ? "bg-carlo-red"
+                      : "bg-espresso-900/25 hover:bg-espresso-900/45",
+                  )}
+                />
+              ))}
+            </div>
+          </>
+        ) : null}
         {badge ? (
           <span
             className={cn(

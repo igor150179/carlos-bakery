@@ -7,7 +7,7 @@ export const CUSTOM_CAKE_IMAGES = {
   wedding: img("bolo-personalizado-mandala.png"),
   birthday: img("bolo-personalizado-disney.png"),
   corporate: img("bolo-personalizado-chanel.png"),
-  baptism: img("bolo-personalizado-hello-kitty.png"),
+  baptism: img("bolo-personalizado-chanel.png"),
   special: img("bolo-personalizado-harry-potter.png"),
   gallery: [
     img("bolo-personalizado-disney.png"),

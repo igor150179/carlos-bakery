@@ -1,13 +1,13 @@
 "use client";
 
-import { Egg, Milk, Wheat } from "lucide-react";
+import { ChefHat, Milk, Sparkles } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import { FadeIn } from "@/components/animations/FadeIn";
 import { MENU_IMAGES } from "@/lib/menu-images";
 
-const HIGHLIGHT_ICONS = [Egg, Wheat, Milk, Egg] as const;
+const HIGHLIGHT_ICONS = [Sparkles, ChefHat, Milk] as const;
 
 export function IngredientsSection() {
   const t = useTranslations("menu.ingredients");
@@ -36,7 +36,10 @@ export function IngredientsSection() {
           <p className="mt-6 font-sans text-base leading-relaxed text-espresso-700 md:text-lg">
             {t("body")}
           </p>
-          <ul className="mt-8 space-y-4">
+          <p className="mt-8 font-display text-xl text-espresso-900 md:text-2xl">
+            {t("highlightsTitle")}
+          </p>
+          <ul className="mt-4 space-y-4">
             {highlights.map((label, index) => {
               const Icon = HIGHLIGHT_ICONS[index % HIGHLIGHT_ICONS.length];
               return (

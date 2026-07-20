@@ -165,7 +165,7 @@
     },
     "categorySections": {
       "signatures": {
-        "eyebrow": "Firma",
+        "eyebrow": "Signatures #1",
         "heading": "I classici della casa",
         "description": "Icone di Hoboken che definiscono Carlo's da oltre un secolo."
       },
@@ -207,12 +207,12 @@
       "donuts": {
         "eyebrow": "Donuts",
         "heading": "Donuts",
-        "description": "Ciambelle fritte al momento, glassature lucide e confetti colorati."
+        "description": ""
       },
       "beverages": {
         "eyebrow": "Bevande",
         "heading": "Bevande Calde",
-        "description": "Espresso, cappuccino, cioccolata calda belga e classici Carlo's nella tazza ufficiale della casa."
+        "description": "Espresso, cappuccino, cioccolata calda cremosa e classici Carlo's nella tazza ufficiale della casa."
       },
       "cold-beverages": {
         "eyebrow": "Bevande",
@@ -246,12 +246,12 @@
       "eyebrow": "Ingredienti",
       "heading": "Solo il meglio entra in cucina.",
       "imageAlt": "Farina, uova, burro e zucchero — ingredienti della pasticceria Carlo's",
-      "body": "Selezioniamo gli ingredienti con lo stesso rigore della famiglia Valastro a Hoboken: uova fresche, burro di qualità europea e farine italiane quando la ricetta lo richiede. Ricotta e creme sono preparate ogni giorno in casa.",
+      "body": "Selezioniamo gli ingredienti con lo stesso rigore della famiglia Valastro a Hoboken: uova fresche, burro di qualità europea e farine italiane quando la ricetta lo richiede.",
+      "highlightsTitle": "Altri differenziali",
       "highlights": [
-        "Uova fresche",
-        "Burro francese",
-        "Farine italiane selezionate",
-        "Ricotta fresca prodotta in casa"
+        "Cioccolato nobile",
+        "Processi artigianali",
+        "Crema di qualità"
       ]
     },
     "finalCta": {
@@ -266,7 +266,7 @@
       },
       "lobster-tail": {
         "name": "Lobster Tail Tradizionale",
-        "description": "Capolavoro della pasticceria — pasta sfoglia estremamente croccante e leggera, con generosi ripieni."
+        "description": "Pasta sfoglia estremamente croccante e leggera, ripiena di una deliziosa crema alla vaniglia esclusiva della Carlo's Bakery."
       },
       "cannoli-siciliano": {
         "name": "Cannolo Tradizionale",
@@ -316,6 +316,10 @@
         "name": "Torta Cannoli",
         "description": "Torta intera (13 cm — circa 10 fette). Pan di spagna alla vaniglia con crema di ricotta dolce."
       },
+      "bolo-strawberry-shortcake": {
+        "name": "Torta Strawberry Shortcake 13 cm",
+        "description": "Torta intera (13 cm — circa 12 fette). Pan di spagna alla vaniglia con ripieno di latte condensato, Chantilly e fragole fresche. Su ordinazione."
+      },
       "fatia-bolo-rainbow": {
         "name": "Fetta Torta Arcobaleno Ganache",
         "description": "Pan di spagna alla vaniglia in sei colori con ganache al cioccolato tra gli strati."
@@ -356,6 +360,10 @@
         "name": "Cannolo al Cioccolato",
         "description": "Guscio croccante ricoperto di cioccolato fondente belga con crema di ricotta dolce."
       },
+      "cannoli-chocolate-zero": {
+        "name": "Cannolo Chocolate Zero",
+        "description": "Guscio croccante al cioccolato ripieno di crema di ricotta. Dolcificato con Maltitol."
+      },
       "cannoli-cioccolato-chip": {
         "name": "Cannolo Cioccolato Chip",
         "description": "Guscio al cioccolato con chips e crema al cioccolato fresca."
@@ -371,10 +379,6 @@
       "cannoli-fondente-crema": {
         "name": "Cannolo Fondente & Crema",
         "description": "Equilibrio tra cioccolato scuro e crema di ricotta."
-      },
-      "sfogliatella-ricota": {
-        "name": "Sfogliatella Ricotta",
-        "description": "Sfogliatella riccia — strati sottili e croccanti con ricotta e zucchero a velo."
       },
       "sfogliatella-chocolate": {
         "name": "Lobster Tail Nutella",
@@ -396,6 +400,10 @@
         "name": "Lobster Tail Caramello e Fior di Sale",
         "description": "Sfoglia croccante con french cream al caramello e fior di sale — equilibrio dolce e salato."
       },
+      "lobster-tail-limao-siciliano": {
+        "name": "Lobster Tail Limone Siciliano",
+        "description": "Incredibile sfoglia croccante e leggera, con ripieno di crema al limone siciliano e finitura con latte condensato."
+      },
       "red-velvet-cupcake": {
         "name": "Cupcake Red Velvet",
         "description": "Red velvet con cream cheese e crumble della ricetta originale."
@@ -405,7 +413,7 @@
         "description": "Pan di cioccolato con frosting e brigadeiro con granella belga sopra."
       },
       "donut-confete": {
-        "name": "Donut Confetti",
+        "name": "Donut Simpson",
         "description": "Ricetta classica americana con impasto morbido e arioso, glassa rosa lucida e confetti colorati."
       },
       "donut-sonho-morango": {
@@ -413,56 +421,52 @@
         "description": "Impasto morbido e arioso ripieno di crema, panna montata e fragole fresche — da consumare subito."
       },
       "italian-espresso": {
-        "name": "Espresso Italiano",
+        "name": "Caffè espresso",
         "description": "Estrazione corta con crema dorata nella tazza Carlo's — intenso e aromatico."
       },
       "cafe-americano": {
-        "name": "Caffè Americano",
+        "name": "Caffè espresso doppio",
         "description": "Espresso allungato con crema in superficie — equilibrio tra corpo e morbidezza."
       },
       "signature-hot-chocolate": {
         "name": "Cioccolata Calda Signature",
-        "description": "Cioccolato belga denso e cremoso nella tazza Carlo's — classico d'inverno."
+        "description": "Cioccolato denso e cremoso nella tazza Carlo's — classico d'inverno."
       },
       "cappuccino": {
-        "name": "Cappuccino",
+        "name": "Caffè con schiuma di latte",
         "description": "Schiuma di latte aerata sull'espresso — texture vellutata e equilibrio perfetto."
       },
       "house-latte": {
-        "name": "Latte della Casa",
+        "name": "Cappuccino",
         "description": "Espresso con latte vaporizzato e microschiuma cremosa nella tazza ufficiale."
       },
       "macchiato": {
-        "name": "Macchiato",
+        "name": "Caffè con latte",
         "description": "Espresso macchiato con uno strato di schiuma di latte — deciso con finale delicato."
       },
       "flat-white": {
-        "name": "Flat White",
+        "name": "Caffè con latte doppio",
         "description": "Microschiuma setosa su doppio espresso — intenso e vellutato."
       },
       "cafe-com-leite": {
-        "name": "Caffè al Latte",
+        "name": "Porzione di latte",
         "description": "Latte vaporizzato cremoso — delicato e confortevole, ideale con i dolci."
       },
-      "cortado": {
-        "name": "Cortado",
-        "description": "Espresso tagliato con latte vaporizzato e schiuma fine — tra intenso e cremoso."
-      },
       "latte-macchiato": {
-        "name": "Latte Macchiato",
+        "name": "Caffè doppio con schiuma di latte",
         "description": "Latte vaporizzato macchiato con espresso — effetto a strati, gusto delicato."
       },
       "iced-latte-caramelo": {
-        "name": "Iced Latte al Caramello",
+        "name": "Iced coffee al caramello",
         "description": "Latte freddo, sciroppo di caramello ed espresso a strati con ghiaccio nel bicchiere Carlo's."
       },
       "iced-latte": {
-        "name": "Iced Latte",
+        "name": "Iced coffee",
         "description": "Espresso sul latte freddo a strati — rinfrescante e cremoso."
       },
       "cha-frutas-vermelhas": {
-        "name": "Tè ai Frutti Rossi",
-        "description": "Bevanda gelata vibrante con frutti rossi e ghiaccio — leggera e rinfrescante."
+        "name": "Pink lemonade",
+        "description": "Acqua frizzante, preparazione di fragola, sciroppo di limone siciliano, ghiaccio. Dolce."
       },
       "eclair-morango-creme": {
         "name": "Éclair Fragola",
@@ -476,13 +480,9 @@
         "name": "Éclair Pistacchio Dubai",
         "description": "Choux fine con crema pasticcera al pistacchio e ganache, coperto di pistacchio croccante."
       },
-      "eclair-chocolate-morango": {
-        "name": "Éclair Cioccolato & Fragola",
-        "description": "Ganache al cioccolato con fragole fresche e drizzle."
-      },
-      "entremet-limao": {
-        "name": "Entremet al Limone",
-        "description": "Domo con glassa specchiata al limone, strati cremosi e base croccante di mandorle."
+      "mousse-limao": {
+        "name": "Mousse al Limone",
+        "description": "Mousse al limone cremosa e ariosa, coperta da un sottile strato di glaze acidula al limone."
       },
       "mini-bolo-chocolate": {
         "name": "Baby Bolo Brigadeiro",
@@ -504,6 +504,14 @@
         "name": "Brigadeiro Belga",
         "description": "Il tradizionale brigadeiro con granella di cioccolato belga. Per 1 persona."
       },
+      "morango-com-chocolate": {
+        "name": "Fragola al cioccolato (unità)",
+        "description": "Fragola fresca ricoperta di cioccolato premium e decorata con cioccolato bianco."
+      },
+      "cone-morango-chocolate": {
+        "name": "Cono fragole al cioccolato (4 unità)",
+        "description": "4 fragole fresche ricoperte di cioccolato premium e decorate con cioccolato bianco."
+      },
       "cheesecake-frutas-vermelhas": {
         "name": "Cheesecake ai Frutti Rossi",
         "description": "Cheesecake americana cremosa a base di cream cheese con coulis artigianale di fragola e frutti rossi."
@@ -513,36 +521,36 @@
         "description": "Brownie al cioccolato fondente dalla consistenza ultra cremosa. Consiglio: scaldare 15 secondi al microonde! Da consumare subito."
       },
       "brownie-pistache": {
-        "name": "Brownie al Pistacchio",
+        "name": "Pistache Dubai",
         "description": "Base brownie al cioccolato con crema al pistacchio e filigrana di cioccolato."
       },
       "tiramisu-potinho": {
         "name": "Tiramisù con Mascarpone",
         "description": "Pan di spagna alla vaniglia con crema al mascarpone, sciroppo di caffè e cacao. Da consumare subito."
       },
+      "mousse-maracuja": {
+        "name": "Mousse al Maracuja",
+        "description": "Mousse al maracuja cremosa e ariosa, coperta da un sottile strato di glaze acidula al maracuja."
+      },
+      "mousse-chocolate": {
+        "name": "Mousse al Cioccolato",
+        "description": "Mousse al cioccolato cremosa e ariosa, coperta da un sottile strato di glaze al cioccolato fondente."
+      },
       "caneca-ilustrada-cake-boss": {
-        "name": "Tazza Illustrata Cake Boss",
+        "name": "Mega Tazza SP",
         "description": "Tazza con arte esclusiva Cake Boss — elicottero, torri di torta e skyline colorato."
       },
       "caneca-carlos-faixa": {
-        "name": "Tazza Carlo's — Fascia Rossa",
+        "name": "Tazza Carlo's Classica",
         "description": "Porcellana bianca con logo Carlo's, bordo e fascia rossa alla base."
       },
       "caneca-carlos-classica": {
-        "name": "Tazza Carlo's Classica",
+        "name": "Tazza Carlo's",
         "description": "Tazza bianca con logo Since 1910 Hoboken e filetto rosso sul bordo."
       },
-      "caneca-buddy": {
-        "name": "Tazza Buddy",
-        "description": "Silhouette di Buddy Valastro in rosso con scritta BUDDY — edizione Cake Boss."
-      },
       "garrafa-carlos-vermelha": {
-        "name": "Borraccia Termica Carlo's — Rossa",
-        "description": "Borraccia metallica rossa con logo Carlo's Bake Shop in bianco."
-      },
-      "garrafa-buddy-vermelha": {
-        "name": "Borraccia Termica Buddy — Rossa",
-        "description": "Borraccia metallica rossa con silhouette Buddy e lettering ufficiale."
+        "name": "Borraccia Carlo's — Rossa",
+        "description": "Borraccia metallica rossa disponibile con logo Carlo's o silhouette Buddy."
       },
       "garrafa-carlos-transparente": {
         "name": "Borraccia Carlo's — Trasparente",
@@ -647,17 +655,18 @@
         },
         "02": {
           "title": "Briefing",
-          "description": "Il team vi contatta entro 24 ore per definire dettagli, palette e referenze."
+          "description": "Il team vi contatta per definire dettagli, palette e referenze."
         },
         "03": {
           "title": "Creazione",
-          "description": "Ricevete uno schizzo personalizzato e concordiamo ogni dettaglio prima della produzione."
+          "description": "Ricevete un progetto personalizzato e concordiamo ogni dettaglio prima della produzione."
         },
         "04": {
           "title": "Consegna",
           "description": "Produciamo con 7–30 giorni di anticipo (in base alla complessità) e consegniamo in sede dell’evento."
         }
-      }
+      },
+      "note": "Tutti i negozi hanno cucina show."
     },
     "testimonials": {
       "eyebrow": "Cosa dicono",
@@ -683,16 +692,14 @@
     "form": {
       "eyebrow": "Creiamo insieme",
       "heading": "Richiedete il vostro preventivo.",
-      "subhead": "Compilate il modulo: il nostro team risponderà entro 24 ore lavorative.",
-      "subheadContact": "Contattate la nostra sede di Vila Leopoldina — servizio personalizzato per la vostra torta.",
+      "subhead": "Compilate il modulo: il nostro team vi contatterà.",
+      "subheadContact": "Contattate il nostro team — servizio personalizzato per la vostra torta.",
       "storeEyebrow": "Servizio in negozio",
       "storeHours": "Lun–Dom · 10–22",
       "directions": "Indicazioni",
       "guarantees": {
-        "response": "Risposta entro 24 ore",
         "briefing": "Briefing personalizzato",
-        "sketch": "Schizzo prima della produzione",
-        "delivery": "Consegna nella sede dell’evento"
+        "delivery": "Consegna nella sede dell’evento — consultare spese di spedizione"
       },
       "whatsappTitle": "Preferite parlare direttamente?",
       "whatsappCta": "Scrivi su WhatsApp",
@@ -755,7 +762,7 @@
         },
         "delivery": {
           "question": "Consegnate nel luogo dell’evento?",
-          "answer": "Sì, a São Paulo e nell’area metropolitana. Per altre città chiedete in sede."
+          "answer": "Sì, a São Paulo e nell’area metropolitana. Consultare spese di spedizione. Il ritiro in fabbrica (Vila Leopoldina) è gratuito."
         },
         "tasting": {
           "question": "Posso assaggiare prima di ordinare?",

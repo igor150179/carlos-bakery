@@ -66,7 +66,7 @@ export const STORES: Store[] = [
       sunday: "10h às 22h",
     },
     coordinates: { lat: -23.5311, lng: -46.7295 },
-    features: ["Workshop Mini Confeiteiros", "Cozinha Show", "Estacionamento"],
+    features: ["Estacionamento"],
     image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&q=80",
     googleMapsUrl: "https://maps.google.com/?q=R.+Aroaba,+309,+São+Paulo",
     wazeUrl: "https://waze.com/ul?q=R.+Aroaba,+309,+São+Paulo",
