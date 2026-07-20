@@ -102,6 +102,18 @@
     "developerPrefix": "Developed by",
     "developerAriaLabel": "CLAPE by IO produções — igoroliveira.com.br"
   },
+  "showKitchen": {
+    "ariaLabel": "Show Kitchen — at every Carlo's store",
+    "badge": "Show Kitchen",
+    "scope": "At every store",
+    "heading": "Watch the magic happen through the glass.",
+    "body": "At every Carlo's location, you can watch our pastry chefs making custom cakes, cannoli and other treats — live, in our show kitchen.",
+    "highlights": {
+      "live": "Live",
+      "allStores": "8 locations",
+      "glass": "View through glass"
+    }
+  },
   "menu": {
     "meta": {
       "title": "Menu",

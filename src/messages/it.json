@@ -102,6 +102,18 @@
     "developerPrefix": "Sviluppato da",
     "developerAriaLabel": "CLAPE by IO produções — igoroliveira.com.br"
   },
+  "showKitchen": {
+    "ariaLabel": "Cucina Show — in tutti i negozi Carlo's",
+    "badge": "Cucina Show",
+    "scope": "In tutti i negozi",
+    "heading": "Guarda la magia accadere dal vetro.",
+    "body": "In ogni unità Carlo's, puoi seguire i nostri pasticceri mentre preparano torte personalizzate, cannoli e altre delizie — dal vivo, nella cucina show.",
+    "highlights": {
+      "live": "Dal vivo",
+      "allStores": "8 unità",
+      "glass": "Vista dal vetro"
+    }
+  },
   "menu": {
     "meta": {
       "title": "Menu",

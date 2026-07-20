@@ -8,6 +8,8 @@ import type { Coordinates } from "@/lib/store-utils";
 import { getStoreDistance } from "@/lib/store-utils";
 import { cn } from "@/lib/utils";
 
+import { ShowKitchenCallout } from "@/components/shared/ShowKitchenCallout";
+
 import { StoreCard } from "./StoreCard";
 import { StoreFilters, type StoreFilter, type StoreView } from "./StoreFilters";
 
@@ -59,6 +61,8 @@ export function StoresList({
         onViewChange={onViewChange}
         resultCount={stores.length}
       />
+
+      <ShowKitchenCallout className="mt-4" />
 
       {stores.length > 0 ? (
         <div

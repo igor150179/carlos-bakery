@@ -88,7 +88,7 @@ export const STORES: Store[] = [
       sunday: "14h às 20h",
     },
     coordinates: { lat: -23.5708, lng: -46.6997 },
-    features: ["Espaço Instagramável", "Cozinha Show", "Shopping"],
+    features: ["Espaço Instagramável", "Shopping"],
     image: "https://images.unsplash.com/photo-1604152135912-04a022e23696?w=1200&q=80",
     googleMapsUrl: "https://maps.google.com/?q=Av.+Rebouças,+3970,+São+Paulo",
     wazeUrl: "https://waze.com/ul?q=Av.+Rebouças,+3970,+São+Paulo",

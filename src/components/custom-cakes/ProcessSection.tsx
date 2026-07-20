@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 
 import { FadeIn } from "@/components/animations/FadeIn";
+import { ShowKitchenCallout } from "@/components/shared/ShowKitchenCallout";
 import { PROCESS_STEP_IDS } from "@/data/custom-cakes";
 
 import { ProcessStep } from "./ProcessStep";
@@ -40,9 +41,7 @@ export function ProcessSection() {
           ))}
         </ol>
 
-        <p className="mt-10 text-center font-sans text-sm leading-relaxed text-cream-50/80 md:text-base">
-          {t("note")}
-        </p>
+        <ShowKitchenCallout variant="dark" className="mt-10 md:mt-12" />
       </div>
     </section>
   );
