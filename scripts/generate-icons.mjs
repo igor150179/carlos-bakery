@@ -9,19 +9,17 @@ const root = join(__dirname, "..");
 const sourcePath = join(root, "public/images/brand/c-favicon-source.png");
 
 const BLACK = { r: 0, g: 0, b: 0, alpha: 1 };
+const RESIZE = { fit: "contain", background: BLACK, kernel: sharp.kernel.lanczos3 };
 
 async function renderIcon(size, { padding = 0 } = {}) {
   if (padding === 0) {
-    return sharp(sourcePath).resize(size, size, {
-      fit: "contain",
-      background: BLACK,
-    });
+    return sharp(sourcePath).resize(size, size, RESIZE);
   }
 
   const padPx = Math.round(size * padding);
   const inner = size - padPx * 2;
   const mark = await sharp(sourcePath)
-    .resize(inner, inner, { fit: "contain", background: BLACK })
+    .resize(inner, inner, RESIZE)
     .toBuffer();
 
   return sharp({
@@ -36,11 +34,13 @@ async function writeIcon(size, outputPath, options) {
 }
 
 async function writeFavicon(outputPath) {
-  const png16 = await renderIcon(16).then((img) => img.png().toBuffer());
-  const png32 = await renderIcon(32).then((img) => img.png().toBuffer());
+  const sizes = [16, 32, 48];
+  const pngBuffers = await Promise.all(
+    sizes.map((size) => renderIcon(size).then((img) => img.png().toBuffer())),
+  );
 
   const { default: pngToIco } = await import("png-to-ico");
-  const ico = await pngToIco([png16, png32]);
+  const ico = await pngToIco(pngBuffers);
   await writeFile(outputPath, ico);
 }
 
@@ -57,6 +57,8 @@ async function main() {
     ],
     [32, join(root, "src/app/icon.png")],
     [180, join(root, "src/app/apple-icon.png")],
+    [180, join(root, "public/apple-touch-icon.png")],
+    [180, join(root, "public/icons/apple-touch-icon.png")],
   ];
 
   for (const [size, outputPath, options] of targets) {
