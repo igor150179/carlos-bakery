@@ -6,25 +6,27 @@ import sharp from "sharp";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
-const monogramPath = join(root, "public/images/brand/c-monogram.png");
+const sourcePath = join(root, "public/images/brand/c-favicon-source.png");
 
-const CREAM = { r: 251, g: 248, b: 243, alpha: 1 };
-const CARLO_RED = { r: 200, g: 16, b: 46, alpha: 1 };
+const BLACK = { r: 0, g: 0, b: 0, alpha: 1 };
 
-async function renderIcon(size, { bg = CREAM, padding = 0.14 } = {}) {
+async function renderIcon(size, { padding = 0 } = {}) {
+  if (padding === 0) {
+    return sharp(sourcePath).resize(size, size, {
+      fit: "contain",
+      background: BLACK,
+    });
+  }
+
   const padPx = Math.round(size * padding);
-  const box = size - padPx * 2;
-  const cHeight = Math.round(box * 0.9);
-  const cBuffer = await sharp(monogramPath)
-    .resize(null, cHeight, { fit: "inside" })
+  const inner = size - padPx * 2;
+  const mark = await sharp(sourcePath)
+    .resize(inner, inner, { fit: "contain", background: BLACK })
     .toBuffer();
-  const meta = await sharp(cBuffer).metadata();
-  const left = Math.round((size - (meta.width ?? 0)) / 2);
-  const top = Math.round((size - (meta.height ?? 0)) / 2);
 
   return sharp({
-    create: { width: size, height: size, channels: 4, background: bg },
-  }).composite([{ input: cBuffer, left, top }]);
+    create: { width: size, height: size, channels: 4, background: BLACK },
+  }).composite([{ input: mark, left: padPx, top: padPx }]);
 }
 
 async function writeIcon(size, outputPath, options) {
@@ -34,10 +36,8 @@ async function writeIcon(size, outputPath, options) {
 }
 
 async function writeFavicon(outputPath) {
-  const image16 = await renderIcon(16);
-  const image32 = await renderIcon(32);
-  const png16 = await image16.png().toBuffer();
-  const png32 = await image32.png().toBuffer();
+  const png16 = await renderIcon(16).then((img) => img.png().toBuffer());
+  const png32 = await renderIcon(32).then((img) => img.png().toBuffer());
 
   const { default: pngToIco } = await import("png-to-ico");
   const ico = await pngToIco([png16, png32]);
@@ -53,7 +53,7 @@ async function main() {
     [
       512,
       join(root, "public/icons/icon-512-maskable.png"),
-      { bg: CREAM, padding: 0.24 },
+      { padding: 0.12 },
     ],
     [32, join(root, "src/app/icon.png")],
     [180, join(root, "src/app/apple-icon.png")],
