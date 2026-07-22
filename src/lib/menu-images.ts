@@ -32,7 +32,6 @@ export const MENU_IMAGES = {
   boloStrawberryShortcake: img("bolo-strawberry-shortcake.png"),
   /** Fatias de bolo */
   fatiaBoloRainbow: img("fatia-bolo-rainbow.png"),
-  fatiaBoloCoco: img("fatia-bolo-coco.png"),
   fatiaBoloChocolate: img("fatia-bolo-chocolate.png"),
   fatiaBoloRedVelvet: img("fatia-bolo-red-velvet.png"),
   fatiaBoloCenoura: img("fatia-bolo-cenoura.png"),

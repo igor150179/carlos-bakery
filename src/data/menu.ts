@@ -209,12 +209,6 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "bestseller",
   },
   {
-    id: "fatia-bolo-coco",
-    category: "cake-slices",
-    price: 26.99,
-    image: MENU_IMAGES.fatiaBoloCoco,
-  },
-  {
     id: "fatia-bolo-chocolate",
     category: "cake-slices",
     price: 26.99,
