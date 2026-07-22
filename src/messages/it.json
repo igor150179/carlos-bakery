@@ -128,7 +128,6 @@
     "categories": {
       "navLabel": "Categorie del menu",
       "signatures": "Signature",
-      "cookies": "Cookies & Biscotti",
       "croissants": "Croissant",
       "salgados": "Salati",
       "cakes": "Torte",
@@ -181,11 +180,6 @@
         "heading": "I classici della casa",
         "description": "Icone di Hoboken che definiscono Carlo's da oltre un secolo."
       },
-      "cookies": {
-        "eyebrow": "Cookies",
-        "heading": "Cookies & Biscotti",
-        "description": "Croccanti fuori, generosi dentro — cotti freschi ogni giorno."
-      },
       "croissants": {
         "eyebrow": "Viennoiserie",
         "heading": "Croissant",
@@ -234,7 +228,7 @@
       "specials": {
         "eyebrow": "Dolci Speciali",
         "heading": "Dolci Speciali",
-        "description": "Éclair artigianali, brigadeiro, brownie e creazioni della casa — edizioni limitate."
+        "description": "Cookies, éclair artigianali, brigadeiro, brownie e creazioni della casa — edizioni limitate."
       },
       "souvenirs": {
         "eyebrow": "Shop",

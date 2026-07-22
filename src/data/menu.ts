@@ -2,7 +2,6 @@ import { MENU_IMAGES } from "@/lib/menu-images";
 
 export type MenuCategory =
   | "signatures"
-  | "cookies"
   | "croissants"
   | "salgados"
   | "cakes"
@@ -60,14 +59,13 @@ export const MENU_CATEGORIES = [
   { id: "specials" as const, order: 3 },
   { id: "cake-slices" as const, order: 4 },
   { id: "cakes" as const, order: 5 },
-  { id: "cookies" as const, order: 6 },
-  { id: "croissants" as const, order: 7 },
-  { id: "cupcakes" as const, order: 8 },
-  { id: "donuts" as const, order: 9 },
-  { id: "beverages" as const, order: 10 },
-  { id: "cold-beverages" as const, order: 11 },
-  { id: "salgados" as const, order: 12 },
-  { id: "souvenirs" as const, order: 13 },
+  { id: "croissants" as const, order: 6 },
+  { id: "cupcakes" as const, order: 7 },
+  { id: "donuts" as const, order: 8 },
+  { id: "beverages" as const, order: 9 },
+  { id: "cold-beverages" as const, order: 10 },
+  { id: "salgados" as const, order: 11 },
+  { id: "souvenirs" as const, order: 12 },
 ] as const;
 
 export const MENU_ITEMS: MenuItem[] = [
@@ -84,13 +82,6 @@ export const MENU_ITEMS: MenuItem[] = [
     category: "signatures",
     price: 23.99,
     image: MENU_IMAGES.cannoliSiciliano,
-  },
-  {
-    id: "chocolate-chip-cookie",
-    category: "cookies",
-    price: 21.99,
-    image: MENU_IMAGES.cookieChocolateChip,
-    badge: "bestseller",
   },
   {
     id: "croissant-classico",
@@ -425,6 +416,13 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 14,
     image: MENU_IMAGES.bebidaFriaChaFrutas,
     badge: "novo",
+  },
+  {
+    id: "chocolate-chip-cookie",
+    category: "specials",
+    price: 21.99,
+    image: MENU_IMAGES.cookieChocolateChip,
+    badge: "bestseller",
   },
   {
     id: "eclair-morango-creme",

@@ -128,7 +128,6 @@
     "categories": {
       "navLabel": "Menu categories",
       "signatures": "Signatures",
-      "cookies": "Cookies & Biscuits",
       "croissants": "Croissants",
       "salgados": "Savories",
       "cakes": "Cakes",
@@ -181,11 +180,6 @@
         "heading": "House classics",
         "description": "Hoboken icons that have defined Carlo's for over a century."
       },
-      "cookies": {
-        "eyebrow": "Cookies",
-        "heading": "Cookies & Biscuits",
-        "description": "Crisp outside, generous inside — baked fresh in small batches daily."
-      },
       "croissants": {
         "eyebrow": "Viennoiserie",
         "heading": "Croissants",
@@ -198,8 +192,8 @@
       },
       "cakes": {
         "eyebrow": "Cakes",
-        "heading": "Cakes & Tortes",
-        "description": "Whole cakes and baby cakes — generous layers, showcase flavors and Carlo's artisan finishing."
+        "heading": "Cakes",
+        "description": "Buddy Valastro's specialty. Flavorful, tender cakes with premium finishing."
       },
       "cake-slices": {
         "eyebrow": "Slices",
@@ -234,7 +228,7 @@
       "specials": {
         "eyebrow": "Special Sweets",
         "heading": "Special Sweets",
-        "description": "Artisan éclairs, brigadeiros, brownies and house creations — limited editions."
+        "description": "Cookies, artisan éclairs, brigadeiros, brownies and house creations — limited editions."
       },
       "souvenirs": {
         "eyebrow": "Shop",

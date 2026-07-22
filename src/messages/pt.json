@@ -128,7 +128,6 @@
     "categories": {
       "navLabel": "Categorias do cardápio",
       "signatures": "Signatures",
-      "cookies": "Cookies & Biscoitos",
       "croissants": "Croissants",
       "salgados": "Salgados",
       "cakes": "Bolos",
@@ -181,11 +180,6 @@
         "heading": "Os clássicos da casa",
         "description": "Ícones de Hoboken que definem a Carlo's há mais de um século."
       },
-      "cookies": {
-        "eyebrow": "Cookies",
-        "heading": "Cookies & Biscoitos",
-        "description": "Crocantes por fora, generosos por dentro — feitos em lotes frescos todos os dias."
-      },
       "croissants": {
         "eyebrow": "Viennoiserie",
         "heading": "Croissants",
@@ -198,8 +192,8 @@
       },
       "cakes": {
         "eyebrow": "Bolos",
-        "heading": "Bolos & Tortas",
-        "description": "Bolos inteiros e baby bolos — camadas generosas, sabores da vitrine e decoração artesanal Carlo's."
+        "heading": "Bolos",
+        "description": "Especialidade do Buddy Valastro. Bolos saborosos, macios e com acabamento de alto nível."
       },
       "cake-slices": {
         "eyebrow": "Fatias",
@@ -234,7 +228,7 @@
       "specials": {
         "eyebrow": "Doces Especiais",
         "heading": "Doces Especiais",
-        "description": "Éclairs artesanais, brigadeiros, brownies e criações da confeitaria — edições limitadas da casa."
+        "description": "Cookies, éclairs artesanais, brigadeiros, brownies e criações da confeitaria — edições limitadas da casa."
       },
       "souvenirs": {
         "eyebrow": "Loja",
