@@ -401,7 +401,7 @@
         "description": "Laminated pastry with double chocolate cream, crunchy pistachio ganache and artisan topping."
       },
       "cauda-lagosta-doce-leite": {
-        "name": "Mama Valastro Lobster Tail",
+        "name": "Sicilian Lemon Lobster Tail",
         "description": "Extremely crispy laminated pastry with Sicilian lemon cream and condensed milk drizzle."
       },
       "cauda-lagosta-cacau": {
@@ -411,10 +411,6 @@
       "sfogliatella-fondente": {
         "name": "Salted Caramel Lobster Tail",
         "description": "Crispy laminated pastry with french cream flavored with caramel and fleur de sel."
-      },
-      "lobster-tail-limao-siciliano": {
-        "name": "Sicilian Lemon Lobster Tail",
-        "description": "Incredible crispy, light laminated pastry with Sicilian lemon cream filling, finished with condensed milk drizzle."
       },
       "red-velvet-cupcake": {
         "name": "Red Velvet Cupcake",

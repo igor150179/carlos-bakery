@@ -401,7 +401,7 @@
         "description": "Sfoglia ripiena con doppia crema al cioccolato, ganache croccante al pistacchio e copertura artigianale."
       },
       "cauda-lagosta-doce-leite": {
-        "name": "Lobster Tail Mama Valastro",
+        "name": "Lobster Tail Limone Siciliano",
         "description": "Sfoglia estremamente croccante con crema al limone siciliano e filigrana di latte condensato."
       },
       "cauda-lagosta-cacau": {
@@ -411,10 +411,6 @@
       "sfogliatella-fondente": {
         "name": "Lobster Tail Caramello e Fior di Sale",
         "description": "Sfoglia croccante con french cream al caramello e fior di sale — equilibrio dolce e salato."
-      },
-      "lobster-tail-limao-siciliano": {
-        "name": "Lobster Tail Limone Siciliano",
-        "description": "Incredibile sfoglia croccante e leggera, con ripieno di crema al limone siciliano e finitura con latte condensato."
       },
       "red-velvet-cupcake": {
         "name": "Cupcake Red Velvet",

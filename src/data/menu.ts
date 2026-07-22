@@ -344,13 +344,6 @@ export const MENU_ITEMS: MenuItem[] = [
     image: MENU_IMAGES.folhadoSfogliatellaFondente,
   },
   {
-    id: "lobster-tail-limao-siciliano",
-    category: "cannoli",
-    price: 25.99,
-    priceFrom: true,
-    image: MENU_IMAGES.folhadoLobsterTailLimaoSiciliano,
-  },
-  {
     id: "red-velvet-cupcake",
     category: "cupcakes",
     price: 18,
