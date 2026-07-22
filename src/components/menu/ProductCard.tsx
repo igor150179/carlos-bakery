@@ -145,7 +145,7 @@ export function ProductCard({
         <h3 className="font-display text-2xl leading-tight text-espresso-900">
           {name}
         </h3>
-        <p className="mt-2 line-clamp-2 font-sans text-sm leading-relaxed text-espresso-700">
+        <p className="mt-2 font-sans text-sm leading-relaxed text-espresso-700">
           {description}
         </p>
         <div className="my-3 border-t border-espresso-900/10" aria-hidden />

@@ -121,15 +121,14 @@
     },
     "hero": {
       "eyebrow": "Nosso Cardápio",
-      "headline": "Da Itália para sua mesa.",
-      "subhead": "Receitas centenárias da família Valastro, agora em São Paulo.",
+      "headline": "Da TV para a sua mesa.",
+      "subhead": "Nossos doces ficaram famosos no reality show The Cake Boss e agora estão em São Paulo para você provar.",
       "scroll": "scroll"
     },
     "categories": {
       "navLabel": "Categorias do cardápio",
       "signatures": "Signatures",
-      "croissants": "Croissants",
-      "salgados": "Salgados",
+      "salgados": "Croissants & Salgados",
       "cakes": "Bolos",
       "cake-slices": "Fatias de Bolo",
       "cannoli": "Cannoli & Folhados",
@@ -139,20 +138,6 @@
       "cold-beverages": "Bebidas Frias",
       "specials": "Doces Especiais",
       "souvenirs": "Souvenirs"
-    },
-    "salgadosSubgroups": {
-      "assados": {
-        "heading": "Assados",
-        "description": "Folhados e massas laminadas ao forno — crocantes por fora, recheio cremoso."
-      },
-      "fritos": {
-        "heading": "Fritos",
-        "description": "Coxinhas e salgados na hora — casquinha dourada e recheio generoso."
-      },
-      "porcoes": {
-        "heading": "Porções",
-        "description": "Para compartilhar ou levar — porções generosas da vitrine."
-      }
     },
     "cakesSubgroups": {
       "bolos-inteiros": {
@@ -180,15 +165,10 @@
         "heading": "Os clássicos da casa",
         "description": "Ícones de Hoboken que definem a Carlo's há mais de um século."
       },
-      "croissants": {
-        "eyebrow": "Viennoiserie",
-        "heading": "Croissants",
-        "description": "Massa folhada amanteigada."
-      },
       "salgados": {
-        "eyebrow": "Salgados",
-        "heading": "Salgados",
-        "description": "Clássicos brasileiros e folhados salgados da casa — ideais para o café da manhã ou o lanche."
+        "eyebrow": "Croissants & Salgados",
+        "heading": "Croissants & Salgados",
+        "description": "Croissants, coxinhas, pão de queijo e clássicos salgados da casa — ideais para o café da manhã ou o lanche."
       },
       "cakes": {
         "eyebrow": "Bolos",
@@ -203,7 +183,7 @@
       "cannoli": {
         "eyebrow": "Folhados",
         "heading": "Cannoli & Folhados",
-        "description": "Cannoli sicilianos e sfogliatelle — massa folhada em camadas (sfogliatella riccia e cauda de lagosta), recheios cremosos e finalizações artesanais."
+        "description": "Os mais vendidos da Carlo's. Receitas da família Valastro que conquistaram o mundo."
       },
       "cupcakes": {
         "eyebrow": "Cupcakes",
@@ -296,7 +276,7 @@
       },
       "coxinha": {
         "name": "Coxinha",
-        "description": "Massa cremosa à base de batata com generoso recheio — escolha o seu sabor."
+        "description": "Massa cremosa à base de batata com generoso recheio."
       },
       "coxinha-catupiry": {
         "name": "Coxinha com Catupiry",
@@ -304,7 +284,7 @@
       },
       "pao-de-queijo-copo": {
         "name": "Mini Pão de Queijo do Buddy — 5un",
-        "description": "Feito com queijo parmesão mineiro — crocante por fora, macio por dentro. Serve 1 pessoa."
+        "description": "Feito com queijo parmesão mineiro — crocante por fora, macio por dentro."
       },
       "red-velvet-cake": {
         "name": "Bolo Red Velvet",
@@ -352,7 +332,7 @@
       },
       "cannoli-pistachio-fondente": {
         "name": "Cannoli Pistache Dubai",
-        "description": "Massa crocante ou banhada em chocolate meio amargo, recheada com creme de pistache e crocante de Dubai."
+        "description": "Massa crocante recheada com creme de pistache e crocante de Dubai."
       },
       "cannoli-cioccolato": {
         "name": "Cannoli brigadeiro de panela",

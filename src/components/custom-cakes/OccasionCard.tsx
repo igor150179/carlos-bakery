@@ -32,7 +32,7 @@ export function OccasionCard({
           <h3 className="font-display text-2xl leading-tight text-cream-50">
             {title}
           </h3>
-          <p className="mt-2 line-clamp-2 font-sans text-sm leading-relaxed text-cream-50/80">
+          <p className="mt-2 font-sans text-sm leading-relaxed text-cream-50/80">
             {description}
           </p>
         </div>

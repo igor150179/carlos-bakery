@@ -121,15 +121,14 @@
     },
     "hero": {
       "eyebrow": "Il Nostro Menu",
-      "headline": "Dall'Italia alla vostra tavola.",
-      "subhead": "Ricette secolari della famiglia Valastro, ora a San Paolo.",
+      "headline": "Dalla TV alla vostra tavola.",
+      "subhead": "I nostri dolci sono diventati famosi nel reality show The Cake Boss e ora sono a San Paolo per farti assaggiare.",
       "scroll": "scroll"
     },
     "categories": {
       "navLabel": "Categorie del menu",
       "signatures": "Signature",
-      "croissants": "Croissant",
-      "salgados": "Salati",
+      "salgados": "Croissant & Salati",
       "cakes": "Torte",
       "cake-slices": "Fette di Torta",
       "cannoli": "Cannoli & Sfogliati",
@@ -139,20 +138,6 @@
       "cold-beverages": "Bevande Fredde",
       "specials": "Dolci Speciali",
       "souvenirs": "Souvenir"
-    },
-    "salgadosSubgroups": {
-      "assados": {
-        "heading": "Al Forno",
-        "description": "Sfogliati e paste laminati — croccanti fuori, ripieno cremoso."
-      },
-      "fritos": {
-        "heading": "Fritti",
-        "description": "Coxinhas e salati fritti — crosta dorata e ripieno generoso."
-      },
-      "porcoes": {
-        "heading": "Porzioni",
-        "description": "Porzioni generose da condividere o portare via."
-      }
     },
     "cakesSubgroups": {
       "bolos-inteiros": {
@@ -180,15 +165,10 @@
         "heading": "I classici della casa",
         "description": "Icone di Hoboken che definiscono Carlo's da oltre un secolo."
       },
-      "croissants": {
-        "eyebrow": "Viennoiserie",
-        "heading": "Croissant",
-        "description": "Pasta sfoglia al burro."
-      },
       "salgados": {
-        "eyebrow": "Salati",
-        "heading": "Salati",
-        "description": "Classici brasiliani e sfogliati salati della casa — perfetti a colazione o merenda."
+        "eyebrow": "Croissant & Salati",
+        "heading": "Croissant & Salati",
+        "description": "Croissant, coxinhas, pane al formaggio e classici salati della casa — ideali a colazione o merenda."
       },
       "cakes": {
         "eyebrow": "Torte",
@@ -203,7 +183,7 @@
       "cannoli": {
         "eyebrow": "Sfogliati",
         "heading": "Cannoli & Sfogliati",
-        "description": "Cannoli siciliani e sfogliatelle — pasta sfoglia a strati (riccia e coda d'aragosta) con creme artigianali."
+        "description": "I più venduti di Carlo's. Ricette della famiglia Valastro che hanno conquistato il mondo."
       },
       "cupcakes": {
         "eyebrow": "Cupcake",
@@ -296,7 +276,7 @@
       },
       "coxinha": {
         "name": "Coxinha",
-        "description": "Impasto cremoso a base di patate con generoso ripieno — scegli il tuo gusto."
+        "description": "Impasto cremoso a base di patate con generoso ripieno."
       },
       "coxinha-catupiry": {
         "name": "Coxinha con Catupiry",
@@ -304,7 +284,7 @@
       },
       "pao-de-queijo-copo": {
         "name": "Mini Pão de Queijo del Buddy — 5 pz",
-        "description": "Fatto con parmigiano di Minas — croccante fuori, morbido dentro. Per 1 persona."
+        "description": "Fatto con parmigiano di Minas — croccante fuori, morbido dentro."
       },
       "red-velvet-cake": {
         "name": "Torta Red Velvet",
@@ -352,7 +332,7 @@
       },
       "cannoli-pistachio-fondente": {
         "name": "Cannolo Pistacchio Dubai",
-        "description": "Guscio croccante o ricoperto di cioccolato fondente, ripieno di crema al pistacchio e crunch Dubai."
+        "description": "Guscio croccante ripieno di crema al pistacchio e crunch Dubai."
       },
       "cannoli-cioccolato": {
         "name": "Cannolo Brigadeiro de Panela",

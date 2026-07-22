@@ -2,7 +2,6 @@ import { MENU_IMAGES } from "@/lib/menu-images";
 
 export type MenuCategory =
   | "signatures"
-  | "croissants"
   | "salgados"
   | "cakes"
   | "cake-slices"
@@ -18,24 +17,18 @@ export type MenuBadge = "novo" | "bestseller" | "sazonal";
 
 /** Subgrupos exibidos na página (não na navegação) */
 export type MenuSubgroup =
-  | "assados"
-  | "fritos"
-  | "porcoes"
   | "bolos-inteiros"
   | "mini-bolos"
   | "canecas"
   | "garrafas";
 
-export const SALGADOS_SUBGROUP_ORDER: MenuSubgroup[] = ["fritos", "porcoes"];
-
-export const CAKES_SUBGROUP_ORDER: MenuSubgroup[] = ["bolos-inteiros", "mini-bolos"];
+export const CAKES_SUBGROUP_ORDER: MenuSubgroup[] = ["mini-bolos", "bolos-inteiros"];
 
 export const SOUVENIRS_SUBGROUP_ORDER: MenuSubgroup[] = ["canecas", "garrafas"];
 
 export const CATEGORY_SUBGROUP_ORDER: Partial<
   Record<MenuCategory, MenuSubgroup[]>
 > = {
-  salgados: SALGADOS_SUBGROUP_ORDER,
   cakes: CAKES_SUBGROUP_ORDER,
   souvenirs: SOUVENIRS_SUBGROUP_ORDER,
 };
@@ -59,13 +52,12 @@ export const MENU_CATEGORIES = [
   { id: "specials" as const, order: 3 },
   { id: "cake-slices" as const, order: 4 },
   { id: "cakes" as const, order: 5 },
-  { id: "croissants" as const, order: 6 },
+  { id: "salgados" as const, order: 6 },
   { id: "cupcakes" as const, order: 7 },
   { id: "donuts" as const, order: 8 },
   { id: "beverages" as const, order: 9 },
   { id: "cold-beverages" as const, order: 10 },
-  { id: "salgados" as const, order: 11 },
-  { id: "souvenirs" as const, order: 12 },
+  { id: "souvenirs" as const, order: 11 },
 ] as const;
 
 export const MENU_ITEMS: MenuItem[] = [
@@ -85,14 +77,14 @@ export const MENU_ITEMS: MenuItem[] = [
   },
   {
     id: "croissant-classico",
-    category: "croissants",
+    category: "salgados",
     price: 15.99,
     image: MENU_IMAGES.croissantClassico,
     badge: "bestseller",
   },
   {
     id: "croissant-gergelim",
-    category: "croissants",
+    category: "salgados",
     price: 21.99,
     image: MENU_IMAGES.croissantGergelim,
     badge: "novo",
@@ -100,7 +92,6 @@ export const MENU_ITEMS: MenuItem[] = [
   {
     id: "coxinha",
     category: "salgados",
-    subgroup: "fritos",
     price: 15.99,
     priceFrom: true,
     image: MENU_IMAGES.salgadoCoxinha,
@@ -109,7 +100,6 @@ export const MENU_ITEMS: MenuItem[] = [
   {
     id: "coxinha-catupiry",
     category: "salgados",
-    subgroup: "fritos",
     price: 15.99,
     priceFrom: true,
     image: MENU_IMAGES.salgadoCoxinhaCatupiry,
@@ -118,7 +108,6 @@ export const MENU_ITEMS: MenuItem[] = [
   {
     id: "pao-de-queijo-copo",
     category: "salgados",
-    subgroup: "porcoes",
     price: 17.99,
     image: MENU_IMAGES.salgadoPaoDeQueijo,
     badge: "bestseller",
@@ -583,10 +572,4 @@ export function getItemsBySubgroup(
   return getItemsByCategory(category).filter(
     (item) => item.subgroup === subgroup,
   );
-}
-
-export function getSalgadosBySubgroup(
-  subgroup: MenuSubgroup,
-): MenuItem[] {
-  return getItemsBySubgroup("salgados", subgroup);
 }

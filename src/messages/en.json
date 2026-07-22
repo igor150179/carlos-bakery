@@ -121,15 +121,14 @@
     },
     "hero": {
       "eyebrow": "Our Menu",
-      "headline": "From Italy to your table.",
-      "subhead": "Century-old Valastro family recipes, now in São Paulo.",
+      "headline": "From TV to your table.",
+      "subhead": "Our sweets became famous on the reality show The Cake Boss and are now in São Paulo for you to try.",
       "scroll": "scroll"
     },
     "categories": {
       "navLabel": "Menu categories",
       "signatures": "Signatures",
-      "croissants": "Croissants",
-      "salgados": "Savories",
+      "salgados": "Croissants & Savories",
       "cakes": "Cakes",
       "cake-slices": "Cake Slices",
       "cannoli": "Cannoli & Pastries",
@@ -139,20 +138,6 @@
       "cold-beverages": "Cold Beverages",
       "specials": "Special Sweets",
       "souvenirs": "Souvenirs"
-    },
-    "salgadosSubgroups": {
-      "assados": {
-        "heading": "Baked",
-        "description": "Laminated pastries from the oven — crisp outside, creamy filling."
-      },
-      "fritos": {
-        "heading": "Fried",
-        "description": "Coxinhas and fried savories — golden crust and generous filling."
-      },
-      "porcoes": {
-        "heading": "To Share",
-        "description": "Generous portions from the display — great to share or take away."
-      }
     },
     "cakesSubgroups": {
       "bolos-inteiros": {
@@ -180,15 +165,10 @@
         "heading": "House classics",
         "description": "Hoboken icons that have defined Carlo's for over a century."
       },
-      "croissants": {
-        "eyebrow": "Viennoiserie",
-        "heading": "Croissants",
-        "description": "Buttery laminated dough."
-      },
       "salgados": {
-        "eyebrow": "Savories",
-        "heading": "Savories",
-        "description": "Brazilian classics and house savory pastries — perfect for breakfast or a snack."
+        "eyebrow": "Croissants & Savories",
+        "heading": "Croissants & Savories",
+        "description": "Croissants, coxinhas, cheese bread and house savory classics — perfect for breakfast or a snack."
       },
       "cakes": {
         "eyebrow": "Cakes",
@@ -203,7 +183,7 @@
       "cannoli": {
         "eyebrow": "Pastries",
         "heading": "Cannoli & Pastries",
-        "description": "Sicilian cannoli and sfogliatelle — layered puff pastry (riccia shells and lobster tails) with artisan creams and finishes."
+        "description": "Carlo's bestsellers. Valastro family recipes that conquered the world."
       },
       "cupcakes": {
         "eyebrow": "Cupcakes",
@@ -296,7 +276,7 @@
       },
       "coxinha": {
         "name": "Coxinha",
-        "description": "Creamy potato-based dough with a generous filling — choose your flavor."
+        "description": "Creamy potato-based dough with a generous filling."
       },
       "coxinha-catupiry": {
         "name": "Coxinha with Catupiry",
@@ -304,7 +284,7 @@
       },
       "pao-de-queijo-copo": {
         "name": "Buddy's Mini Cheese Bread — 5 pcs",
-        "description": "Made with Minas parmesan cheese — crisp outside, soft inside. Serves 1."
+        "description": "Made with Minas parmesan cheese — crisp outside, soft inside."
       },
       "red-velvet-cake": {
         "name": "Red Velvet Cake",
@@ -352,7 +332,7 @@
       },
       "cannoli-pistachio-fondente": {
         "name": "Dubai Pistachio Cannoli",
-        "description": "Crispy or dark chocolate-dipped shell filled with pistachio cream and Dubai crunch."
+        "description": "Crispy shell filled with pistachio cream and Dubai crunch."
       },
       "cannoli-cioccolato": {
         "name": "Cannoli Stovetop Brigadeiro",

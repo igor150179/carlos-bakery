@@ -47,17 +47,14 @@ function ProductGrid({ items }: { items: MenuItem[] }) {
 export function MenuCategorySection({ category, order }: MenuCategorySectionProps) {
   const t = useTranslations("menu.categorySections");
   const subgroupOrder = CATEGORY_SUBGROUP_ORDER[category];
-  const tSalgadosSub = useTranslations("menu.salgadosSubgroups");
   const tCakesSub = useTranslations("menu.cakesSubgroups");
   const tSouvenirsSub = useTranslations("menu.souvenirsSubgroups");
   const tSub =
     category === "souvenirs"
       ? tSouvenirsSub
-      : category === "salgados"
-        ? tSalgadosSub
-        : category === "cakes"
-          ? tCakesSub
-          : null;
+      : category === "cakes"
+        ? tCakesSub
+        : null;
   const items = getItemsByCategory(category);
   const orderLabel = String(order).padStart(2, "0");
   const description = t(`${category}.description`);
