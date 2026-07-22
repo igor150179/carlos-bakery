@@ -10,7 +10,7 @@ export const MENU_IMAGES = {
   folhadoSfogliatellaRicota: img("folhado-sfogliatella-ricota.png"),
   folhadoSfogliatellaChocolate: img("folhado-sfogliatella-chocolate.png"),
   folhadoSfogliatellaPistache: img("folhado-sfogliatella-pistache.png"),
-  folhadoCaudaLagostaDoceLeite: img("folhado-cauda-lagosta-doce-leite.png"),
+  folhadoCaudaLagostaDoceLeite: img("lobster-tail-limao-siciliano.png"),
   folhadoCaudaLagostaCacau: img("folhado-cauda-lagosta-cacau.png"),
   folhadoSfogliatellaFondente: img("folhado-sfogliatella-fondente.png"),
   /** Cannoli */

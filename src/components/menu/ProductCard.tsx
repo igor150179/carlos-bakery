@@ -25,6 +25,7 @@ function isStudioPhoto(src: string) {
     src.includes("/especial-") ||
     src.includes("/donut-") ||
     src.includes("/folhado-") ||
+    src.includes("/lobster-tail-") ||
     src.includes("/bolo-") ||
     src.includes("/mini-bolo-") ||
     src.includes("/especial-mini-bolo-") ||
