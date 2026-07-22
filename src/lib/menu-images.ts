@@ -18,7 +18,6 @@ export const MENU_IMAGES = {
   cannoliSiciliano: img("cannoli-classico.png"),
   cannoliPistachio: img("cannoli-pistachio.png"),
   cannoliPistachioFondente: img("cannoli-pistachio-fondente.png"),
-  cannoliChocolateChip: img("cannoli-chocolate-chip.png"),
   cannoliCioccolato: img("cannoli-cioccolato.png"),
   cannoliChocolateZero: img("cannoli-chocolate-zero.png"),
   cannoliCioccolatoChip: img("cannoli-cioccolato-chip.png"),

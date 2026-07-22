@@ -249,12 +249,6 @@ export const MENU_ITEMS: MenuItem[] = [
     image: MENU_IMAGES.cannoliPistachioFondente,
   },
   {
-    id: "cannoli-chocolate-chip",
-    category: "cannoli",
-    price: 24,
-    image: MENU_IMAGES.cannoliChocolateChip,
-  },
-  {
     id: "cannoli-cioccolato",
     category: "cannoli",
     price: 23.99,
