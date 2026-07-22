@@ -488,10 +488,6 @@
         "name": "Éclair Pistacchio Dubai",
         "description": "Choux fine con crema pasticcera al pistacchio e ganache, coperto di pistacchio croccante."
       },
-      "mousse-limao": {
-        "name": "Mousse al Limone",
-        "description": "Mousse al limone cremosa e ariosa, coperta da un sottile strato di glaze acidula al limone."
-      },
       "mini-bolo-chocolate": {
         "name": "Baby Bolo Brigadeiro",
         "description": "Mini torta da 11 cm per fino a 4 persone. Pan di cioccolato con ripieno di brigadeiro cremoso."
@@ -667,7 +663,7 @@
         },
         "03": {
           "title": "Creazione",
-          "description": "Ricevete un progetto personalizzato e concordiamo ogni dettaglio prima della produzione."
+          "description": "Ricevete un progetto e concordiamo ogni dettaglio prima della produzione."
         },
         "04": {
           "title": "Consegna",

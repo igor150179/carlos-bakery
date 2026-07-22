@@ -488,10 +488,6 @@
         "name": "Eclair Pistache Dubai",
         "description": "Massa choux fina recheada com creme de confeiteiro de pistache com ganache, coberta com pistache crocante."
       },
-      "mousse-limao": {
-        "name": "Mousse de Limão",
-        "description": "Mousse de limão cremosa e aerada. É coberta com fina camada de glaze cítrica azedinha na medida certa."
-      },
       "mini-bolo-chocolate": {
         "name": "Baby Bolo Brigadeiro",
         "description": "Mini bolinho de 11 cm, ideal para até 4 pessoas. Massa de chocolate com recheio de brigadeiro cremoso."
@@ -667,7 +663,7 @@
         },
         "03": {
           "title": "Criação",
-          "description": "Você recebe um projeto personalizado e aprovamos juntos cada detalhe antes da produção."
+          "description": "Você recebe um projeto e aprovamos juntos cada detalhe antes da produção."
         },
         "04": {
           "title": "Entrega",

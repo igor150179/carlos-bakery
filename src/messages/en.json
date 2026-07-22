@@ -488,10 +488,6 @@
         "name": "Dubai Pistachio Éclair",
         "description": "Fine choux pastry with pistachio pastry cream and ganache, topped with crunchy pistachios."
       },
-      "mousse-limao": {
-        "name": "Lemon Mousse",
-        "description": "Creamy, airy lemon mousse topped with a thin layer of tangy citrus glaze."
-      },
       "mini-bolo-chocolate": {
         "name": "Baby Brigadeiro Cake",
         "description": "11 cm mini cake for up to 4 people. Chocolate sponge with creamy brigadeiro filling."
@@ -667,7 +663,7 @@
         },
         "03": {
           "title": "Creation",
-          "description": "You'll receive a custom project—we approve every detail together before production."
+          "description": "You'll receive a project—we approve every detail together before production."
         },
         "04": {
           "title": "Delivery",

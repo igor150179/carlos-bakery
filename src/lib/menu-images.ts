@@ -71,7 +71,6 @@ export const MENU_IMAGES = {
   especialEclairChocolate: img("especial-eclair-chocolate.png"),
   especialEclairPistache: img("especial-eclair-pistache.png"),
   especialEclairChocolateMorango: img("especial-eclair-chocolate-morango.png"),
-  especialMiniBoloLimao: img("especial-mini-bolo-limao.png"),
   miniBoloBlackWhite: img("mini-bolo-black-white.png"),
   miniBoloCenoura: img("mini-bolo-cenoura.png"),
   miniBoloRedVelvet: img("mini-bolo-red-velvet.png"),

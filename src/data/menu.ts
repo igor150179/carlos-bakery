@@ -171,13 +171,6 @@ export const MENU_ITEMS: MenuItem[] = [
     image: MENU_IMAGES.boloStrawberryShortcake,
   },
   {
-    id: "mousse-limao",
-    category: "specials",
-    price: 32,
-    image: MENU_IMAGES.especialMiniBoloLimao,
-    badge: "sazonal",
-  },
-  {
     id: "mini-bolo-chocolate",
     category: "cakes",
     subgroup: "mini-bolos",
