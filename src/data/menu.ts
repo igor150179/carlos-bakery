@@ -236,13 +236,6 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "sazonal",
   },
   {
-    id: "cannoli-classico",
-    category: "cannoli",
-    price: 22,
-    image: MENU_IMAGES.cannoliClassico,
-    badge: "bestseller",
-  },
-  {
     id: "cannoli-tradizionale",
     category: "cannoli",
     price: 23.99,

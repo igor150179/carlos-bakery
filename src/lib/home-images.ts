@@ -11,7 +11,7 @@ export const HOME_IMAGES = {
   heroPoster: img("buddy-bakery.jpg"),
   cannoliTradizionale: MENU_IMAGES.cannoliTradizionale,
   lobsterTail: MENU_IMAGES.lobsterTail,
-  cannoli: MENU_IMAGES.cannoliClassico,
+  cannoli: MENU_IMAGES.cannoliTradizionale,
   fondantCake: CUSTOM_CAKE_IMAGES.birthday,
   /** Composição Hello Kitty · Disney · Simpsons */
   diyCakesComposition: [
