@@ -346,6 +346,10 @@
         "name": "Cannolo Tradizionale",
         "description": "Guscio croccante con crema di ricotta dolce, gocce di cioccolato fondente e tocco di cannella."
       },
+      "cannoli-limao-siciliano": {
+        "name": "Cannolo Limone Siciliano",
+        "description": "Guscio croccante con ripieno di crema al limone siciliano."
+      },
       "cannoli-pistachio-fondente": {
         "name": "Cannolo Pistacchio Dubai",
         "description": "Guscio croccante o ricoperto di cioccolato fondente, ripieno di crema al pistacchio e crunch Dubai."

@@ -346,6 +346,10 @@
         "name": "Cannoli Tradicional",
         "description": "Massa crocante com recheio de creme de ricota adocicado, gotinhas de chocolate meio amargo e toque de canela."
       },
+      "cannoli-limao-siciliano": {
+        "name": "Cannoli Limão Siciliano",
+        "description": "Massa crocante com recheio de creme de limão siciliano."
+      },
       "cannoli-pistachio-fondente": {
         "name": "Cannoli Pistache Dubai",
         "description": "Massa crocante ou banhada em chocolate meio amargo, recheada com creme de pistache e crocante de Dubai."

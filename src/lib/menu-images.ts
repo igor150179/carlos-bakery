@@ -15,6 +15,7 @@ export const MENU_IMAGES = {
   folhadoSfogliatellaFondente: img("folhado-sfogliatella-fondente.png"),
   /** Cannoli */
   cannoliTradizionale: img("cannoli-tradizionale-ricota.png"),
+  cannoliLimaoSiciliano: img("cannoli-limao-siciliano.png"),
   cannoliSiciliano: img("cannoli-classico.png"),
   cannoliPistachio: img("cannoli-pistachio.png"),
   cannoliPistachioFondente: img("cannoli-pistachio-fondente.png"),

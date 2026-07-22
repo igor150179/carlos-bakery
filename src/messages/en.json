@@ -346,6 +346,10 @@
         "name": "Traditional Cannoli",
         "description": "Crispy shell with sweetened ricotta cream, bittersweet chocolate chips and a touch of cinnamon."
       },
+      "cannoli-limao-siciliano": {
+        "name": "Sicilian Lemon Cannoli",
+        "description": "Crispy shell filled with Sicilian lemon cream."
+      },
       "cannoli-pistachio-fondente": {
         "name": "Dubai Pistachio Cannoli",
         "description": "Crispy or dark chocolate-dipped shell filled with pistachio cream and Dubai crunch."

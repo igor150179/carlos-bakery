@@ -227,6 +227,13 @@ export const MENU_ITEMS: MenuItem[] = [
     image: MENU_IMAGES.cannoliTradizionale,
   },
   {
+    id: "cannoli-limao-siciliano",
+    category: "cannoli",
+    price: 22,
+    image: MENU_IMAGES.cannoliLimaoSiciliano,
+    badge: "bestseller",
+  },
+  {
     id: "cannoli-pistachio-fondente",
     category: "cannoli",
     price: 27.99,
