@@ -1,4 +1,5 @@
 import { MENU_IMAGES } from "@/lib/menu-images";
+import { CATALOG_BY_MENU_ITEM_ID } from "@/data/product-catalog";
 
 export type MenuCategory =
   | "signatures"
@@ -37,6 +38,8 @@ export interface MenuItem {
   id: string;
   category: MenuCategory;
   price: number;
+  /** ID do produto no PDV/iFood quando disponível */
+  productId?: string;
   /** Exibe "A partir de" antes do preço (variantes no iFood) */
   priceFrom?: boolean;
   image: string;
@@ -60,7 +63,19 @@ export const MENU_CATEGORIES = [
   { id: "souvenirs" as const, order: 11 },
 ] as const;
 
-export const MENU_ITEMS: MenuItem[] = [
+function applyCatalogPricing(items: MenuItem[]): MenuItem[] {
+  return items.map((item) => {
+    const catalog = CATALOG_BY_MENU_ITEM_ID[item.id];
+    if (!catalog?.price) return item;
+    return {
+      ...item,
+      price: catalog.price,
+      ...(catalog.productId ? { productId: catalog.productId } : {}),
+    };
+  });
+}
+
+export const MENU_ITEMS: MenuItem[] = applyCatalogPricing([
   {
     id: "lobster-tail",
     category: "signatures",
@@ -212,8 +227,9 @@ export const MENU_ITEMS: MenuItem[] = [
   {
     id: "cannoli-tradizionale",
     category: "cannoli",
-    price: 23.99,
+    price: 24,
     image: MENU_IMAGES.cannoliTradizionale,
+    badge: "bestseller",
   },
   {
     id: "cannoli-limao-siciliano",
@@ -543,7 +559,7 @@ export const MENU_ITEMS: MenuItem[] = [
     image: MENU_IMAGES.souvenirGarrafaCarlosTransparente,
     badge: "novo",
   },
-];
+]);
 
 function sortBySubgroupOrder(
   items: MenuItem[],

@@ -27,7 +27,7 @@
       },
       "cannoliTradizionale": {
         "name": "Cannoli Tradicional",
-        "description": "Massa crocante com recheio de creme de ricota adocicado, gotinhas de chocolate meio amargo e toque de canela."
+        "description": "Ricota cremosa com gotas de chocolate belga nas pontas."
       },
       "lobsterTail": {
         "name": "Lobster Tail",
@@ -256,7 +256,7 @@
       },
       "cannoli-siciliano": {
         "name": "Cannoli Tradicional",
-        "description": "Massa crocante com recheio de creme de ricota adocicado, gotinhas de chocolate meio amargo e toque de canela."
+        "description": "Ricota cremosa com gotas de chocolate belga nas pontas."
       },
       "chocolate-chip-cookie": {
         "name": "Cookie Tradicional com Gotas de Chocolate",
@@ -324,7 +324,7 @@
       },
       "cannoli-tradizionale": {
         "name": "Cannoli Tradicional",
-        "description": "Massa crocante com recheio de creme de ricota adocicado, gotinhas de chocolate meio amargo e toque de canela."
+        "description": "Ricota cremosa com gotas de chocolate belga nas pontas."
       },
       "cannoli-limao-siciliano": {
         "name": "Cannoli Limão Siciliano",
@@ -336,27 +336,27 @@
       },
       "cannoli-cioccolato": {
         "name": "Cannoli brigadeiro de panela",
-        "description": "Massa crocante banhada em chocolate meio amargo belga com recheio de creme de ricota adocicado."
+        "description": "Massa crocante banhada em chocolate meio amargo belga com recheio de brigadeiro de panela."
       },
       "cannoli-chocolate-zero": {
         "name": "Cannoli Chocolate Zero",
         "description": "Casquinha de chocolate crocante recheada com creme de ricota. Adoçado com Maltitol."
       },
       "cannoli-cioccolato-chip": {
-        "name": "Cannoli Cioccolato Chip",
-        "description": "Cannoli brigadeiro de panela chocolate."
+        "name": "Cannoli Brigadeiro de Panela (casquinha chocolate)",
+        "description": "Casquinha dourada e crocante, banhada em chocolate meio amargo, recheada com creme de brigadeiro, finalizada com granulado de chocolate."
       },
       "cannoli-cioccolato-premium": {
         "name": "Cannoli zero",
-        "description": "Chocolate intenso, chips generosos e acabamento artesanal."
+        "description": "Casquinha crocante com um toque de cacau e canela e recheio de ricota adocicado. Adoçado com Maltitol."
       },
       "cannoli-fondente": {
         "name": "Cannoli de chocolate",
         "description": "Massa crocante ou banhada em chocolate meio amargo, recheada com creme de brigadeiro e finalização artesanal."
       },
       "cannoli-fondente-crema": {
-        "name": "Cannoli limão siciliano chocolate",
-        "description": "Equilíbrio entre chocolate escuro e creme de ricota suave."
+        "name": "Cannoli Limão Siciliano (casca chocolate)",
+        "description": "Casquinha de chocolate crocante recheada com creme de limão siciliano."
       },
       "sfogliatella-chocolate": {
         "name": "Lobster Tail Nutella",

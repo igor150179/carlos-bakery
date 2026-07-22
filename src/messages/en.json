@@ -27,7 +27,7 @@
       },
       "cannoliTradizionale": {
         "name": "Traditional Cannoli",
-        "description": "Crispy shell with sweetened ricotta cream, bittersweet chocolate chips and a touch of cinnamon."
+        "description": "Creamy ricotta with Belgian chocolate chips at the ends."
       },
       "lobsterTail": {
         "name": "Lobster Tail",
@@ -256,7 +256,7 @@
       },
       "cannoli-siciliano": {
         "name": "Traditional Cannoli",
-        "description": "Crispy shell with sweetened ricotta cream, bittersweet chocolate chips and a touch of cinnamon."
+        "description": "Creamy ricotta with Belgian chocolate chips at the ends."
       },
       "chocolate-chip-cookie": {
         "name": "Classic Chocolate Chip Cookie",
@@ -324,7 +324,7 @@
       },
       "cannoli-tradizionale": {
         "name": "Traditional Cannoli",
-        "description": "Crispy shell with sweetened ricotta cream, bittersweet chocolate chips and a touch of cinnamon."
+        "description": "Creamy ricotta with Belgian chocolate chips at the ends."
       },
       "cannoli-limao-siciliano": {
         "name": "Sicilian Lemon Cannoli",
@@ -336,27 +336,27 @@
       },
       "cannoli-cioccolato": {
         "name": "Cannoli Stovetop Brigadeiro",
-        "description": "Crispy shell dipped in Belgian bittersweet chocolate with sweetened ricotta cream filling."
+        "description": "Crispy shell dipped in Belgian bittersweet chocolate with stovetop brigadeiro filling."
       },
       "cannoli-chocolate-zero": {
         "name": "Cannoli Chocolate Zero",
         "description": "Crispy chocolate shell filled with ricotta cream. Sweetened with Maltitol."
       },
       "cannoli-cioccolato-chip": {
-        "name": "Chocolate Chip Dipped Cannoli",
-        "description": "Stovetop brigadeiro chocolate cannoli."
+        "name": "Stovetop Brigadeiro Cannoli (chocolate shell)",
+        "description": "Golden crispy shell dipped in bittersweet chocolate, filled with brigadeiro cream and finished with chocolate sprinkles."
       },
       "cannoli-cioccolato-premium": {
         "name": "Cannoli Zero",
-        "description": "Rich chocolate, generous chips and artisan finish."
+        "description": "Crispy shell with a touch of cocoa and cinnamon and sweetened ricotta filling. Sweetened with Maltitol."
       },
       "cannoli-fondente": {
         "name": "Chocolate Cannoli",
         "description": "Crispy or dark chocolate-dipped shell filled with brigadeiro cream and artisan finish."
       },
       "cannoli-fondente-crema": {
-        "name": "Sicilian Lemon Chocolate Cannoli",
-        "description": "Balance of dark chocolate and smooth ricotta cream."
+        "name": "Sicilian Lemon Cannoli (chocolate shell)",
+        "description": "Crispy chocolate shell filled with Sicilian lemon cream."
       },
       "sfogliatella-chocolate": {
         "name": "Nutella Lobster Tail",

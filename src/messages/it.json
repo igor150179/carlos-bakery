@@ -27,7 +27,7 @@
       },
       "cannoliTradizionale": {
         "name": "Cannolo Tradizionale",
-        "description": "Guscio croccante con crema di ricotta dolce, gocce di cioccolato fondente e tocco di cannella."
+        "description": "Ricotta cremosa con gocce di cioccolato belga alle estremità."
       },
       "lobsterTail": {
         "name": "Lobster Tail",
@@ -256,7 +256,7 @@
       },
       "cannoli-siciliano": {
         "name": "Cannolo Tradizionale",
-        "description": "Guscio croccante con crema di ricotta dolce, gocce di cioccolato fondente e tocco di cannella."
+        "description": "Ricotta cremosa con gocce di cioccolato belga alle estremità."
       },
       "chocolate-chip-cookie": {
         "name": "Cookie Tradizionale con Gocce di Cioccolato",
@@ -324,7 +324,7 @@
       },
       "cannoli-tradizionale": {
         "name": "Cannolo Tradizionale",
-        "description": "Guscio croccante con crema di ricotta dolce, gocce di cioccolato fondente e tocco di cannella."
+        "description": "Ricotta cremosa con gocce di cioccolato belga alle estremità."
       },
       "cannoli-limao-siciliano": {
         "name": "Cannolo Limone Siciliano",
@@ -336,27 +336,27 @@
       },
       "cannoli-cioccolato": {
         "name": "Cannolo Brigadeiro de Panela",
-        "description": "Guscio croccante ricoperto di cioccolato fondente belga con crema di ricotta dolce."
+        "description": "Guscio croccante ricoperto di cioccolato fondente belga con ripieno di brigadeiro de panela."
       },
       "cannoli-chocolate-zero": {
         "name": "Cannolo Chocolate Zero",
         "description": "Guscio croccante al cioccolato ripieno di crema di ricotta. Dolcificato con Maltitol."
       },
       "cannoli-cioccolato-chip": {
-        "name": "Cannolo Cioccolato Chip",
-        "description": "Cannolo brigadeiro de panela al cioccolato."
+        "name": "Cannolo Brigadeiro de Panela (guscio al cioccolato)",
+        "description": "Guscio dorato e croccante, ricoperto di cioccolato fondente, ripieno di crema al brigadeiro e finalizzato con granella di cioccolato."
       },
       "cannoli-cioccolato-premium": {
         "name": "Cannolo Zero",
-        "description": "Cioccolato intenso, chips generosi e finitura artigianale."
+        "description": "Guscio croccante con un tocco di cacao e cannella e ripieno di ricotta dolce. Dolcificato con Maltitol."
       },
       "cannoli-fondente": {
         "name": "Cannolo al Cioccolato",
         "description": "Guscio croccante o al cioccolato fondente, ripieno di crema brigadeiro e finitura artigianale."
       },
       "cannoli-fondente-crema": {
-        "name": "Cannolo limone siciliano al cioccolato",
-        "description": "Equilibrio tra cioccolato scuro e crema di ricotta."
+        "name": "Cannolo Limone Siciliano (guscio al cioccolato)",
+        "description": "Guscio croccante al cioccolato ripieno di crema al limone siciliano."
       },
       "sfogliatella-chocolate": {
         "name": "Lobster Tail Nutella",
