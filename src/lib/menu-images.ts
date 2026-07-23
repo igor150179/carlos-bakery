@@ -1,6 +1,11 @@
 /** Local product photography — `/public/images/menu/` */
 const img = (file: string) => `/images/menu/${file}`;
 
+/** Fotos oficiais do estúdio — referência única por produto */
+const CANNOLI_TRADIZIONALE_FILE = "cannoli-chocolate-chip.png";
+const LOBSTER_TAIL_CARAMELO_FLOR_SAL_FILE =
+  "folhado-cauda-lagosta-doce-leite.png";
+
 export const MENU_IMAGES = {
   rainbowCookies: img(
     "1155-Edit-Edit-769770b5-c8b7-43dd-a3d4-f7a6f7f01e7a.png",
@@ -12,11 +17,14 @@ export const MENU_IMAGES = {
   folhadoSfogliatellaPistache: img("folhado-sfogliatella-pistache.png"),
   folhadoCaudaLagostaDoceLeite: img("lobster-tail-limao-siciliano.png"),
   folhadoCaudaLagostaCacau: img("folhado-cauda-lagosta-cacau.png"),
-  folhadoSfogliatellaFondente: img("folhado-cauda-lagosta-doce-leite.png"),
+  lobsterTailCarameloFlorDeSal: img(LOBSTER_TAIL_CARAMELO_FLOR_SAL_FILE),
+  /** @deprecated Use lobsterTailCarameloFlorDeSal */
+  folhadoSfogliatellaFondente: img(LOBSTER_TAIL_CARAMELO_FLOR_SAL_FILE),
   /** Cannoli */
-  cannoliTradizionale: img("cannoli-chocolate-chip.png"),
+  cannoliTradizionale: img(CANNOLI_TRADIZIONALE_FILE),
   cannoliLimaoSiciliano: img("cannoli-limao-siciliano.png"),
-  cannoliSiciliano: img("cannoli-chocolate-chip.png"),
+  /** Mesma foto do Cannoli Tradicional (Signatures) */
+  cannoliSiciliano: img(CANNOLI_TRADIZIONALE_FILE),
   cannoliPistachio: img("cannoli-pistachio.png"),
   cannoliPistachioFondente: img("cannoli-pistachio-fondente.png"),
   cannoliCioccolato: img("cannoli-cioccolato.png"),

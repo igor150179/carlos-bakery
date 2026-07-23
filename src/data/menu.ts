@@ -318,7 +318,7 @@ export const MENU_ITEMS: MenuItem[] = applyCatalogPricing([
     category: "cannoli",
     price: 25.99,
     priceFrom: true,
-    image: MENU_IMAGES.folhadoSfogliatellaFondente,
+    image: MENU_IMAGES.lobsterTailCarameloFlorDeSal,
   },
   {
     id: "red-velvet-cupcake",
@@ -588,4 +588,13 @@ export function getItemsBySubgroup(
   return getItemsByCategory(category).filter(
     (item) => item.subgroup === subgroup,
   );
+}
+
+/** Imagem do cardápio por ID — fonte única para home, vitrine e páginas internas */
+export function getMenuItemImage(menuItemId: string): string {
+  const item = MENU_ITEMS.find((entry) => entry.id === menuItemId);
+  if (!item) {
+    throw new Error(`Menu item not found: ${menuItemId}`);
+  }
+  return item.image;
 }

@@ -5,19 +5,19 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import { FadeIn } from "@/components/animations/FadeIn";
+import { getMenuItemImage } from "@/data/menu";
 import { Link } from "@/i18n/routing";
-import { HOME_IMAGES } from "@/lib/home-images";
 
 const MENU_HIGHLIGHTS = [
   {
     id: "cannoliTradizionale" as const,
-    image: HOME_IMAGES.cannoliTradizionale,
+    menuItemId: "cannoli-tradizionale",
     index: "01",
     imageClass: "object-cover object-center",
   },
   {
     id: "lobsterTail" as const,
-    image: HOME_IMAGES.lobsterTail,
+    menuItemId: "lobster-tail",
     index: "02",
     imageClass: "object-cover object-center",
   },
@@ -35,7 +35,7 @@ export function MenuShowcaseBanner() {
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(280px,0.9fr)_minmax(0,1fr)]">
           <div className="relative min-h-[280px] overflow-hidden sm:min-h-[320px] lg:min-h-[460px]">
             <Image
-              src={MENU_HIGHLIGHTS[0].image}
+              src={getMenuItemImage(MENU_HIGHLIGHTS[0].menuItemId)}
               alt={t(`${MENU_HIGHLIGHTS[0].id}.name`)}
               fill
               className="transition-transform duration-[1.4s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.03] object-cover object-center"
@@ -76,7 +76,7 @@ export function MenuShowcaseBanner() {
 
           <div className="relative min-h-[280px] overflow-hidden sm:min-h-[320px] lg:min-h-[460px]">
             <Image
-              src={MENU_HIGHLIGHTS[1].image}
+              src={getMenuItemImage(MENU_HIGHLIGHTS[1].menuItemId)}
               alt={t(`${MENU_HIGHLIGHTS[1].id}.name`)}
               fill
               className="transition-transform duration-[1.4s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.03] object-cover object-center"
