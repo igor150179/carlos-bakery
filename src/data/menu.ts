@@ -88,7 +88,7 @@ export const MENU_ITEMS: MenuItem[] = applyCatalogPricing([
     id: "cannoli-siciliano",
     category: "signatures",
     price: 23.99,
-    image: MENU_IMAGES.cannoliSiciliano,
+    image: MENU_IMAGES.cannoliTradizionale,
   },
   {
     id: "croissant-classico",
