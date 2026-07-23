@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 
 import { FadeIn } from "@/components/animations/FadeIn";
 import { getMenuItemImage } from "@/data/menu";
+import { useCardapioLink } from "@/hooks/useCardapioLink";
 import { Link } from "@/i18n/routing";
 
 const MENU_HIGHLIGHTS = [
@@ -25,11 +26,13 @@ const MENU_HIGHLIGHTS = [
 
 export function MenuShowcaseBanner() {
   const t = useTranslations("home.products");
+  const cardapioLink = useCardapioLink();
 
   return (
     <FadeIn>
       <Link
         href="/cardapio"
+        {...cardapioLink}
         className="group relative block overflow-hidden rounded-sm bg-carlo-stripes shadow-[0_32px_80px_-40px_rgba(124,17,28,0.55)] ring-1 ring-champagne-on-dark-muted/20 transition-[box-shadow,ring-color] duration-700 hover:shadow-[0_40px_90px_-36px_rgba(124,17,28,0.62)] hover:ring-champagne-on-dark-soft/35"
       >
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(280px,0.9fr)_minmax(0,1fr)]">

@@ -4,11 +4,13 @@ import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { FadeIn } from "@/components/animations/FadeIn";
+import { useCardapioLink } from "@/hooks/useCardapioLink";
 import { Link } from "@/i18n/routing";
 import { MonogramBackground } from "@/components/shared/MonogramBackground";
 
 export function StoryClosingChapter() {
   const t = useTranslations("story.chapter8");
+  const cardapioLink = useCardapioLink();
 
   return (
     <section className="relative overflow-hidden bg-carlo-stripes px-[var(--container-padding-x)] py-16 md:py-20">
@@ -32,6 +34,7 @@ export function StoryClosingChapter() {
           </Link>
           <Link
             href="/cardapio"
+            {...cardapioLink}
             className="inline-flex items-center gap-2 rounded-full border border-cream-50/40 px-8 py-3.5 text-sm font-semibold text-cream-50 transition-colors hover:border-cream-50 hover:bg-cream-50/10"
           >
             {t("ctaMenu")}

@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useRef } from "react";
 
 import { useLenis } from "@/components/providers/SmoothScrollProvider";
+import { useCardapioLink } from "@/hooks/useCardapioLink";
 import { Link } from "@/i18n/routing";
 import { NAV_ITEMS } from "@/lib/navigation";
 
@@ -37,6 +38,7 @@ type MobileMenuProps = {
 export function MobileMenu({ open, onClose }: MobileMenuProps) {
   const t = useTranslations("nav");
   const { lenis } = useLenis();
+  const cardapioLink = useCardapioLink(onClose);
   const panelRef = useRef<HTMLDivElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -135,7 +137,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
           <div className="shrink-0 border-t border-cream-50/10 px-5 py-5 pb-[max(1.25rem,env(safe-area-inset-bottom,0px))] sm:px-8">
             <Link
               href="/cardapio"
-              onClick={onClose}
+              {...cardapioLink}
               className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-carlo-red px-6 py-3 text-sm font-semibold text-cream-50 transition-colors hover:bg-carlo-red-dark"
             >
               <ShoppingBag className="size-4" strokeWidth={2} aria-hidden />

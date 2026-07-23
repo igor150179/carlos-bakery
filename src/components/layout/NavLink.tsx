@@ -6,6 +6,7 @@ import type { MouseEvent } from "react";
 
 import { useLenis } from "@/components/providers/SmoothScrollProvider";
 import { Link, usePathname } from "@/i18n/routing";
+import { isMenuPathname } from "@/lib/menu-path";
 import type { NavKey, NavHref } from "@/lib/navigation";
 import { cn } from "@/lib/utils";
 
@@ -32,6 +33,7 @@ export function NavLink({
   const isLight = variant === "light";
   const isHome = pathname === "/";
   const isActive = pathname === href;
+  const isMenuLink = href === "/cardapio";
   const shouldUseHomeSection = isHome && HOME_SECTION_HREFS.has(href);
   const sectionId = href.slice(1);
   const resolvedHref = (
@@ -40,6 +42,12 @@ export function NavLink({
 
   const handleClick = (event: MouseEvent<HTMLAnchorElement>) => {
     onClick?.();
+
+    if (isMenuLink && isMenuPathname(pathname)) {
+      event.preventDefault();
+      return;
+    }
+
     if (!shouldUseHomeSection || event.defaultPrevented) return;
 
     const hash = sectionId;
@@ -61,6 +69,7 @@ export function NavLink({
   return (
     <Link
       href={resolvedHref}
+      scroll={isMenuLink ? false : undefined}
       onClick={handleClick}
       aria-current={isActive ? "page" : undefined}
       className={cn(

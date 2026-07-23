@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import { Link } from "@/i18n/routing";
+import { useCardapioLink } from "@/hooks/useCardapioLink";
 import { STORY_ENABLED } from "@/lib/feature-flags";
 import { HOME_IMAGES } from "@/lib/home-images";
 
@@ -22,6 +23,7 @@ const fadeUp = {
 
 export function HeroSection() {
   const t = useTranslations("home.hero");
+  const cardapioLink = useCardapioLink();
 
   return (
     <section className="relative min-h-screen overflow-hidden">
@@ -87,6 +89,7 @@ export function HeroSection() {
         >
           <Link
             href="/cardapio"
+            {...cardapioLink}
             className="inline-flex items-center gap-2 rounded-full bg-carlo-red px-8 py-3.5 text-sm font-semibold text-cream-50 transition-colors hover:bg-carlo-red-dark"
           >
             {t("ctaMenu")}

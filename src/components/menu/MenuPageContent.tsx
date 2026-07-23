@@ -3,6 +3,10 @@
 import { useEffect, useState } from "react";
 
 import { MENU_CATEGORIES, type MenuCategory } from "@/data/menu";
+import { useMenuScrollMemory } from "@/hooks/useMenuScrollMemory";
+import {
+  getMenuActiveCategory,
+} from "@/lib/menu-scroll-memory";
 
 import { CategoryNav } from "./CategoryNav";
 import { IngredientsSection } from "./IngredientsSection";
@@ -12,7 +16,15 @@ import { MenuFinalCta } from "./MenuFinalCta";
 import { MenuHero } from "./MenuHero";
 
 export function MenuPageContent() {
-  const [activeCategory, setActiveCategory] = useState<MenuCategory>("signatures");
+  const [activeCategory, setActiveCategory] = useState<MenuCategory>(() => {
+    const saved = getMenuActiveCategory();
+    if (saved && MENU_CATEGORIES.some((category) => category.id === saved)) {
+      return saved;
+    }
+    return "signatures";
+  });
+
+  useMenuScrollMemory({ activeCategory });
 
   useEffect(() => {
     const sectionIds = MENU_CATEGORIES.map((c) => `menu-${c.id}`);

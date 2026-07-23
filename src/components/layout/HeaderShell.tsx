@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 import { Logo } from "@/components/shared/Logo";
+import { useCardapioLink } from "@/hooks/useCardapioLink";
 import { Link, usePathname } from "@/i18n/routing";
 import { NAV_ITEMS } from "@/lib/navigation";
 import { cn } from "@/lib/utils";
@@ -23,6 +24,7 @@ export function HeaderShell() {
 
   const isHome = pathname === "/";
   const overlay = isHome && !scrolled;
+  const cardapioLink = useCardapioLink();
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     setScrolled(latest > 80);
@@ -68,6 +70,7 @@ export function HeaderShell() {
 
             <Link
               href="/cardapio"
+              {...cardapioLink}
               className="hidden items-center gap-2 rounded-full bg-carlo-red px-5 py-2.5 text-sm font-semibold text-cream-50 transition-colors hover:bg-carlo-red-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-carlo-gold md:inline-flex"
             >
               <ShoppingBag className="size-4" strokeWidth={2} />
