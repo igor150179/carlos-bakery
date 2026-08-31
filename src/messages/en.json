@@ -232,7 +232,7 @@
       "eyebrow": "Ingredients",
       "heading": "Only the best enters our kitchen.",
       "imageAlt": "Flour, eggs, butter and sugar — Carlo's Bakery pastry ingredients",
-      "body": "We select ingredients with the same rigor as the Valastro family in Hoboken: fresh eggs when the recipe calls for it.",
+      "body": "We select ingredients with the same rigor as the Valastro family in Hoboken.",
       "highlightsTitle": "Other differentiators",
       "highlights": [
         "Premium chocolate",
@@ -366,10 +366,6 @@
         "name": "Dubai Pistachio Lobster Tail",
         "description": "Laminated pastry with double chocolate cream, crunchy pistachio ganache and artisan topping."
       },
-      "cauda-lagosta-doce-leite": {
-        "name": "Sicilian Lemon Lobster Tail",
-        "description": "Extremely crispy laminated pastry with Sicilian lemon cream and condensed milk drizzle."
-      },
       "cauda-lagosta-cacau": {
         "name": "Sugar-Free Chocolate Lobster Tail",
         "description": "Crispy laminated pastry with Carlo's signature pastry cream and chocolate — no added sugar."
@@ -489,10 +485,6 @@
       "brownie-chocolate": {
         "name": "Chocolate Brownie",
         "description": "Bittersweet chocolate brownie with an ultra-creamy texture. Tip: heat for 15 seconds in the microwave! Best enjoyed fresh."
-      },
-      "brownie-pistache": {
-        "name": "Dubai Pistachio Brownie",
-        "description": "Chocolate brownie base with pistachio cream layer and chocolate drizzle."
       },
       "tiramisu-potinho": {
         "name": "Mascarpone Tiramisu",

@@ -324,22 +324,6 @@ export const PRODUCT_CATALOG: ProductCatalogEntry[] = [
     price: 34.99,
     pricePromo: 28.9,
   },
-  {
-    name: "Lobster Tail Limão Siciliano Tamanho Mini",
-    category: "Lobster Tail",
-    price: 25.99,
-    menuItemId: "cauda-lagosta-doce-leite",
-  },
-  {
-    name: "Lobster Tail Limão Siciliano Tamanho Clássico",
-    category: "Lobster Tail",
-    price: 27.99,
-  },
-  {
-    name: "Lobster Tail Limão Siciliano Tamanho Super",
-    category: "Lobster Tail",
-    price: 32.99,
-  },
   // Fatias
   {
     name: "Fatia Bolo Red Velvet",
@@ -440,12 +424,6 @@ export const PRODUCT_CATALOG: ProductCatalogEntry[] = [
     price: 21.99,
     pricePromo: 19.9,
     menuItemId: "brownie-chocolate",
-  },
-  {
-    name: "Brownie de Pistache",
-    category: "Doces especiais",
-    price: 23.99,
-    menuItemId: "brownie-pistache",
   },
   {
     name: "Donut Simpsons",

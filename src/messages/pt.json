@@ -232,7 +232,7 @@
       "eyebrow": "Ingredientes",
       "heading": "Só o melhor entra na nossa cozinha.",
       "imageAlt": "Farinha, ovos, manteiga e açúcar — ingredientes da confeitaria Carlo's",
-      "body": "Selecionamos ingredientes com o mesmo rigor da família Valastro em Hoboken: ovos frescos quando a receita pede.",
+      "body": "Selecionamos ingredientes com o mesmo rigor da família Valastro em Hoboken.",
       "highlightsTitle": "Outros diferenciais",
       "highlights": [
         "Chocolate nobre",
@@ -366,10 +366,6 @@
         "name": "Lobster Tail Pistache Dubai",
         "description": "Massa folhada recheada com duplo creme de chocolate, ganache crocante de pistache e cobertura artesanal."
       },
-      "cauda-lagosta-doce-leite": {
-        "name": "Lobster Tail Limão Siciliano",
-        "description": "Massa folhada extremamente crocante, recheada com creme de limão siciliano e finalizada com riscos de leite condensado."
-      },
       "cauda-lagosta-cacau": {
         "name": "Lobster Tail Chocolate Zero Açúcar",
         "description": "Massa folhada crocante recheada com creme assinatura Carlo's à base de creme de confeiteiro e chocolate, sem açúcar adicionado."
@@ -489,10 +485,6 @@
       "brownie-chocolate": {
         "name": "Brownie de Chocolate",
         "description": "Brownie de chocolate meio amargo com consistência ultra cremosa. Dica: aqueça por 15s no microondas! Consumo imediato."
-      },
-      "brownie-pistache": {
-        "name": "Brownie pistache dubai",
-        "description": "Base de brownie de chocolate com camada de creme de pistache e fios de chocolate."
       },
       "tiramisu-potinho": {
         "name": "Tiramisu com Mascarpone",

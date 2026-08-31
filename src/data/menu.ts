@@ -300,13 +300,6 @@ export const MENU_ITEMS: MenuItem[] = applyCatalogPricing([
     badge: "novo",
   },
   {
-    id: "cauda-lagosta-doce-leite",
-    category: "cannoli",
-    price: 26.99,
-    priceFrom: true,
-    image: MENU_IMAGES.folhadoCaudaLagostaDoceLeite,
-  },
-  {
     id: "cauda-lagosta-cacau",
     category: "cannoli",
     price: 27.99,
@@ -488,13 +481,6 @@ export const MENU_ITEMS: MenuItem[] = applyCatalogPricing([
     price: 21.99,
     image: MENU_IMAGES.especialBrownieChocolate,
     badge: "bestseller",
-  },
-  {
-    id: "brownie-pistache",
-    category: "specials",
-    price: 22,
-    image: MENU_IMAGES.especialBrowniePistache,
-    badge: "novo",
   },
   {
     id: "tiramisu-potinho",

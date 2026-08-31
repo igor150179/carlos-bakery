@@ -232,7 +232,7 @@
       "eyebrow": "Ingredienti",
       "heading": "Solo il meglio entra in cucina.",
       "imageAlt": "Farina, uova, burro e zucchero — ingredienti della pasticceria Carlo's",
-      "body": "Selezioniamo gli ingredienti con lo stesso rigore della famiglia Valastro a Hoboken: uova fresche quando la ricetta lo richiede.",
+      "body": "Selezioniamo gli ingredienti con lo stesso rigore della famiglia Valastro a Hoboken.",
       "highlightsTitle": "Altri differenziali",
       "highlights": [
         "Cioccolato nobile",
@@ -366,10 +366,6 @@
         "name": "Lobster Tail Pistacchio Dubai",
         "description": "Sfoglia ripiena con doppia crema al cioccolato, ganache croccante al pistacchio e copertura artigianale."
       },
-      "cauda-lagosta-doce-leite": {
-        "name": "Lobster Tail Limone Siciliano",
-        "description": "Sfoglia estremamente croccante con crema al limone siciliano e filigrana di latte condensato."
-      },
       "cauda-lagosta-cacau": {
         "name": "Lobster Tail Cioccolato Zero Zucchero",
         "description": "Sfoglia croccante con crema signature Carlo's a base di crema pasticcera e cioccolato, senza zucchero aggiunto."
@@ -489,10 +485,6 @@
       "brownie-chocolate": {
         "name": "Brownie al Cioccolato",
         "description": "Brownie al cioccolato fondente dalla consistenza ultra cremosa. Consiglio: scaldare 15 secondi al microonde! Da consumare subito."
-      },
-      "brownie-pistache": {
-        "name": "Brownie pistache Dubai",
-        "description": "Base brownie al cioccolato con crema al pistacchio e filigrana di cioccolato."
       },
       "tiramisu-potinho": {
         "name": "Tiramisù con Mascarpone",
