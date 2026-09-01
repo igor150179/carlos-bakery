@@ -22,8 +22,11 @@ type StoresMapProps = {
 };
 
 const SAO_PAULO_CENTER: [number, number] = [-23.5505, -46.6333];
-const POSITRON_TILES =
-  "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+/** Carto raster tiles now watermark without an API key — Esri light gray is the closest no-key match. */
+const LIGHT_GRAY_BASE =
+  "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}";
+const LIGHT_GRAY_LABELS =
+  "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}";
 
 function createStoreIcon(store: Store, isActive: boolean) {
   return L.divIcon({
@@ -133,8 +136,14 @@ export default function StoresMap({
         aria-label={t("ariaLabel")}
       >
         <TileLayer
-          attribution='&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors'
-          url={POSITRON_TILES}
+          attribution='Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
+          url={LIGHT_GRAY_BASE}
+          maxNativeZoom={16}
+        />
+        <TileLayer
+          url={LIGHT_GRAY_LABELS}
+          maxNativeZoom={16}
+          pane="overlayPane"
         />
         <ScrollWheelActivator
           enabled={scrollWheelEnabled}
