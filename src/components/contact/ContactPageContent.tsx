@@ -20,7 +20,7 @@ import { DepartmentCard } from "./DepartmentCard";
 
 const DEPARTMENT_ICONS = [Newspaper, Handshake, Briefcase, MessageCircle] as const;
 const DEPARTMENT_IDS = ["press", "partnerships", "careers", "support"] as const;
-const FAQ_IDS = ["customCake", "ifood", "outsideSp", "franchise", "supplier"] as const;
+const FAQ_IDS = ["customCake", "ifood", "outsideSp", "supplier"] as const;
 
 const EMAILS: Record<(typeof DEPARTMENT_IDS)[number], string> = {
   press: "imprensa@carlosbakery.com.br",

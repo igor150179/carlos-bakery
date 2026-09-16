@@ -13,7 +13,7 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-const FAQ_IDS = ["customCake", "ifood", "outsideSp", "franchise", "supplier"];
+const FAQ_IDS = ["customCake", "ifood", "outsideSp", "supplier"];
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
