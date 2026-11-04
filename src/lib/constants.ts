@@ -21,6 +21,8 @@ export const SITE_CONFIG = {
     name: "CLAPE by IO produções",
     url: "https://igoroliveira.com.br",
   },
+  /** Contêiner do Google Tag Manager. As tags entram nesse painel, não no código. */
+  gtmId: "GTM-WBSQHKR7",
 } as const;
 
 export function getSiteWhatsAppUrl(text?: string) {

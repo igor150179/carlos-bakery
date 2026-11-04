@@ -25,8 +25,10 @@ Edite `src/data/menu.ts`.
 
 ## Analytics e SEO
 
-- **Google Analytics**: configure `NEXT_PUBLIC_GA_ID` na Vercel
-- **Meta Pixel**: configure `NEXT_PUBLIC_FB_PIXEL_ID`
+O site já carrega o snippet oficial do Google Tag Manager, contêiner `GTM-WBSQHKR7`.
+
+Para incluir Google Analytics, anúncios ou pixel do Meta, entre em [tagmanager.google.com](https://tagmanager.google.com), abra esse contêiner, crie a tag e publique. Não é preciso colar script no site.
+
 - **Search Console**: [search.google.com/search-console](https://search.google.com/search-console)
 - **Rich Results**: [Google Rich Results Test](https://search.google.com/test/rich-results)
 
